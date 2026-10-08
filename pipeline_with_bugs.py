@@ -121,7 +121,10 @@ def normalize_device_manufacturer(name_raw):
 
 def clean_studies(studies):
     studies = studies.copy()
-    studies["study_id"] = studies["study_id"].astype(str).str.strip().str.upper()
+    studies["study_id"] = (
+    studies["study_id"].astype(str).str.strip().str.upper()
+    .str.replace(r"^STU-?(\d+)$", r"STU-\1", regex=True)
+    )
     studies = studies.drop_duplicates()
     studies["gestational_age_weeks"] = studies["gestational_age_at_scan"].apply(
         normalize_gestational_age
@@ -137,7 +140,10 @@ def clean_studies(studies):
 
 def clean_biometry(biometry):
     biometry = biometry.copy()
-    biometry["study_id"] = biometry["study_id"].astype(str).str.strip().str.upper()
+    biometry["study_id"] = (
+    biometry["study_id"].astype(str).str.strip().str.upper()
+    .str.replace(r"^STU-?(\d+)$", r"STU-\1", regex=True)
+    )
     biometry["device_manufacturer_clean"] = biometry["device_manufacturer"].apply(
         normalize_device_manufacturer
     )
