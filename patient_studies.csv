@@ -1,0 +1,457 @@
+study_id,patient_id,clinic_id,scan_date,gestational_age_at_scan,maternal_age,risk_flag,birth_weight_g,outcome,notes
+STU-00446,PT-1446,CLN-06,2024-09-11,25.1,34,Normal,3.62,LiveBirth,
+STU-00361,PT-1361,CLN-04,2025-09-24,26w6d,41,y,,,
+STU-00160,,CLN-04,2024-01-01,167,31,1,3129.0,Live birth,
+STU-00091,PT-1091,CLN-05,11/27/2025,24w2d,32,Low,3644.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse"",}"
+STU-00048,PT-1048,CLN-03,01/09/2024,160,37,y,3227.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00297,PT-1297,CLN-02,2025-06-01,25w1d,36,High,3.1,live_birth,Patient reports normal fetal movement.
+STU-00068,PT-1068,CLN-05,2024-06-03T00:00:00Z,182,28,N,3194.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00386,PT-1386,CLN-07,21-Jul-2024,26.5,28,1,3035.0,Stillbirth,
+STU-00063,PT-1063,CLN-07,2024-09-18,37.7,31,1,3383.0,stillbirth,
+STU-00188,PT-1188,CLN-06,2025-05-20,29.8,25,N,3338.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic"""
+STU-00005,PT-1005,CLN-07,2024-11-10,20.4,37,yes,3069.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00408,PT-1408,CLN-07,2025-02-24,28.7,27,Normal,2235.0,Live birth,Referred to MFM for further evaluation.
+STU-00378,PT-1378,CLN-05,2024-01-20,28w6d,23,Normal,3521.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00066,PT-1066,CLN-03,2024-07-21,134,21,,2598.0,Live Birth ,
+STU-00398,PT-1398,CLN-05,2025-03-09T00:00:00Z,31w0d,37,y,3342.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00380,PT-1380,CLN-02,2024-06-26,26w5d,34,yes,3676.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00275,PT-1275,CLN-02,2025-11-19,28.7,28,no ,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00287,PT-1287,CLN-03,2025-02-05,21w4d,23,Low,3.17,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00319,PT-1319,CLN-02,01/14/2025,25w4d,29,Normal,3996.0,Live Birth ,Patient reports normal fetal movement.
+STU-00225,PT-1225,CLN-02,2025-02-02T00:00:00Z,170,24,yes,3585.0,live_birth,"Routine anatomy scan, no abnormalities noted."
+STU-00383,PT-1383,CLN-04,2024-01-07,24w2d,36,N,2400.0,stillbirth,Patient reports normal fetal movement.
+STU-00246,PT-1246,CLN-01,18-Aug-2025,32.7,19,N,,,
+STU-00230,PT-1230,CLN-06,2024-12-16,28.9,38,y,2611.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00293,PT-1293,CLN-04,2025-11-04,25w3d,26,Normal,3319.0,Live Birth ,
+STU-00032,PT-1032,CLN-03,2024-09-14,23w6d,25,1,,,
+STU-00006,PT-1006,CLN-03,2025-02-12T00:00:00Z,21w5d,35,N,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00448,PT-1448,CLN-07,2025-04-23,22w1d,22,0,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00120,PT-1120,CLN-01,2024-10-01,16.0,35,Low,3145.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"""
+STU-00300,PT-1300,CLN-03,06/26/2025,18 weeks,36,Normal,3321.0,LiveBirth,
+STU-00434,PT-1434,CLN-02,2025-01-19,30 weeks,21,yes,3442.0,stillbirth,
+STU-00356,PT-1356,CLN-04,05/01/2025,13 weeks,19,Low,2876.0,stillbirth,
+STU-00018,PT-1018,CLN-05,2024-07-13,16w1d,18,no ,4525.0,live_birth,
+STU-00215,PT-1215,CLN-06,05/29/2024,20w6d,33,yes,,,"{""twin"": false, ""presentation"": ""cephalic"",}"
+STU-00271,PT-1271,CLN-04,2024-01-26,205,18,yes,,,
+STU-00173,PT-1173,CLN-07,2024-08-21,29w4d,37,High,3593.0,Live Birth ,
+STU-00180,PT-1180,CLN-06,26-Jul-2025,30.0,18,N,,,
+STU-00129,PT-1129,CLN-06,2025-11-04,19.2,35,y,3.17,LiveBirth,
+STU-00165,PT-1165,CLN-01,12/12/2024,25.0,32,,,,"{""twin"": false, ""presentation"": ""cephalic"",}"
+STU-00258,PT-1258,CLN-06,13-May-2024,17w3d,42,y,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00285,PT-1285,CLN-01,11/14/2024,30w5d,35,yes,3.59,Live birth,
+STU-00423,PT-1423,CLN-05,2024-03-12,20w3d,19,Normal,3295.0,Live Birth ,
+STU-00181,PT-1181,CLN-04,2024-04-30,21.0,22,N,3492.0,stillbirth,
+STU-00172,PT-1172,CLN-04,05/27/2024,18w6d,36,Low,3.19,LiveBirth,
+STU-00030,PT-1030,CLN-04,06-Sep-2024,32.1,20,yes,2869.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00133,PT-1133,CLN-02,04/13/2025,17.5,33,y,,,
+STU-00345,PT-1345,CLN-05,17-Dec-2024,28w6d,41,Normal,3262.0,Live Birth ,
+STU-00219,PT-1219,CLN-04,2025-09-05T00:00:00Z,27 weeks,37,High,2954.0,Live Birth ,Patient reports normal fetal movement.
+STU-00417,PT-1417,CLN-01,17-May-2024,8.2,39,Y,3202.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00384,PT-1384,CLN-07,12-Jun-2025,25w3d,21,Y,2530.0,LiveBirth,Follow-up recommended in 4 weeks.
+STU-00389,PT-1389,CLN-06,2025-06-22,153,39,y,3391.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00433,PT-1433,CLN-05,2025-04-04,24w5d,38,Y,,,
+STU-00376,PT-1376,CLN-07,03-Oct-2025,19w1d,27,1,2.41,live_birth,"Routine anatomy scan, no abnormalities noted."
+STU-00438,PT-1438,CLN-04,07/29/2025,22w1d,33,1,3.69,stillbirth,"Routine anatomy scan, no abnormalities noted."
+STU-00262,PT-1262,CLN-06,03-Jan-2025,20 weeks,42,0,3384.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00102,PT-1102,CLN-02,2024-08-12T00:00:00Z,26.3,32,Low,3836.0,Stillbirth,
+STU-00292,PT-1292,CLN-06,2025-01-26,28w3d,29,1,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00190,PT-1190,CLN-07,2024-06-19,25w6d,30,1,,,
+STU-00290,PT-1290,CLN-02,22-May-2024,24.6,3,,,,Patient reports normal fetal movement.
+STU-00163,PT-1163,CLN-03,06/20/2024,15 weeks,30,Low,4084.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00272,PT-1272,CLN-05,2025-12-25,11.2,35,Normal,3.14,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00422,PT-1422,CLN-05,10-Aug-2025,30w2d,36,no ,4605.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}"
+STU-00224,PT-1224,CLN-03,2025-08-14,143,28,,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00359,PT-1359,CLN-06,07/07/2024,36w1d,40,,2587.0,live_birth,
+STU-00351,PT-1351,CLN-05,2025-06-11,10w3d,21,no ,2779.0,stillbirth,"Routine anatomy scan, no abnormalities noted."
+STU-00400,PT-1400,CLN-02,2025-11-09T00:00:00Z,25.6,34,Y,2762.0,Stillbirth,"Routine anatomy scan, no abnormalities noted."
+STU-00247,PT-1247,CLN-01,2024-05-08,19.3,19,Low,3492.0,stillbirth,
+STU-00405,PT-1405,CLN-02,2024-02-18,21w1d,3,Low,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00192,PT-1192,CLN-06,2024-09-11,22.4,41,no ,3641.0,Stillbirth,
+STU-00307,PT-1307,CLN-03,2025-12-13,29.8,39,,3392.0,Live birth,Referred to MFM for further evaluation.
+STU-00007,PT-1007,CLN-01,2024-12-04,31.2,39,1,2220.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00331,PT-1331,CLN-02,2025-01-25,29 weeks,24,y,3113.0,Live birth,
+STU-00295,PT-1295,CLN-07,2024-10-13,22 weeks,36,yes,3234.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00344,PT-1344,CLN-02,2024-01-31,32w4d,23,1,3668.0,Stillbirth,"Routine anatomy scan, no abnormalities noted."
+STU-00108,PT-1108,CLN-03,2024-05-26T00:00:00Z,23w4d,19,no ,3563.0,stillbirth,
+STU-00301,PT-1301,CLN-02,2025-06-16,32w6d,25,,,,"{""twin"": false, ""presentation"": ""breech"""
+STU-00304,PT-1304,CLN-04,07/01/2024,27.1,26,y,3124.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00418,PT-1418,CLN-03,2024-03-25,28.5,24,High,3197.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00214,PT-1214,CLN-05,04/28/2025,29w1d,18,y,3544.0,Stillbirth,
+STU-00059,PT-1059,CLN-01,2025-02-24,138,29,Y,3104.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00340,PT-1340,CLN-01,04-Jul-2024,19w0d,28,Normal,,,"Routine anatomy scan, no abnormalities noted."
+STU-00079,PT-1079,CLN-04,02/13/2025,19w1d,39,yes,2555.0,LiveBirth,Patient reports normal fetal movement.
+STU-00316,PT-1316,CLN-02,2024-12-17,16w3d,29,y,2811.0,live_birth,
+STU-00415,PT-1415,CLN-03,09-May-2024,20 weeks,36,N,3739.0,live_birth,"Routine anatomy scan, no abnormalities noted."
+STU-00294,PT-1294,CLN-05,25-May-2025,19.9,29,no ,2.7,Live Birth ,
+STU-00296,PT-1296,CLN-05,2024-12-05,160,19,Y,3107.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00169,PT-1169,CLN-01,05/29/2025,27.8,32,1,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00019,PT-1019,CLN-06,2025-02-22,35.3,34,,3279.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00041,PT-1041,CLN-07,2025-05-09T00:00:00Z,24.3,32,y,2907.0,LiveBirth,
+STU-00339,PT-1339,CLN-02,06/01/2025,16.0,41,0,2821.0,Stillbirth,"{""twin"": true, ""presentation"": ""transverse"",}"
+STU-00103,PT-1103,CLN-05,2025-06-01,27w1d,22,yes,,,
+STU-00440,PT-1440,CLN-06,01/29/2024,26w1d,22,,,,
+STU-00229,PT-1229,CLN-01,2025-05-08,23.9,20,,3461.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00352,PT-1352,CLN-06,03-Nov-2024,19 weeks,29,,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00447,PT-1447,CLN-07,2024-03-24,22 weeks,32,,2744.0,LiveBirth,Follow-up recommended in 4 weeks.
+STU-00147,PT-1147,CLN-07,15-Apr-2024,20w6d,34,Y,,,Patient reports normal fetal movement.
+STU-00081,PT-1081,CLN-03,2025-01-05,24.2,32,Low,3076.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00047,PT-1047,CLN-03,2025-08-24,27.1,27,High,,,Referred to MFM for further evaluation.
+STU-00251,PT-1251,CLN-06,01-Mar-2025,33w4d,36,no ,,,"{""twin"": false, ""presentation"": ""breech"",}"
+STU-00166,PT-1166,CLN-06,2024-10-15,34w5d,35,yes,,,
+STU-00086,PT-1086,CLN-05,2024-06-06,22 weeks,26,y,,,
+STU-00347,PT-1347,CLN-07,2025-01-10,8w1d,32,Low,3497.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00082,PT-1082,CLN-05,2024-04-30,22w4d,31,High,3590.0,live_birth,
+STU-00305,,CLN-01,2025-11-11,22w1d,23,Y,3057.0,Live Birth ,
+STU-00273,PT-1273,CLN-07,2025-04-01,19 weeks,26,Y,4043.0,Live Birth ,Patient reports normal fetal movement.
+STU-00118,PT-1118,CLN-07,30-Dec-2025,31w6d,29,y,2411.0,LiveBirth,
+STU-00421,PT-1421,CLN-01,26-May-2025,31w4d,42,,3259.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00140,PT-1140,CLN-06,2024-04-14,26w2d,37,1,3133.0,Stillbirth,Patient reports normal fetal movement.
+STU-00207,PT-1207,CLN-06,2024-12-05,15w3d,24,N,2339.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00335,PT-1335,CLN-02,2024-04-14,26 weeks,29,no ,2375.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00193,PT-1193,CLN-01,2025-06-03,36w1d,36,yes,2754.0,Live Birth ,
+STU-00012,PT-1012,CLN-01,04/14/2025,11w5d,32,no ,3681.0,live_birth,Referred to MFM for further evaluation.
+STU-00291,PT-1291,CLN-04,2024-12-18T00:00:00Z,17.7,26,1,2.72,Live birth,Referred to MFM for further evaluation.
+STU-00284,PT-1284,CLN-03,2024-07-24,24w6d,38,N,3431.0,Stillbirth,Referred to MFM for further evaluation.
+STU-00162,PT-1162,CLN-06,2024-01-02T00:00:00Z,34w6d,23,y,,,
+STU-00094,PT-1094,CLN-01,2025-03-27,27.9,35,y,3367.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00261,PT-1261,CLN-01,01/20/2025,23w0d,32,High,,,
+STU-00174,PT-1174,CLN-07,20-Jun-2025,29w5d,26,Y,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00332,PT-1332,CLN-04,12/05/2025,99,42,N,3741.0,Live Birth ,
+STU-00042,PT-1042,CLN-06,16-May-2025,18.9,38,no ,3578.0,stillbirth,
+STU-00187,PT-1187,CLN-02,26-Sep-2024,20w3d,32,1,,,Patient reports normal fetal movement.
+STU-00205,PT-1205,CLN-02,10/19/2025,,39,Low,2349.0,LiveBirth,Referred to MFM for further evaluation.
+STU-00096,PT-1096,CLN-06,2024-10-07,19.9,31,Normal,2206.0,LiveBirth,
+STU-00107,PT-1107,CLN-01,04/02/2025,30w3d,38,Normal,2938.0,Live birth,
+STU-00404,PT-1404,CLN-05,09/15/2024,16w0d,23,,3.51,Live Birth ,
+STU-00093,PT-1093,CLN-06,01/28/2024,28.6,28,y,4275.0,live_birth,
+STU-00123,PT-1123,CLN-04,2025-10-28T00:00:00Z,34w6d,38,0,3191.0,LiveBirth,
+STU-00067,PT-1067,CLN-06,06-Nov-2024,28w4d,19,yes,3.86,Live birth,"Routine anatomy scan, no abnormalities noted."
+STU-00379,PT-1379,CLN-06,2024-12-13T00:00:00Z,177,24,High,3012.0,stillbirth,
+STU-00024,PT-1024,CLN-07,2025-08-21T00:00:00Z,24 weeks,20,yes,,,
+STU-00014,PT-1014,CLN-06,2024-09-25,163,34,N,,,
+STU-00062,PT-1062,CLN-06,2025-03-10,24w2d,32,N,3375.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00328,PT-1328,CLN-02,2025-08-20,213,40,N,2831.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00040,PT-1040,CLN-06,2025-05-11,12.1,25,1,3.39,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00312,PT-1312,CLN-01,2025-09-02,,30,High,2.99,Live birth,
+STU-00310,PT-1310,CLN-06,2025-02-15,26.7,22,0,2737.0,Live birth,Patient reports normal fetal movement.
+STU-00323,PT-1323,CLN-04,03-Jun-2024,31.0,25,,3108.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00099,PT-1099,CLN-07,23-Oct-2024,62,37,Low,3429.0,Live Birth ,Patient reports normal fetal movement.
+STU-00208,PT-1208,CLN-05,02/16/2024,25 weeks,21,,3313.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse"""
+STU-00315,PT-1315,CLN-04,25-Feb-2024,16 weeks,38,Normal,3255.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00442,PT-1442,CLN-02,10/02/2024,24w2d,39,1,2.87,stillbirth,
+STU-00257,PT-1257,CLN-02,2024-06-05,24w6d,24,y,1908.0,Live Birth ,
+STU-00360,PT-1360,CLN-02,12/04/2025,30w2d,21,Low,,,
+STU-00128,PT-1128,CLN-04,2024-11-22,153,26,Low,3309.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00083,PT-1083,CLN-03,06/10/2024,22.6,40,no ,,,Referred to MFM for further evaluation.
+STU-00412,PT-1412,CLN-07,05-Dec-2024,18w1d,31,Y,3.44,Live birth,
+STU-00373,PT-1373,CLN-05,2024-09-16,144,38,,2935.0,Live birth,
+STU-00028,PT-1028,CLN-06,2024-07-22,29.8,33,High,2721.0,Stillbirth,
+STU-00090,PT-1090,CLN-06,2025-11-19,39 weeks,30,High,2902.0,Live Birth ,
+STU-00348,PT-1348,CLN-02,2024-01-21,20.7,40,no ,3522.0,Stillbirth,Follow-up recommended in 4 weeks.
+STU-00074,PT-1074,CLN-03,2024-01-28,28w6d,36,N,4.12,stillbirth,"{""twin"": false, ""presentation"": ""cephalic"",}"
+STU-00070,PT-1070,CLN-06,2024-03-27,175,38,,3563.0,Stillbirth,Referred to MFM for further evaluation.
+STU-00186,PT-1186,CLN-05,2024-09-15,24.6,30,High,2870.0,Stillbirth,
+STU-00092,PT-1092,CLN-03,2025-09-19,26.9,20,y,3133.0,stillbirth,Follow-up recommended in 4 weeks.
+STU-00341,PT-1341,CLN-04,2024-04-28,194,27,yes,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00222,PT-1222,CLN-06,2025-08-12,17.7,21,N,3428.0,live_birth,
+STU-00338,,CLN-01,2024-05-06T00:00:00Z,12 weeks,41,Low,,,
+STU-00126,PT-1126,CLN-01,2025-07-30T00:00:00Z,27w0d,22,Normal,,,Patient reports normal fetal movement.
+STU-00239,PT-1239,CLN-05,2024-10-05,22 weeks,31,y,2654.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00060,PT-1060,CLN-02,15-Mar-2025,139,25,,3178.0,stillbirth,
+STU-00121,PT-1121,CLN-07,28-Nov-2024,-4,40,N,3245.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00013,PT-1013,CLN-01,04/19/2024,40w0d,32,Low,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00346,PT-1346,CLN-04,14-May-2025,27.1,39,no ,2415.0,Stillbirth,
+STU-00202,PT-1202,CLN-07,29-Mar-2025,140,27,y,2992.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00450,PT-1450,CLN-06,2025-07-29T00:00:00Z,32w4d,24,High,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00321,PT-1321,CLN-06,2024-08-18,18.6,41,Y,,,
+STU-00158,PT-1158,CLN-03,29-Feb-2024,27w6d,37,0,2514.0,LiveBirth,
+STU-00374,PT-1374,CLN-07,2024-07-10,,35,,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00234,PT-1234,CLN-05,2025-12-03,23w4d,25,Normal,3307.0,stillbirth,Referred to MFM for further evaluation.
+STU-00198,PT-1198,CLN-07,2024-09-11,,33,1,,,
+STU-00365,PT-1365,CLN-04,2024-05-25,,31,High,3760.0,LiveBirth,Patient reports normal fetal movement.
+STU-00226,PT-1226,CLN-06,2025-05-21,26.6,37,High,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00402,PT-1402,CLN-06,2025-01-01,28.1,41,0,,,Patient reports normal fetal movement.
+STU-00393,PT-1393,CLN-06,03/29/2025,33 weeks,38,y,3761.0,stillbirth,
+STU-00089,PT-1089,CLN-07,2024-12-01T00:00:00Z,23w4d,21,no ,4008.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00132,PT-1132,CLN-05,24-Feb-2024,32.1,26,Normal,3663.0,stillbirth,Follow-up recommended in 4 weeks.
+STU-00125,PT-1125,CLN-06,06/06/2024,14w6d,21,yes,2841.0,stillbirth,Follow-up recommended in 4 weeks.
+STU-00175,PT-1175,CLN-02,2025-01-16,,19,no ,3470.0,stillbirth,Patient reports normal fetal movement.
+STU-00362,PT-1362,CLN-07,2024-09-29,20w5d,27,y,,,"Routine anatomy scan, no abnormalities noted."
+STU-00015,PT-1015,CLN-07,10-Feb-2024,32w6d,21,no ,2967.0,live_birth,
+STU-00355,PT-1355,CLN-07,2024-11-16,29w6d,26,0,3166.0,live_birth,
+STU-00209,PT-1209,CLN-07,2025-10-25,24.2,19,N,,,
+STU-00124,PT-1124,CLN-01,2025-07-31,23w1d,31,Y,3563.0,Live Birth ,
+STU-00139,PT-1139,CLN-06,17-Dec-2025,28w1d,22,0,3643.0,stillbirth,
+STU-00112,PT-1112,CLN-07,2024-11-23T00:00:00Z,33w0d,19,0,2.51,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00052,PT-1052,CLN-01,2024-11-07T00:00:00Z,31w5d,26,Normal,4078.0,Stillbirth,
+STU-00113,PT-1113,CLN-07,2025-05-15T00:00:00Z,19.7,40,Low,,,
+STU-00010,PT-1010,CLN-05,11/08/2025,26w6d,27,y,3.79,Live birth,Follow-up recommended in 4 weeks.
+STU-00364,PT-1364,CLN-05,2025-11-17T00:00:00Z,141,41,High,4773.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse"""
+STU-00017,PT-1017,CLN-01,2024-10-12,22.1,18,Low,3503.0,live_birth,
+STU-00237,PT-1237,CLN-03,09/11/2025,22w4d,21,Low,3489.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic"""
+STU-00001,PT-1001,CLN-06,03/14/2024,189,28,Normal,3138.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00313,PT-1313,CLN-01,06/01/2024,19.0,38,,3.0,live_birth,
+STU-00106,PT-1106,CLN-07,2024-01-24T00:00:00Z,148,39,Normal,3628.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00245,PT-1245,CLN-02,10/06/2025,27.7,20,yes,3780.0,stillbirth,Follow-up recommended in 4 weeks.
+STU-00432,PT-1432,CLN-01,2025-12-30,29 weeks,23,N,4185.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse"",}"
+STU-00435,PT-1435,CLN-01,2025-11-11T00:00:00Z,20.2,25,Normal,3405.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00269,PT-1269,CLN-05,18-Oct-2025,24.7,41,Y,3931.0,stillbirth,
+STU-00381,PT-1381,CLN-02,2025-05-13,23w4d,32,no ,2104.0,Stillbirth,
+STU-00071,PT-1071,CLN-02,2024-05-20,213,25,no ,3894.0,LiveBirth,Patient reports normal fetal movement.
+STU-00429,PT-1429,CLN-01,2025-11-22,21w6d,27,no ,4039.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}"
+STU-00039,PT-1039,CLN-01,2024-11-18,102,39,Y,4100.0,live_birth,
+STU-00151,PT-1151,CLN-05,02/26/2025,,35,N,3388.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00390,PT-1390,CLN-01,2025-12-12,129,26,Low,3601.0,Live birth,Follow-up recommended in 4 weeks.
+STU-00164,PT-1164,CLN-04,2024-12-25,31.3,23,,3534.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00168,PT-1168,CLN-02,12/14/2025,34w1d,26,y,,,"Routine anatomy scan, no abnormalities noted."
+STU-00409,PT-1409,CLN-07,2024-07-17T00:00:00Z,30.0,40,yes,3144.0,Live birth,Referred to MFM for further evaluation.
+STU-00231,PT-1231,CLN-02,2024-04-19,,37,Y,3000.0,Live Birth ,
+STU-00252,PT-1252,CLN-02,08/06/2025,149,23,N,3449.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00424,PT-1424,CLN-04,06/11/2024,24.9,25,,3073.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00146,PT-1146,CLN-06,30-Apr-2024,205,35,N,2772.0,Live Birth ,
+STU-00243,,CLN-01,2024-06-03,18w6d,40,yes,3310.0,LiveBirth,
+STU-00311,PT-1311,CLN-04,2024-06-10,20w4d,28,N,3106.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00324,PT-1324,CLN-03,05/12/2025,23 weeks,39,High,3025.0,LiveBirth,
+STU-00043,PT-1043,CLN-04,10-Nov-2025,23w2d,39,1,3574.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}"
+STU-00161,PT-1161,CLN-01,2024-12-10,29w4d,41,,3288.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00363,PT-1363,CLN-02,01/13/2025,24w3d,39,Low,3003.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00248,PT-1248,CLN-02,2025-08-03,178,21,y,1692.0,live_birth,"Routine anatomy scan, no abnormalities noted."
+STU-00274,PT-1274,CLN-02,2025-07-14,29 weeks,27,1,,,"{""twin"": false, ""presentation"": ""cephalic"",}"
+STU-00268,PT-1268,CLN-02,2024-07-28,,34,yes,3174.0,Live Birth ,
+STU-00443,PT-1443,CLN-02,2025-05-29T00:00:00Z,131,39,Y,2606.0,Live Birth ,
+STU-00233,PT-1233,CLN-05,2024-04-13,25w6d,25,0,3365.0,live_birth,
+STU-00370,PT-1370,CLN-04,10/18/2024,28w2d,20,Normal,2906.0,Stillbirth,Patient reports normal fetal movement.
+STU-00416,PT-1416,CLN-04,10/01/2024,147,18,0,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00250,PT-1250,CLN-02,2024-04-11,20w4d,33,y,3283.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00382,PT-1382,CLN-07,14-Apr-2024,31w4d,19,0,2517.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00377,PT-1377,CLN-03,2024-01-09,23w1d,32,yes,3637.0,LiveBirth,
+STU-00148,PT-1148,CLN-04,2024-08-17,202,25,N,2462.0,Live birth,
+STU-00259,PT-1259,CLN-06,2025-02-27,18w5d,31,Y,2828.0,Live Birth ,
+STU-00101,PT-1101,CLN-02,02-Apr-2025,35w0d,27,Y,3667.0,stillbirth,
+STU-00035,PT-1035,CLN-04,11/08/2024,,18,0,2931.0,live_birth,"Routine anatomy scan, no abnormalities noted."
+STU-00189,PT-1189,CLN-07,2024-02-16,27.0,26,yes,3646.0,LiveBirth,"Routine anatomy scan, no abnormalities noted."
+STU-00111,PT-1111,CLN-02,04/30/2024,22 weeks,34,0,3185.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00176,PT-1176,CLN-01,2025-11-29,23.2,18,Y,,,
+STU-00054,PT-1054,CLN-03,2024-09-06T00:00:00Z,26w2d,34,no ,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00228,,CLN-02,2025-02-20,23.8,38,N,3122.0,Stillbirth,
+STU-00136,PT-1136,CLN-02,2025-12-29,29 weeks,18,1,3320.0,Live Birth ,
+STU-00420,PT-1420,CLN-06,2024-08-02,211,20,yes,3344.0,Live Birth ,Follow-up recommended in 4 weeks.
+STU-00449,PT-1449,CLN-06,09/20/2024,20.9,40,no ,3112.0,LiveBirth,
+STU-00155,PT-1155,CLN-03,2024-03-17,36 weeks,37,1,,,
+STU-00020,PT-1020,CLN-04,2025-03-28,19.5,41,1,3406.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00143,PT-1143,CLN-07,2025-08-05,25w0d,20,N,,,
+STU-00326,PT-1326,CLN-02,2025-06-30,20w2d,30,1,3285.0,stillbirth,
+STU-00159,PT-1159,CLN-02,2025-08-29,26w1d,20,Low,3233.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00308,PT-1308,CLN-01,11-Dec-2024,25w4d,29,,3673.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00045,PT-1045,CLN-06,2024-04-02,16.9,39,yes,,,
+STU-00306,PT-1306,CLN-01,2025-08-03,40w0d,22,Y,2981.0,Stillbirth,Referred to MFM for further evaluation.
+STU-00276,PT-1276,CLN-05,2024-03-07,28.6,28,no ,3652.0,Live birth,Follow-up recommended in 4 weeks.
+STU-00114,PT-1114,CLN-07,2025-10-07,21w6d,35,Low,,,
+STU-00286,PT-1286,CLN-07,17-Nov-2025,16 weeks,20,y,,,"Routine anatomy scan, no abnormalities noted."
+STU-00212,PT-1212,CLN-05,2025-08-03,25w0d,3,0,3442.0,LiveBirth,"Routine anatomy scan, no abnormalities noted."
+STU-00109,PT-1109,CLN-04,07-Jul-2024,30 weeks,28,1,2886.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00387,PT-1387,CLN-03,2025-03-08T00:00:00Z,29w5d,41,,2883.0,Live birth,Patient reports normal fetal movement.
+STU-00170,PT-1170,CLN-04,2024-03-21T00:00:00Z,,39,y,3628.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00080,PT-1080,CLN-04,09/09/2025,24w2d,42,Low,4084.0,Live birth,Patient reports normal fetal movement.
+STU-00425,PT-1425,CLN-01,10/21/2024,31w5d,28,High,3636.0,Live Birth ,Patient reports normal fetal movement.
+STU-00288,PT-1288,CLN-05,2025-10-27,28.4,37,0,3477.0,Live Birth ,
+STU-00085,PT-1085,CLN-07,2024-05-07,16w1d,35,0,3235.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00009,PT-1009,CLN-07,2024-01-16T00:00:00Z,14 weeks,32,yes,3525.0,live_birth,
+STU-00033,PT-1033,CLN-01,2025-12-26,,18,1,3482.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00100,PT-1100,CLN-02,01/15/2024,26.4,18,1,3637.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00437,PT-1437,CLN-02,2025-04-27,195,39,yes,,,
+STU-00369,PT-1369,CLN-06,2025-08-05,167,25,Y,2952.0,Live birth,
+STU-00223,PT-1223,CLN-04,2025-01-05,25.8,23,no ,2455.0,stillbirth,
+STU-00029,PT-1029,CLN-04,01/05/2025,175,39,no ,2652.0,Stillbirth,
+STU-00330,PT-1330,CLN-04,22-May-2024,21w1d,23,no ,3.48,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00056,PT-1056,CLN-05,02/14/2024,26.4,37,,3.14,Live Birth ,
+STU-00428,PT-1428,CLN-04,2024-05-23,17w1d,34,y,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00350,PT-1350,CLN-05,04/07/2024,28.4,42,Normal,,,Referred to MFM for further evaluation.
+STU-00049,PT-1049,CLN-03,2025-03-27,28w1d,20,Low,3232.0,Stillbirth,
+STU-00371,PT-1371,CLN-01,08-Mar-2025,23w5d,37,Y,2973.0,stillbirth,Follow-up recommended in 4 weeks.
+STU-00410,PT-1410,CLN-05,2024-12-17,18.9,36,1,,,Patient reports normal fetal movement.
+STU-00034,PT-1034,CLN-01,08/13/2025,28w2d,26,High,,,
+STU-00036,PT-1036,CLN-04,03/13/2024,195,41,,3993.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00064,PT-1064,CLN-04,2025-08-10,18w5d,38,Low,,,
+STU-00278,PT-1278,CLN-07,04/30/2024,23.6,26,Y,3276.0,Live birth,
+STU-00235,PT-1235,CLN-02,2024-09-17,21w3d,22,Low,3765.0,LiveBirth,
+STU-00441,PT-1441,CLN-06,2025-08-23T00:00:00Z,33 weeks,28,1,3622.0,Stillbirth,
+STU-00046,PT-1046,CLN-06,2024-07-03,23 weeks,33,0,2953.0,stillbirth,
+STU-00178,PT-1178,CLN-06,2025-12-29T00:00:00Z,16w0d,19,0,3683.0,Stillbirth,
+STU-00220,PT-1220,CLN-05,2025-08-27,39w6d,18,no ,3189.0,live_birth,
+STU-00342,PT-1342,CLN-01,2025-02-09,22w1d,20,Normal,2551.0,live_birth,
+STU-00022,PT-1022,CLN-02,04/20/2025,19.4,41,yes,3276.0,Stillbirth,Referred to MFM for further evaluation.
+STU-00249,PT-1249,CLN-03,03/05/2024,26w3d,39,yes,2806.0,Live Birth ,
+STU-00200,PT-1200,CLN-07,08-Mar-2025,25w0d,27,,,,
+STU-00138,PT-1138,CLN-04,2024-01-17,23w1d,130,0,2747.0,LiveBirth,Follow-up recommended in 4 weeks.
+STU-00025,PT-1025,CLN-02,2025-05-14,27w6d,37,,2650.0,live_birth,Follow-up recommended in 4 weeks.
+STU-00185,PT-1185,CLN-01,2025-08-26,159,19,Normal,2505.0,Live birth,
+STU-00206,PT-1206,CLN-05,2024-03-25T00:00:00Z,,42,Y,2584.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00135,PT-1135,CLN-03,2025-06-29,31w5d,40,High,3850.0,stillbirth,
+STU-00117,PT-1117,CLN-05,2024-02-13,27.7,40,High,,,
+STU-00213,PT-1213,CLN-01,14-Oct-2024,18.6,33,,,,
+STU-00406,PT-1406,CLN-06,2025-10-02,66,41,,2978.0,Live Birth ,
+STU-00411,PT-1411,CLN-06,04/23/2025,22.1,33,y,3561.0,Live birth,
+STU-00299,PT-1299,CLN-02,2025-04-20,108,27,no ,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00232,PT-1232,CLN-04,15-Aug-2024,22.8,35,no ,,,Follow-up recommended in 4 weeks.
+STU-00218,PT-1218,CLN-01,05/08/2025,8.9,23,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00057,PT-1057,CLN-05,10/10/2025,31w1d,21,High,2662.0,stillbirth,
+STU-00354,PT-1354,CLN-01,11/17/2024,29 weeks,28,Low,3227.0,stillbirth,
+STU-00329,PT-1329,CLN-03,2024-01-13,,20,N,,,
+STU-00327,PT-1327,CLN-04,12/12/2024,26 weeks,25,no ,,,Follow-up recommended in 4 weeks.
+STU-00182,PT-1182,CLN-04,2024-05-26,219,22,,3518.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00098,PT-1098,CLN-04,05/03/2025,30w0d,32,Y,3573.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00115,,CLN-06,2024-10-08,26.0,40,Normal,3244.0,Live birth,Referred to MFM for further evaluation.
+STU-00279,,CLN-06,2024-12-07,23.3,29,1,,,Follow-up recommended in 4 weeks.
+STU-00119,PT-1119,CLN-03,11-Sep-2025,21w6d,39,Y,3413.0,live_birth,
+STU-00392,PT-1392,CLN-07,2025-01-21,19.1,40,no ,3396.0,live_birth,
+STU-00171,PT-1171,CLN-05,2025-08-24,20w1d,30,y,2982.0,Live birth,
+STU-00401,PT-1401,CLN-05,01-Feb-2024,31w4d,40,Normal,3384.0,stillbirth,
+STU-00055,PT-1055,CLN-02,04/22/2024,21w4d,34,0,3.32,live_birth,"{""twin"": false, ""presentation"": ""transverse"""
+STU-00177,PT-1177,CLN-04,11/05/2024,14w1d,32,no ,3177.0,Stillbirth,
+STU-00195,PT-1195,CLN-06,01/07/2025,172,32,Low,2668.0,Stillbirth,
+STU-00199,PT-1199,CLN-02,10/01/2025,24 weeks,24,,3791.0,stillbirth,
+STU-00183,PT-1183,CLN-04,2025-01-27,265,37,Low,3168.0,Stillbirth,
+STU-00367,PT-1367,CLN-06,2024-05-31,28 weeks,21,1,2507.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00104,PT-1104,CLN-01,2025-07-26,200,25,Y,3296.0,LiveBirth,
+STU-00221,PT-1221,CLN-06,2024-05-13T00:00:00Z,28w6d,31,,3329.0,Live birth,
+STU-00131,PT-1131,CLN-02,2024-11-08,24w5d,25,y,,,Patient reports normal fetal movement.
+STU-00325,PT-1325,CLN-02,2025-12-29,30w6d,41,,2961.0,LiveBirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00061,PT-1061,CLN-04,2024-03-12,23w2d,34,0,3381.0,LiveBirth,
+STU-00095,PT-1095,CLN-05,2024-12-16,25 weeks,25,High,3439.0,Stillbirth,
+STU-00194,PT-1194,CLN-07,03-Apr-2024,30.1,27,no ,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00141,PT-1141,CLN-01,23-May-2024,21w0d,26,Low,3450.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00149,PT-1149,CLN-05,2025-04-12,26.5,33,y,,,
+STU-00203,PT-1203,CLN-02,06/13/2024,26w2d,21,1,,,
+STU-00153,PT-1153,CLN-02,2025-12-03,31.1,32,Low,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00366,PT-1366,CLN-06,13-Oct-2025,27w6d,22,Y,3017.0,Live birth,"Routine anatomy scan, no abnormalities noted."
+STU-00011,PT-1011,CLN-04,2024-05-02T00:00:00Z,21.1,40,N,3116.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00270,PT-1270,CLN-07,2024-10-19,24.5,34,no ,3487.0,Live birth,
+STU-00097,PT-1097,CLN-05,2025-12-13,223,31,Y,3313.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00211,PT-1211,CLN-01,07/21/2024,28w1d,19,,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00241,PT-1241,CLN-04,2025-07-28,206,30,Normal,,,
+STU-00058,PT-1058,CLN-04,2025-02-12,22w3d,25,Low,3733.0,Live birth,
+STU-00302,PT-1302,CLN-01,08/31/2025,,30,N,,,
+STU-00343,PT-1343,CLN-04,2025-05-26,22.7,31,,3071.0,Live Birth ,
+STU-00037,PT-1037,CLN-04,2024-05-07,17w6d,25,no ,2668.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00431,PT-1431,CLN-04,2025-03-14,27w6d,28,Normal,2.79,live_birth,Follow-up recommended in 4 weeks.
+STU-00021,PT-1021,CLN-07,2024-03-15,26.9,36,Normal,3083.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00430,PT-1430,CLN-04,2024-01-29T00:00:00Z,29w4d,25,0,2635.0,stillbirth,Referred to MFM for further evaluation.
+STU-00333,PT-1333,CLN-02,2025-08-18,31 weeks,39,1,,,Referred to MFM for further evaluation.
+STU-00076,PT-1076,CLN-06,2024-05-27,-4,19,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00201,PT-1201,CLN-01,02-Jan-2025,10 weeks,32,0,3255.0,stillbirth,"Routine anatomy scan, no abnormalities noted."
+STU-00078,PT-1078,CLN-06,2025-04-13,130,42,Low,3172.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00264,PT-1264,CLN-02,03/30/2024,20.7,27,,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00444,PT-1444,CLN-01,2025-08-22,148,130,Y,2759.0,live_birth,Referred to MFM for further evaluation.
+STU-00150,PT-1150,CLN-03,13-Oct-2025,,130,High,,,
+STU-00395,PT-1395,CLN-07,2025-06-24,22w5d,39,1,3325.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00003,PT-1003,CLN-06,12-Jun-2024,8w2d,34,yes,3628.0,Live birth,Referred to MFM for further evaluation.
+STU-00053,PT-1053,CLN-03,2024-08-10,21 weeks,42,,2202.0,Live birth,
+STU-00263,PT-1263,CLN-03,2024-12-07,17w4d,36,Low,3236.0,Stillbirth,
+STU-00254,,CLN-01,10/18/2024,,21,High,2603.0,stillbirth,
+STU-00260,PT-1260,CLN-02,2025-09-27T00:00:00Z,20 weeks,37,N,3194.0,stillbirth,
+STU-00334,PT-1334,CLN-01,05-Sep-2025,18 weeks,37,,2712.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00322,PT-1322,CLN-04,2025-09-27,28.0,34,N,,,
+STU-00184,PT-1184,CLN-02,07-Mar-2024,23w4d,22,y,3286.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00152,PT-1152,CLN-06,2024-11-30,15w1d,34,y,,,Referred to MFM for further evaluation.
+STU-00407,PT-1407,CLN-04,2025-08-15,22 weeks,22,N,3.59,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00303,PT-1303,CLN-06,2025-04-09T00:00:00Z,30w4d,21,Low,3467.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00191,PT-1191,CLN-07,2024-05-13,28 weeks,21,N,3671.0,stillbirth,
+STU-00075,PT-1075,CLN-03,08-Aug-2024,237,36,N,2579.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00349,PT-1349,CLN-07,2025-11-14,27w4d,19,yes,3083.0,Stillbirth,
+STU-00244,PT-1244,CLN-04,2024-01-13,23w1d,33,yes,,,
+STU-00436,PT-1436,CLN-07,2024-07-28,197,41,0,,,
+STU-00088,PT-1088,CLN-07,2024-12-19T00:00:00Z,21w5d,41,Low,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00240,PT-1240,CLN-03,2025-02-26,28w1d,38,1,2618.0,Stillbirth,
+STU-00144,PT-1144,CLN-06,2025-02-15,14.9,26,High,,,Follow-up recommended in 4 weeks.
+STU-00375,PT-1375,CLN-03,25-Sep-2025,19.1,32,,2931.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00267,PT-1267,CLN-06,2024-01-27,23.3,24,y,3704.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00289,PT-1289,CLN-01,12/29/2025,37.2,37,no ,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00137,PT-1137,CLN-06,04/05/2024,32.5,38,N,4369.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00167,PT-1167,CLN-01,29-Apr-2025,18w0d,24,,3074.0,LiveBirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00084,PT-1084,CLN-03,2025-02-11T00:00:00Z,19.4,34,y,,,Referred to MFM for further evaluation.
+STU-00426,PT-1426,CLN-02,07-Oct-2024,24.6,26,0,2939.0,Live birth,Referred to MFM for further evaluation.
+STU-00156,PT-1156,CLN-01,01/26/2025,35w2d,31,High,3505.0,Stillbirth,
+STU-00357,PT-1357,CLN-06,2025-01-06T00:00:00Z,29.0,35,yes,2922.0,LiveBirth,
+STU-00280,PT-1280,CLN-03,18-Apr-2025,100,41,High,3273.0,Live birth,
+STU-00127,PT-1127,CLN-02,2024-12-19T00:00:00Z,24w6d,37,N,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00196,PT-1196,CLN-07,2025-02-06,22w4d,28,Normal,,,
+STU-00266,PT-1266,CLN-07,22-Nov-2024,17w4d,38,,1885.0,Live birth,
+STU-00427,PT-1427,CLN-01,03/15/2024,17.1,22,Normal,3226.0,Stillbirth,
+STU-00105,PT-1105,CLN-07,2025-10-18T00:00:00Z,26w6d,25,Normal,3301.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00154,PT-1154,CLN-05,2025-07-17,151,34,Y,,,
+STU-00283,PT-1283,CLN-01,2025-04-15,18w0d,18,Y,2971.0,Live Birth ,
+STU-00227,PT-1227,CLN-01,09-Oct-2024,28w3d,22,no ,,,
+STU-00368,PT-1368,CLN-03,2024-01-27,29w5d,24,N,3115.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00026,PT-1026,CLN-04,2024-12-01,217,35,Normal,3593.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00197,PT-1197,CLN-04,2024-01-05,23 weeks,31,yes,2438.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00065,PT-1065,CLN-04,11/13/2024,146,35,,,,
+STU-00016,PT-1016,CLN-04,16-Nov-2025,15w1d,38,N,3.6,live_birth,
+STU-00298,PT-1298,CLN-01,2024-12-17T00:00:00Z,20.0,30,yes,3722.0,stillbirth,
+STU-00372,PT-1372,CLN-02,05/10/2024,24w1d,27,y,,,"Routine anatomy scan, no abnormalities noted."
+STU-00110,PT-1110,CLN-05,2024-07-14,24.0,18,N,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00337,PT-1337,CLN-04,08-Dec-2025,22w1d,18,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00309,PT-1309,CLN-01,09/05/2024,13w0d,42,High,3727.0,Stillbirth,
+STU-00027,PT-1027,CLN-02,2024-05-09,14 weeks,33,High,3283.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00077,PT-1077,CLN-03,2024-01-17,23w4d,42,N,4254.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00044,PT-1044,CLN-03,12/12/2024,29w5d,38,,3770.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00281,PT-1281,CLN-06,01-Jul-2025,19w2d,28,High,3474.0,Live Birth ,
+STU-00004,,CLN-06,2024-09-26T00:00:00Z,15.1,37,,3869.0,live_birth,
+STU-00413,PT-1413,CLN-03,2024-06-27,24w4d,29,High,3.7,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00050,PT-1050,CLN-03,2024-04-27,145,36,,2630.0,Stillbirth,"Routine anatomy scan, no abnormalities noted."
+STU-00388,PT-1388,CLN-05,2025-11-19,161,32,no ,3274.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00031,PT-1031,CLN-06,2025-02-20,28.9,29,yes,4.05,Live Birth ,Referred to MFM for further evaluation.
+STU-00122,PT-1122,CLN-02,2024-03-05,29w5d,38,Low,3443.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech"",}"
+STU-00116,PT-1116,CLN-06,2024-08-19,22w4d,41,,3520.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse"""
+STU-00419,PT-1419,CLN-02,2025-07-10T00:00:00Z,-4,34,Low,3280.0,Stillbirth,Patient reports normal fetal movement.
+STU-00217,PT-1217,CLN-03,13-May-2025,39w0d,20,yes,,,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00265,PT-1265,CLN-05,01-Dec-2025,21w0d,28,no ,2572.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00210,PT-1210,CLN-04,23-Oct-2025,28w6d,25,High,,,
+STU-00317,PT-1317,CLN-02,2024-09-10,20 weeks,34,1,3454.0,Live birth,"Routine anatomy scan, no abnormalities noted."
+STU-00385,PT-1385,CLN-05,2024-10-29,148,40,Low,3.75,Stillbirth,Patient reports normal fetal movement.
+STU-00002,PT-1002,CLN-06,2024-11-18,11 weeks,25,1,2978.0,LiveBirth,Patient reports normal fetal movement.
+STU-00314,PT-1314,CLN-02,2024-01-30,31 weeks,34,y,3366.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00023,PT-1023,CLN-01,2025-12-31,27w4d,33,1,,,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00318,PT-1318,CLN-01,25-Jul-2025,34w2d,25,Low,3071.0,Live Birth ,
+STU-00320,PT-1320,CLN-06,07-Jan-2025,24w1d,29,Low,3494.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic"",}"
+STU-00008,PT-1008,CLN-06,2025-10-31T00:00:00Z,13w0d,42,N,,,"{""twin"": false, ""presentation"": ""breech"""
+STU-00445,PT-1445,CLN-03,18-Nov-2024,27.2,21,Y,3277.0,Live birth,
+STU-00142,PT-1142,CLN-03,2025-10-23,,35,N,,,
+STU-00087,PT-1087,CLN-01,24-May-2025,11.5,42,0,3190.0,Live birth,Patient reports normal fetal movement.
+STU-00353,PT-1353,CLN-07,2024-11-13,20w2d,29,Y,,,
+STU-00242,PT-1242,CLN-02,2024-03-11,24.2,41,High,2529.0,live_birth,
+STU-00216,PT-1216,CLN-03,04/15/2024,17 weeks,26,High,2374.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00069,PT-1069,CLN-01,10/08/2025,14w3d,33,High,2930.0,Stillbirth,
+STU-00051,PT-1051,CLN-01,2025-11-22,17 weeks,36,y,,,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00399,PT-1399,CLN-01,06/14/2024,21w0d,36,N,3987.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00414,PT-1414,CLN-05,20-Mar-2025,22w5d,26,0,,,Patient reports normal fetal movement.
+STU-00157,PT-1157,CLN-06,2025-06-22,21.0,32,Normal,3705.0,Live Birth ,Patient reports normal fetal movement.
+STU-00253,PT-1253,CLN-04,2024-12-26T00:00:00Z,,18,Normal,3163.0,Stillbirth,
+STU-00396,PT-1396,CLN-03,2024-05-25,27w5d,26,N,,,"Routine anatomy scan, no abnormalities noted."
+STU-00403,PT-1403,CLN-05,2025-05-20,204,18,y,3.03,Live birth,
+STU-00358,PT-1358,CLN-04,2024-02-04,166,30,Normal,3705.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00255,PT-1255,CLN-03,2025-08-19,24w2d,20,y,2963.0,Live Birth ,
+STU-00277,PT-1277,CLN-03,03/13/2025,23.8,30,Low,3375.0,stillbirth,
+STU-00179,PT-1179,CLN-04,2025-02-18,240,21,0,3892.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00282,PT-1282,CLN-01,2024-07-25T00:00:00Z,26w3d,20,no ,,,Referred to MFM for further evaluation.
+STU-00391,PT-1391,CLN-02,25-May-2024,20 weeks,27,High,,,Follow-up recommended in 4 weeks.
+STU-00238,PT-1238,CLN-04,2025-07-15,34.8,33,N,3442.0,Live Birth ,Patient reports normal fetal movement.
+STU-00072,PT-1072,CLN-06,2024-08-31T00:00:00Z,207,29,0,2944.0,Live Birth ,
+STU-00130,PT-1130,CLN-07,2025-05-16,19.6,34,y,,,
+STU-00145,PT-1145,CLN-02,2024-03-29T00:00:00Z,23.6,42,,3116.0,stillbirth,
+STU-00336,,CLN-03,11/15/2024,24w1d,39,no ,3052.0,Live birth,
+STU-00134,PT-1134,CLN-06,2024-09-10,28w5d,37,N,2991.0,live_birth,"Routine anatomy scan, no abnormalities noted."
+STU-00204,PT-1204,CLN-03,2025-06-22,25w3d,18,Normal,2848.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00394,PT-1394,CLN-05,2024-07-03T00:00:00Z,17w2d,19,y,2787.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00256,PT-1256,CLN-07,2024-02-27T00:00:00Z,22 weeks,22,N,1979.0,Stillbirth,Referred to MFM for further evaluation.
+STU-00073,PT-1073,CLN-07,23-Jul-2024,32w6d,36,Low,3595.0,Live birth,
+STU-00397,PT-1397,CLN-04,2024-01-30,22 weeks,27,y,2826.0,live_birth,
+STU-00236,PT-1236,CLN-07,02-Apr-2025,18w6d,34,1,3648.0,Live Birth ,
+STU-00038,PT-1038,CLN-05,2025-10-29,,42,yes,3431.0,LiveBirth,
+STU-00001,PT-1001,CLN-06,03/14/2024,189,28,Normal,3138.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}"
+STU-00206,PT-1206,CLN-05,2024-03-25T00:00:00Z,,42,Y,2584.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}"
+STU-00259,PT-1259,CLN-06,2025-02-27,18w5d,31,Y,2828.0,Live Birth ,
+STU-00010,PT-1010,CLN-05,11/08/2025,26w6d,27,y,3.79,Live birth,Follow-up recommended in 4 weeks.
+STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}"
+STU-00314,PT-1314,CLN-02,2024-01-30,31 weeks,34,y,3366.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}"
