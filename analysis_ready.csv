@@ -1,385 +1,431 @@
-study_id,patient_id,clinic_id,scan_date,gestational_age_at_scan,maternal_age,risk_flag,birth_weight_g,outcome,notes,gestational_age_weeks,delivery_context,scan_date_parsed,bpd_mm,hc_mm,ac_mm,fl_mm,device_manufacturer,sonographer_id,image_path,device_manufacturer_clean,early_review_flag
-STU-00361,PT-1361,CLN-04,2025-09-24,26w6d,41,y,,,,26.857142857142858,{},2025-09-24,69.9,246.3,75.8,40.5,Canon Medical,SG-04,/scans/2025/09/STU-00361_01.png,Canon Medical,False
-STU-00160,,CLN-04,2024-01-01,167,31,1,3129.0,Live birth,,23.857142857142858,{},2024-01-01,59.3,206.1,65.1,34.6,Samsung,SG-11,/scans/2024/01/STU-00160_02.png,Samsung,False
-STU-00091,PT-1091,CLN-05,11/27/2025,24w2d,32,Low,3644.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse"",}",24.285714285714285,"{'twin': False, 'presentation': 'transverse'}",,66.0,231.1,62.5,36.2,canon medical,SG-15,/scans/2025/11/STU-00091_02.png,Canon Medical,False
-STU-00297,PT-1297,CLN-02,2025-06-01,25w1d,36,High,3.1,live_birth,Patient reports normal fetal movement.,25.142857142857142,{},2025-06-01,59.2,209.0,63.0,36.0,Samsung Medison,SG-13,/scans/2025/06/STU-00297_01.png,Samsung,False
-STU-00068,PT-1068,CLN-05,2024-06-03T00:00:00Z,182,28,N,3194.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",26.0,"{'twin': False, 'presentation': 'transverse'}",,61.7,221.4,69.1,41.3,samsung,SG-06,/scans/2024/06/STU-00068_02.png,Samsung,False
-STU-00386,PT-1386,CLN-07,21-Jul-2024,26.5,28,1,3035.0,Stillbirth,,26.5,{},,63.9,223.2,73.5,40.0,GE Healthcare,SG-04,/scans/2024/07/STU-00386_03.png,GE Healthcare,False
-STU-00063,PT-1063,CLN-07,2024-09-18,37.7,31,1,3383.0,stillbirth,,37.7,{},2024-09-18,85.2,304.3,95.6,54.4,Canon Medical,SG-14,/scans/2024/09/STU-00063_02.png,Canon Medical,False
-STU-00188,PT-1188,CLN-06,2025-05-20,29.8,25,N,3338.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""",29.8,"{'twin': False, 'presentation': 'cephalic'}",2025-05-20,72.4,254.5,80.1,44.0,samsung,SG-12,/scans/2025/05/STU-00188_03.png,Samsung,False
-STU-00005,PT-1005,CLN-07,2024-11-10,20.4,37,yes,3069.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",20.4,"{'twin': False, 'presentation': 'breech'}",2024-11-10,59.1,202.4,62.4,32.3,Canon Medical,SG-12,/scans/2024/11/STU-00005_03.png,Canon Medical,False
-STU-00408,PT-1408,CLN-07,2025-02-24,28.7,27,Normal,2235.0,Live birth,Referred to MFM for further evaluation.,28.7,{},2025-02-24,73.3,260.7,73.4,41.0,Philips,SG-12,,Philips,False
-STU-00066,PT-1066,CLN-03,2024-07-21,134,21,,2598.0,Live Birth ,,19.142857142857142,{},2024-07-21,48.8,172.2,57.6,31.9,Samsung Medison,SG-02,/scans/2024/07/STU-00066_02.png,Samsung,False
-STU-00398,PT-1398,CLN-05,2025-03-09T00:00:00Z,31w0d,37,y,3342.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",31.0,"{'twin': False, 'presentation': 'breech'}",,76.4,261.0,78.3,48.7,Canon,SG-14,/scans/2025/03/STU-00398_03.png,Canon Medical,False
-STU-00287,PT-1287,CLN-03,2025-02-05,21w4d,23,Low,3.17,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",21.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-02-05,61.0,211.8,62.4,32.6,Philips,SG-13,/scans/2025/02/STU-00287_02.png,Philips,False
-STU-00319,PT-1319,CLN-02,01/14/2025,25w4d,29,Normal,3996.0,Live Birth ,Patient reports normal fetal movement.,25.571428571428573,{},,64.0,224.3,67.3,42.2,ge healthcare,SG-09,/scans/2025/01/STU-00319_03.png,GE Healthcare,False
-STU-00225,PT-1225,CLN-02,2025-02-02T00:00:00Z,170,24,yes,3585.0,live_birth,"Routine anatomy scan, no abnormalities noted.",24.285714285714285,{},,54.3,190.7,57.0,30.6,Samsung Medison,SG-13,/scans/2025/02/STU-00225_03.png,Samsung,False
-STU-00383,PT-1383,CLN-04,2024-01-07,24w2d,36,N,2400.0,stillbirth,Patient reports normal fetal movement.,24.285714285714285,{},2024-01-07,61.8,212.2,65.8,37.0,Philips Healthcare,SG-15,/scans/2024/01/STU-00383_02.png,Philips,False
-STU-00246,PT-1246,CLN-01,18-Aug-2025,32.7,19,N,,,,32.7,{},,82.4,286.0,83.1,47.5,GE Healthcare,SG-12,/scans/2025/08/STU-00246_02.png,GE Healthcare,False
-STU-00293,PT-1293,CLN-04,2025-11-04,25w3d,26,Normal,3319.0,Live Birth ,,25.428571428571427,{},2025-11-04,67.6,239.2,79.1,34.4,Canon,SG-07,/scans/2025/11/STU-00293_02.png,Canon Medical,False
-STU-00032,PT-1032,CLN-03,2024-09-14,23w6d,25,1,,,,23.857142857142858,{},2024-09-14,64.3,229.9,67.3,41.5,Samsung,SG-06,/scans/2024/09/STU-00032_01.png,Samsung,False
-STU-00006,PT-1006,CLN-03,2025-02-12T00:00:00Z,21w5d,35,N,,,"{""twin"": false, ""presentation"": ""cephalic""}",21.714285714285715,"{'twin': False, 'presentation': 'cephalic'}",,55.6,189.5,64.9,38.8,Philips,SG-01,/scans/2025/02/STU-00006_01.png,Philips,False
-STU-00448,PT-1448,CLN-07,2025-04-23,22w1d,22,0,,,"{""twin"": false, ""presentation"": ""transverse""}",22.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2025-04-23,60.5,215.0,61.3,34.6,GE,SG-13,/scans/2025/04/STU-00448_02.png,GE Healthcare,False
-STU-00300,PT-1300,CLN-03,06/26/2025,18 weeks,36,Normal,3321.0,LiveBirth,,18.0,{},,54.2,193.7,54.0,28.1,canon medical,SG-11,/scans/2025/06/STU-00300_03.png,Canon Medical,False
-STU-00356,PT-1356,CLN-04,05/01/2025,13 weeks,19,Low,2876.0,stillbirth,,13.0,{},,45.0,151.0,42.1,23.5,GE,SG-05,/scans/2025/05/STU-00356_02.png,GE Healthcare,True
-STU-00018,PT-1018,CLN-05,2024-07-13,16w1d,18,no ,4525.0,live_birth,,16.142857142857142,{},2024-07-13,48.0,164.8,48.2,26.7,Samsung Medison,SG-05,/scans/2024/07/STU-00018_01.png,Samsung,True
-STU-00271,PT-1271,CLN-04,2024-01-26,205,18,yes,,,,29.285714285714285,{},2024-01-26,72.5,258.8,74.7,41.5,GE Healthcare,SG-11,/scans/2024/01/STU-00271_01.png,GE Healthcare,False
-STU-00129,PT-1129,CLN-06,2025-11-04,19.2,35,y,3.17,LiveBirth,,19.2,{},2025-11-04,56.5,201.6,57.8,26.8,PHILIPS,SG-02,/scans/2025/11/STU-00129_02.png,Philips,False
-STU-00165,PT-1165,CLN-01,12/12/2024,25.0,32,,,,"{""twin"": false, ""presentation"": ""cephalic"",}",25.0,"{'twin': False, 'presentation': 'cephalic'}",,62.3,227.7,67.4,38.5,canon medical,SG-12,/scans/2024/12/STU-00165_03.png,Canon Medical,False
-STU-00258,PT-1258,CLN-06,13-May-2024,17w3d,42,y,,,"{""twin"": false, ""presentation"": ""transverse""}",17.428571428571427,"{'twin': False, 'presentation': 'transverse'}",,53.6,192.5,51.1,27.2,samsung,SG-10,/scans/2024/05/STU-00258_02.png,Samsung,True
-STU-00285,PT-1285,CLN-01,11/14/2024,30w5d,35,yes,3.59,Live birth,,30.714285714285715,{},,76.3,260.8,73.8,43.8,canon medical,SG-14,/scans/2024/11/STU-00285_02.png,Canon Medical,False
-STU-00423,PT-1423,CLN-05,2024-03-12,20w3d,19,Normal,3295.0,Live Birth ,,20.428571428571427,{},2024-03-12,57.6,201.6,57.6,30.4,philips,SG-14,/scans/2024/03/STU-00423_01.png,Philips,False
-STU-00181,PT-1181,CLN-04,2024-04-30,21.0,22,N,3492.0,stillbirth,,21.0,{},2024-04-30,53.6,184.2,61.2,34.0,philips,SG-10,/scans/2024/04/STU-00181_01.png,Philips,True
-STU-00172,PT-1172,CLN-04,05/27/2024,18w6d,36,Low,3.19,LiveBirth,,18.857142857142858,{},,52.5,184.6,59.1,29.3,samsung,SG-11,/scans/2024/05/STU-00172_02.png,Samsung,True
-STU-00133,PT-1133,CLN-02,04/13/2025,17.5,33,y,,,,17.5,{},,54.7,190.7,47.9,29.1,canon medical,SG-02,/scans/2025/04/STU-00133_01.png,Canon Medical,True
-STU-00345,PT-1345,CLN-05,17-Dec-2024,28w6d,41,Normal,3262.0,Live Birth ,,28.857142857142858,{},,71.0,258.4,71.7,44.6,Samsung Medison,SG-03,/scans/2024/12/STU-00345_01.png,Samsung,False
-STU-00219,PT-1219,CLN-04,2025-09-05T00:00:00Z,27 weeks,37,High,2954.0,Live Birth ,Patient reports normal fetal movement.,27.0,{},,72.6,256.9,73.4,39.4,PHILIPS,SG-06,/scans/2025/09/STU-00219_01.png,Philips,False
-STU-00417,PT-1417,CLN-01,17-May-2024,8.2,39,Y,3202.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",8.2,"{'twin': False, 'presentation': 'breech'}",,33.7,118.2,32.8,16.3,Canon Medical,SG-05,/scans/2024/05/STU-00417_01.png,Canon Medical,True
-STU-00384,PT-1384,CLN-07,12-Jun-2025,25w3d,21,Y,2530.0,LiveBirth,Follow-up recommended in 4 weeks.,25.428571428571427,{},,68.8,240.8,73.8,37.6,Philips,SG-13,/scans/2025/06/STU-00384_03.png,Philips,False
-STU-00433,PT-1433,CLN-05,2025-04-04,24w5d,38,Y,,,,24.714285714285715,{},2025-04-04,61.4,217.7,60.8,38.3,Philips,SG-08,/scans/2025/04/STU-00433_01.png,Philips,False
-STU-00376,PT-1376,CLN-07,03-Oct-2025,19w1d,27,1,2.41,live_birth,"Routine anatomy scan, no abnormalities noted.",19.142857142857142,{},,55.0,191.2,64.5,30.9,philips,SG-14,/scans/2025/10/STU-00376_02.png,Philips,True
-STU-00438,PT-1438,CLN-04,07/29/2025,22w1d,33,1,3.69,stillbirth,"Routine anatomy scan, no abnormalities noted.",22.142857142857142,{},,56.9,203.6,61.8,31.6,samsung,SG-10,/scans/2025/07/STU-00438_02.png,Samsung,False
-STU-00262,PT-1262,CLN-06,03-Jan-2025,20 weeks,42,0,3384.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",20.0,"{'twin': False, 'presentation': 'transverse'}",,57.4,202.7,55.9,30.9,canon medical,SG-04,,Canon Medical,False
-STU-00292,PT-1292,CLN-06,2025-01-26,28w3d,29,1,,,"{""twin"": false, ""presentation"": ""breech""}",28.428571428571427,"{'twin': False, 'presentation': 'breech'}",2025-01-26,69.2,242.5,79.3,40.1,philips,SG-01,/scans/2025/01/STU-00292_01.png,Philips,False
-STU-00190,PT-1190,CLN-07,2024-06-19,25w6d,30,1,,,,25.857142857142858,{},2024-06-19,67.9,235.2,68.1,41.1,Philips Healthcare,SG-14,/scans/2024/06/STU-00190_02.png,Philips,False
-STU-00290,PT-1290,CLN-02,22-May-2024,24.6,3,,,,Patient reports normal fetal movement.,24.6,{},,64.2,223.5,69.9,33.7,samsung,SG-11,/scans/2024/05/STU-00290_03.png,Samsung,False
-STU-00163,PT-1163,CLN-03,06/20/2024,15 weeks,30,Low,4084.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",15.0,"{'twin': False, 'presentation': 'cephalic'}",,47.2,160.5,43.4,28.1,canon medical,SG-15,/scans/2024/06/STU-00163_02.png,Canon Medical,True
-STU-00272,PT-1272,CLN-05,2025-12-25,11.2,35,Normal,3.14,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",11.2,"{'twin': False, 'presentation': 'transverse'}",2025-12-25,37.5,129.1,36.5,19.0,philips,SG-05,/scans/2025/12/STU-00272_03.png,Philips,True
-STU-00422,PT-1422,CLN-05,10-Aug-2025,30w2d,36,no ,4605.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}",30.285714285714285,"{'twin': False, 'presentation': 'breech'}",,72.1,252.1,83.6,43.5,G.E. Healthcare,SG-02,/scans/2025/08/STU-00422_01.png,G.E. Healthcare,False
-STU-00422,PT-1422,CLN-05,10-Aug-2025,30w2d,36,no ,4605.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}",30.285714285714285,"{'twin': False, 'presentation': 'breech'}",,74.4,260.6,82.0,39.9,G.E. Healthcare,SG-04,/scans/2025/08/STU-00422_02.png,G.E. Healthcare,False
-STU-00224,PT-1224,CLN-03,2025-08-14,143,28,,,,"{""twin"": false, ""presentation"": ""transverse""}",20.428571428571427,"{'twin': False, 'presentation': 'transverse'}",2025-08-14,58.7,210.9,55.4,28.0,Canon,SG-11,/scans/2025/08/STU-00224_03.png,Canon Medical,False
-STU-00359,PT-1359,CLN-06,07/07/2024,36w1d,40,,2587.0,live_birth,,36.142857142857146,{},,82.5,294.0,87.5,55.1,Canon,SG-12,/scans/2024/07/STU-00359_02.png,Canon Medical,False
-STU-00351,PT-1351,CLN-05,2025-06-11,10w3d,21,no ,2779.0,stillbirth,"Routine anatomy scan, no abnormalities noted.",10.428571428571429,{},2025-06-11,39.6,140.9,37.4,19.8,GE,SG-04,/scans/2025/06/STU-00351_02.png,GE Healthcare,True
-STU-00400,PT-1400,CLN-02,2025-11-09T00:00:00Z,25.6,34,Y,2762.0,Stillbirth,"Routine anatomy scan, no abnormalities noted.",25.6,{},,60.4,213.2,63.4,34.8,canon medical,SG-11,/scans/2025/11/STU-00400_01.png,Canon Medical,False
-STU-00247,PT-1247,CLN-01,2024-05-08,19.3,19,Low,3492.0,stillbirth,,19.3,{},2024-05-08,57.1,204.3,58.1,31.0,canon medical,SG-09,/scans/2024/05/STU-00247_02.png,Canon Medical,False
-STU-00405,PT-1405,CLN-02,2024-02-18,21w1d,3,Low,,,"{""twin"": false, ""presentation"": ""cephalic""}",21.142857142857142,"{'twin': False, 'presentation': 'cephalic'}",2024-02-18,52.7,186.0,54.1,30.8,Canon Medical,SG-06,/scans/2024/02/STU-00405_01.png,Canon Medical,False
-STU-00192,PT-1192,CLN-06,2024-09-11,22.4,41,no ,3641.0,Stillbirth,,22.4,{},2024-09-11,56.3,201.5,56.2,36.5,Philips,SG-06,/scans/2024/09/STU-00192_02.png,Philips,False
-STU-00307,PT-1307,CLN-03,2025-12-13,29.8,39,,3392.0,Live birth,Referred to MFM for further evaluation.,29.8,{},2025-12-13,72.8,259.1,77.9,42.1,canon medical,SG-01,/scans/2025/12/STU-00307_02.png,Canon Medical,False
-STU-00007,PT-1007,CLN-01,2024-12-04,31.2,39,1,2220.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",31.2,"{'twin': False, 'presentation': 'breech'}",2024-12-04,73.0,256.2,81.8,47.1,Canon,SG-14,/scans/2024/12/STU-00007_02.png,Canon Medical,False
-STU-00331,PT-1331,CLN-02,2025-01-25,29 weeks,24,y,3113.0,Live birth,,29.0,{},2025-01-25,67.6,236.1,76.2,42.7,Canon Medical,SG-05,/scans/2025/01/STU-00331_03.png,Canon Medical,False
-STU-00295,PT-1295,CLN-07,2024-10-13,22 weeks,36,yes,3234.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2024-10-13,55.5,193.3,58.7,38.5,Samsung Medison,SG-09,/scans/2024/10/STU-00295_01.png,Samsung,False
-STU-00344,PT-1344,CLN-02,2024-01-31,32w4d,23,1,3668.0,Stillbirth,"Routine anatomy scan, no abnormalities noted.",32.57142857142857,{},2024-01-31,78.3,276.7,79.0,44.1,Canon Medical,SG-08,/scans/2024/01/STU-00344_02.png,Canon Medical,False
-STU-00108,PT-1108,CLN-03,2024-05-26T00:00:00Z,23w4d,19,no ,3563.0,stillbirth,,23.571428571428573,{},,63.0,223.6,66.4,32.6,canon medical,SG-07,/scans/2024/05/STU-00108_02.png,Canon Medical,False
-STU-00301,PT-1301,CLN-02,2025-06-16,32w6d,25,,,,"{""twin"": false, ""presentation"": ""breech""",32.857142857142854,"{'twin': False, 'presentation': 'breech'}",2025-06-16,77.1,270.9,86.1,44.6,PHILIPS,SG-01,/scans/2025/06/STU-00301_02.png,Philips,False
-STU-00304,PT-1304,CLN-04,07/01/2024,27.1,26,y,3124.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",27.1,"{'twin': False, 'presentation': 'cephalic'}",,71.2,250.4,72.1,45.3,Canon Medical,SG-11,/scans/2024/07/STU-00304_02.png,Canon Medical,False
-STU-00418,PT-1418,CLN-03,2024-03-25,28.5,24,High,3197.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",28.5,"{'twin': False, 'presentation': 'breech'}",2024-03-25,72.6,250.9,73.0,39.5,Samsung Medison,SG-04,/scans/2024/03/STU-00418_03.png,Samsung,False
-STU-00214,PT-1214,CLN-05,04/28/2025,29w1d,18,y,3544.0,Stillbirth,,29.142857142857142,{},,72.8,259.7,73.3,43.4,philips,SG-10,/scans/2025/04/STU-00214_02.png,Philips,False
-STU-00059,PT-1059,CLN-01,2025-02-24,138,29,Y,3104.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",19.714285714285715,"{'twin': False, 'presentation': 'cephalic'}",2025-02-24,49.3,178.8,55.2,30.6,ge healthcare,SG-13,/scans/2025/02/STU-00059_03.png,GE Healthcare,False
-STU-00340,PT-1340,CLN-01,04-Jul-2024,19w0d,28,Normal,,,"Routine anatomy scan, no abnormalities noted.",19.0,{},,54.5,191.5,52.4,29.1,Samsung Medison,SG-01,/scans/2024/07/STU-00340_02.png,Samsung,False
-STU-00079,PT-1079,CLN-04,02/13/2025,19w1d,39,yes,2555.0,LiveBirth,Patient reports normal fetal movement.,19.142857142857142,{},,54.0,189.2,46.2,29.8,samsung,SG-11,/scans/2025/02/STU-00079_01.png,Samsung,True
-STU-00316,PT-1316,CLN-02,2024-12-17,16w3d,29,y,2811.0,live_birth,,16.428571428571427,{},2024-12-17,50.0,180.0,50.6,24.0,Canon,SG-07,,Canon Medical,True
-STU-00294,PT-1294,CLN-05,25-May-2025,19.9,29,no ,2.7,Live Birth ,,19.9,{},,55.5,190.3,54.9,33.7,GE,SG-14,/scans/2025/05/STU-00294_03.png,GE Healthcare,True
-STU-00296,PT-1296,CLN-05,2024-12-05,160,19,Y,3107.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",22.857142857142858,"{'twin': False, 'presentation': 'transverse'}",2024-12-05,56.0,199.6,62.2,36.4,ge healthcare,SG-05,/scans/2024/12/STU-00296_03.png,GE Healthcare,False
-STU-00019,PT-1019,CLN-06,2025-02-22,35.3,34,,3279.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",35.3,"{'twin': False, 'presentation': 'breech'}",2025-02-22,83.5,292.1,92.4,48.8,Samsung,SG-10,/scans/2025/02/STU-00019_02.png,Samsung,False
-STU-00339,PT-1339,CLN-02,06/01/2025,16.0,41,0,2821.0,Stillbirth,"{""twin"": true, ""presentation"": ""transverse"",}",16.0,"{'twin': True, 'presentation': 'transverse'}",,50.0,177.2,47.2,24.6,Canon,SG-08,/scans/2025/06/STU-00339_03.png,Canon Medical,True
-STU-00103,PT-1103,CLN-05,2025-06-01,27w1d,22,yes,,,,27.142857142857142,{},2025-06-01,65.2,225.5,65.2,39.0,Canon Medical,SG-07,/scans/2025/06/STU-00103_02.png,Canon Medical,False
-STU-00440,PT-1440,CLN-06,01/29/2024,26w1d,22,,,,,26.142857142857142,{},,60.9,217.6,72.2,40.4,GE Healthcare,SG-15,/scans/2024/01/STU-00440_01.png,GE Healthcare,False
-STU-00352,PT-1352,CLN-06,03-Nov-2024,19 weeks,29,,,,"{""twin"": false, ""presentation"": ""breech""}",19.0,"{'twin': False, 'presentation': 'breech'}",,55.5,194.3,57.5,28.2,Philips Healthcare,SG-04,/scans/2024/11/STU-00352_01.png,Philips,False
-STU-00447,PT-1447,CLN-07,2024-03-24,22 weeks,32,,2744.0,LiveBirth,Follow-up recommended in 4 weeks.,22.0,{},2024-03-24,64.1,225.3,62.0,33.1,Philips Healthcare,SG-11,/scans/2024/03/STU-00447_01.png,Philips,False
-STU-00147,PT-1147,CLN-07,15-Apr-2024,20w6d,34,Y,,,Patient reports normal fetal movement.,20.857142857142858,{},,58.3,207.7,59.0,35.9,Philips,SG-12,/scans/2024/04/STU-00147_03.png,Philips,False
-STU-00081,PT-1081,CLN-03,2025-01-05,24.2,32,Low,3076.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",24.2,"{'twin': False, 'presentation': 'breech'}",2025-01-05,56.7,192.4,71.3,39.7,GE Healthcare,SG-09,/scans/2025/01/STU-00081_03.png,GE Healthcare,False
-STU-00047,PT-1047,CLN-03,2025-08-24,27.1,27,High,,,Referred to MFM for further evaluation.,27.1,{},2025-08-24,69.0,250.9,73.5,42.0,Samsung Medison,SG-14,,Samsung,False
-STU-00251,PT-1251,CLN-06,01-Mar-2025,33w4d,36,no ,,,"{""twin"": false, ""presentation"": ""breech"",}",33.57142857142857,"{'twin': False, 'presentation': 'breech'}",,85.2,294.9,85.5,48.3,GE,SG-04,/scans/2025/03/STU-00251_03.png,GE Healthcare,False
-STU-00166,PT-1166,CLN-06,2024-10-15,34w5d,35,yes,,,,34.714285714285715,{},2024-10-15,83.1,282.7,86.9,48.7,Canon Medical,SG-03,,Canon Medical,False
-STU-00086,PT-1086,CLN-05,2024-06-06,22 weeks,26,y,,,,22.0,{},2024-06-06,63.4,220.7,57.4,36.0,Samsung Medison,SG-07,/scans/2024/06/STU-00086_01.png,Samsung,False
-STU-00305,,CLN-01,2025-11-11,22w1d,23,Y,3057.0,Live Birth ,,22.142857142857142,{},2025-11-11,60.1,207.4,54.8,32.6,Philips,SG-14,/scans/2025/11/STU-00305_02.png,Philips,False
-STU-00273,PT-1273,CLN-07,2025-04-01,19 weeks,26,Y,4043.0,Live Birth ,Patient reports normal fetal movement.,19.0,{},2025-04-01,58.5,203.0,61.3,30.6,Canon,SG-10,/scans/2025/04/STU-00273_02.png,Canon Medical,True
-STU-00118,PT-1118,CLN-07,30-Dec-2025,31w6d,29,y,2411.0,LiveBirth,,31.857142857142858,{},,76.0,270.1,79.5,49.0,ge healthcare,SG-04,/scans/2025/12/STU-00118_01.png,GE Healthcare,False
-STU-00421,PT-1421,CLN-01,26-May-2025,31w4d,42,,3259.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",31.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",,75.9,267.0,79.6,44.6,philips,SG-13,/scans/2025/05/STU-00421_02.png,Philips,False
-STU-00140,PT-1140,CLN-06,2024-04-14,26w2d,37,1,3133.0,Stillbirth,Patient reports normal fetal movement.,26.285714285714285,{},2024-04-14,65.4,227.0,72.6,38.9,Philips Healthcare,SG-14,/scans/2024/04/STU-00140_03.png,Philips,False
-STU-00207,PT-1207,CLN-06,2024-12-05,15w3d,24,N,2339.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",15.428571428571429,"{'twin': False, 'presentation': 'breech'}",2024-12-05,50.8,175.7,40.7,27.1,GE Healthcare,SG-02,/scans/2024/12/STU-00207_03.png,GE Healthcare,True
-STU-00335,PT-1335,CLN-02,2024-04-14,26 weeks,29,no ,2375.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",26.0,"{'twin': False, 'presentation': 'transverse'}",2024-04-14,67.8,238.6,67.1,38.3,Canon Medical,SG-15,/scans/2024/04/STU-00335_01.png,Canon Medical,False
-STU-00193,PT-1193,CLN-01,2025-06-03,36w1d,36,yes,2754.0,Live Birth ,,36.142857142857146,{},2025-06-03,78.7,272.9,85.7,55.3,GE Healthcare,SG-09,/scans/2025/06/STU-00193_02.png,GE Healthcare,False
-STU-00012,PT-1012,CLN-01,04/14/2025,11w5d,32,no ,3681.0,live_birth,Referred to MFM for further evaluation.,11.714285714285714,{},,44.0,157.2,45.6,20.9,ge healthcare,SG-15,/scans/2025/04/STU-00012_03.png,GE Healthcare,True
-STU-00291,PT-1291,CLN-04,2024-12-18T00:00:00Z,17.7,26,1,2.72,Live birth,Referred to MFM for further evaluation.,17.7,{},,53.1,189.4,55.8,28.4,GE,SG-07,/scans/2024/12/STU-00291_02.png,GE Healthcare,True
-STU-00284,PT-1284,CLN-03,2024-07-24,24w6d,38,N,3431.0,Stillbirth,Referred to MFM for further evaluation.,24.857142857142858,{},2024-07-24,65.2,229.6,69.0,38.5,Samsung,SG-10,/scans/2024/07/STU-00284_03.png,Samsung,False
-STU-00162,PT-1162,CLN-06,2024-01-02T00:00:00Z,34w6d,23,y,,,,34.857142857142854,{},,80.9,281.3,82.8,52.5,Canon Medical,SG-04,/scans/2024/01/STU-00162_02.png,Canon Medical,False
-STU-00094,PT-1094,CLN-01,2025-03-27,27.9,35,y,3367.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",27.9,"{'twin': False, 'presentation': 'transverse'}",2025-03-27,68.4,239.7,73.0,43.6,canon medical,SG-03,/scans/2025/03/STU-00094_02.png,Canon Medical,False
-STU-00261,PT-1261,CLN-01,01/20/2025,23w0d,32,High,,,,23.0,{},,61.7,216.2,65.4,31.8,GE Healthcare,SG-11,/scans/2025/01/STU-00261_02.png,GE Healthcare,False
-STU-00174,PT-1174,CLN-07,20-Jun-2025,29w5d,26,Y,,,"{""twin"": false, ""presentation"": ""breech""}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",,82.3,294.8,75.5,45.8,canon medical,SG-02,/scans/2025/06/STU-00174_02.png,Canon Medical,False
-STU-00332,PT-1332,CLN-04,12/05/2025,99,42,N,3741.0,Live Birth ,,14.142857142857142,{},,43.3,153.9,47.3,24.1,ge healthcare,SG-01,/scans/2025/12/STU-00332_03.png,GE Healthcare,True
-STU-00042,PT-1042,CLN-06,16-May-2025,18.9,38,no ,3578.0,stillbirth,,18.9,{},,53.6,184.4,53.2,29.9,ge healthcare,SG-15,/scans/2025/05/STU-00042_03.png,GE Healthcare,False
-STU-00187,PT-1187,CLN-02,26-Sep-2024,20w3d,32,1,,,Patient reports normal fetal movement.,20.428571428571427,{},,58.4,200.7,57.7,35.5,GE Healthcare,SG-02,/scans/2024/09/STU-00187_03.png,GE Healthcare,False
-STU-00205,PT-1205,CLN-02,10/19/2025,,39,Low,2349.0,LiveBirth,Referred to MFM for further evaluation.,,{},,90.0,314.4,100.3,59.9,Canon,SG-11,/scans/2025/10/STU-00205_01.png,Canon Medical,False
-STU-00096,PT-1096,CLN-06,2024-10-07,19.9,31,Normal,2206.0,LiveBirth,,19.9,{},2024-10-07,56.9,198.1,60.6,30.4,Samsung Medison,SG-14,/scans/2024/10/STU-00096_02.png,Samsung,False
-STU-00107,PT-1107,CLN-01,04/02/2025,30w3d,38,Normal,2938.0,Live birth,,30.428571428571427,{},,72.0,253.0,83.0,44.0,Samsung Medison,SG-14,/scans/2025/04/STU-00107_03.png,Samsung,False
-STU-00404,PT-1404,CLN-05,09/15/2024,16w0d,23,,3.51,Live Birth ,,16.0,{},,44.0,145.9,50.8,26.2,Canon,SG-01,/scans/2024/09/STU-00404_02.png,Canon Medical,True
-STU-00093,PT-1093,CLN-06,01/28/2024,28.6,28,y,4275.0,live_birth,,28.6,{},,69.7,243.1,75.7,43.1,philips,SG-12,/scans/2024/01/STU-00093_01.png,Philips,False
-STU-00123,PT-1123,CLN-04,2025-10-28T00:00:00Z,34w6d,38,0,3191.0,LiveBirth,,34.857142857142854,{},,87.7,313.2,84.3,51.4,PHILIPS,SG-13,/scans/2025/10/STU-00123_02.png,Philips,False
-STU-00067,PT-1067,CLN-06,06-Nov-2024,28w4d,19,yes,3.86,Live birth,"Routine anatomy scan, no abnormalities noted.",28.571428571428573,{},,67.6,237.4,80.4,41.2,G.E. Healthcare,SG-06,/scans/2024/11/STU-00067_03.png,G.E. Healthcare,False
-STU-00379,PT-1379,CLN-06,2024-12-13T00:00:00Z,177,24,High,3012.0,stillbirth,,25.285714285714285,{},,68.4,237.9,66.3,36.0,philips,SG-02,/scans/2024/12/STU-00379_02.png,Philips,False
-STU-00024,PT-1024,CLN-07,2025-08-21T00:00:00Z,24 weeks,20,yes,,,,24.0,{},,69.2,245.7,66.5,36.1,canon medical,SG-13,/scans/2025/08/STU-00024_03.png,Canon Medical,False
-STU-00062,PT-1062,CLN-06,2025-03-10,24w2d,32,N,3375.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",24.285714285714285,"{'twin': False, 'presentation': 'transverse'}",2025-03-10,63.9,227.6,67.9,36.7,GE Healthcare,SG-04,/scans/2025/03/STU-00062_01.png,GE Healthcare,False
-STU-00040,PT-1040,CLN-06,2025-05-11,12.1,25,1,3.39,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",12.1,"{'twin': False, 'presentation': 'cephalic'}",2025-05-11,39.6,141.3,37.5,21.2,Philips Healthcare,SG-12,/scans/2025/05/STU-00040_03.png,Philips,True
-STU-00312,PT-1312,CLN-01,2025-09-02,,30,High,2.99,Live birth,,,{},2025-09-02,83.6,294.3,82.1,48.0,Philips Healthcare,SG-05,/scans/2025/09/STU-00312_03.png,Philips,False
-STU-00323,PT-1323,CLN-04,03-Jun-2024,31.0,25,,3108.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",31.0,"{'twin': False, 'presentation': 'cephalic'}",,77.6,259.8,82.7,45.7,PHILIPS,SG-11,/scans/2024/06/STU-00323_02.png,Philips,False
-STU-00099,PT-1099,CLN-07,23-Oct-2024,62,37,Low,3429.0,Live Birth ,Patient reports normal fetal movement.,8.857142857142858,{},,79.4,281.8,80.2,44.2,ge healthcare,SG-11,/scans/2024/10/STU-00099_01.png,GE Healthcare,True
-STU-00208,PT-1208,CLN-05,02/16/2024,25 weeks,21,,3313.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""",25.0,"{'twin': False, 'presentation': 'transverse'}",,63.3,217.5,64.9,35.1,canon medical,SG-03,/scans/2024/02/STU-00208_02.png,Canon Medical,False
-STU-00315,PT-1315,CLN-04,25-Feb-2024,16 weeks,38,Normal,3255.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",16.0,"{'twin': False, 'presentation': 'cephalic'}",,48.9,176.1,45.2,24.6,ge healthcare,SG-08,/scans/2024/02/STU-00315_01.png,GE Healthcare,True
-STU-00442,PT-1442,CLN-02,10/02/2024,24w2d,39,1,2.87,stillbirth,,24.285714285714285,{},,62.3,223.0,72.8,37.7,philips,SG-03,/scans/2024/10/STU-00442_02.png,Philips,False
-STU-00257,PT-1257,CLN-02,2024-06-05,24w6d,24,y,1908.0,Live Birth ,,24.857142857142858,{},2024-06-05,64.3,228.7,70.4,38.1,G.E. Healthcare,SG-09,/scans/2024/06/STU-00257_02.png,G.E. Healthcare,False
-STU-00128,PT-1128,CLN-04,2024-11-22,153,26,Low,3309.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",21.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",2024-11-22,56.3,189.9,64.1,36.7,Canon,SG-11,/scans/2024/11/STU-00128_01.png,Canon Medical,True
-STU-00083,PT-1083,CLN-03,06/10/2024,22.6,40,no ,,,Referred to MFM for further evaluation.,22.6,{},,60.1,210.2,58.2,33.1,samsung,SG-15,/scans/2024/06/STU-00083_03.png,Samsung,False
-STU-00412,PT-1412,CLN-07,05-Dec-2024,18w1d,31,Y,3.44,Live birth,,18.142857142857142,{},,51.9,172.0,59.4,27.6,Samsung,SG-05,/scans/2024/12/STU-00412_01.png,Samsung,True
-STU-00373,PT-1373,CLN-05,2024-09-16,144,38,,2935.0,Live birth,,20.571428571428573,{},2024-09-16,53.8,185.3,62.9,33.3,canon medical,SG-05,/scans/2024/09/STU-00373_02.png,Canon Medical,False
-STU-00028,PT-1028,CLN-06,2024-07-22,29.8,33,High,2721.0,Stillbirth,,29.8,{},2024-07-22,75.5,269.1,78.5,45.4,ge healthcare,SG-14,/scans/2024/07/STU-00028_01.png,GE Healthcare,False
-STU-00090,PT-1090,CLN-06,2025-11-19,39 weeks,30,High,2902.0,Live Birth ,,39.0,{},2025-11-19,93.2,323.1,91.2,53.4,G.E. Healthcare,SG-09,/scans/2025/11/STU-00090_03.png,G.E. Healthcare,False
-STU-00348,PT-1348,CLN-02,2024-01-21,20.7,40,no ,3522.0,Stillbirth,Follow-up recommended in 4 weeks.,20.7,{},2024-01-21,59.4,209.7,58.5,33.3,Canon Medical,SG-06,/scans/2024/01/STU-00348_03.png,Canon Medical,False
-STU-00074,PT-1074,CLN-03,2024-01-28,28w6d,36,N,4.12,stillbirth,"{""twin"": false, ""presentation"": ""cephalic"",}",28.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",2024-01-28,71.2,252.1,81.7,42.7,Philips Healthcare,SG-15,/scans/2024/01/STU-00074_02.png,Philips,False
-STU-00070,PT-1070,CLN-06,2024-03-27,175,38,,3563.0,Stillbirth,Referred to MFM for further evaluation.,25.0,{},2024-03-27,64.1,218.0,62.0,38.6,Samsung,SG-13,/scans/2024/03/STU-00070_01.png,Samsung,False
-STU-00186,PT-1186,CLN-05,2024-09-15,24.6,30,High,2870.0,Stillbirth,,24.6,{},2024-09-15,65.8,232.7,63.4,36.1,ge healthcare,SG-08,/scans/2024/09/STU-00186_01.png,GE Healthcare,False
-STU-00092,PT-1092,CLN-03,2025-09-19,26.9,20,y,3133.0,stillbirth,Follow-up recommended in 4 weeks.,26.9,{},2025-09-19,67.2,232.8,74.5,42.2,canon medical,SG-12,/scans/2025/09/STU-00092_02.png,Canon Medical,False
-STU-00341,PT-1341,CLN-04,2024-04-28,194,27,yes,,,"{""twin"": false, ""presentation"": ""breech""}",27.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-04-28,73.5,257.2,69.3,43.0,canon medical,SG-11,/scans/2024/04/STU-00341_02.png,Canon Medical,False
-STU-00222,PT-1222,CLN-06,2025-08-12,17.7,21,N,3428.0,live_birth,,17.7,{},2025-08-12,52.0,174.8,49.6,22.2,GE Healthcare,SG-12,/scans/2025/08/STU-00222_02.png,GE Healthcare,True
-STU-00338,,CLN-01,2024-05-06T00:00:00Z,12 weeks,41,Low,,,,12.0,{},,39.3,137.3,49.6,24.6,samsung,SG-13,/scans/2024/05/STU-00338_01.png,Samsung,True
-STU-00239,PT-1239,CLN-05,2024-10-05,22 weeks,31,y,2654.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2024-10-05,63.5,220.9,64.0,38.2,samsung,SG-02,/scans/2024/10/STU-00239_03.png,Samsung,False
-STU-00060,PT-1060,CLN-02,15-Mar-2025,139,25,,3178.0,stillbirth,,19.857142857142858,{},,56.8,195.5,58.9,33.9,samsung,SG-03,/scans/2025/03/STU-00060_01.png,Samsung,True
-STU-00346,PT-1346,CLN-04,14-May-2025,27.1,39,no ,2415.0,Stillbirth,,27.1,{},,69.1,235.7,67.4,39.8,samsung,SG-10,/scans/2025/05/STU-00346_02.png,Samsung,False
-STU-00202,PT-1202,CLN-07,29-Mar-2025,140,27,y,2992.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",20.0,"{'twin': False, 'presentation': 'cephalic'}",,52.8,185.5,58.1,27.8,Philips,SG-05,/scans/2025/03/STU-00202_02.png,Philips,False
-STU-00450,PT-1450,CLN-06,2025-07-29T00:00:00Z,32w4d,24,High,,,"{""twin"": false, ""presentation"": ""transverse""}",32.57142857142857,"{'twin': False, 'presentation': 'transverse'}",,79.5,275.6,80.6,43.9,ge healthcare,SG-07,/scans/2025/07/STU-00450_01.png,GE Healthcare,False
-STU-00321,PT-1321,CLN-06,2024-08-18,18.6,41,Y,,,,18.6,{},2024-08-18,51.5,188.6,49.4,28.7,canon medical,SG-09,/scans/2024/08/STU-00321_03.png,Canon Medical,False
-STU-00158,PT-1158,CLN-03,29-Feb-2024,27w6d,37,0,2514.0,LiveBirth,,27.857142857142858,{},,68.0,237.8,74.4,40.7,Philips Healthcare,SG-14,/scans/2024/02/STU-00158_02.png,Philips,False
-STU-00234,PT-1234,CLN-05,2025-12-03,23w4d,25,Normal,3307.0,stillbirth,Referred to MFM for further evaluation.,23.571428571428573,{},2025-12-03,58.3,206.8,69.0,34.6,Canon,SG-12,/scans/2025/12/STU-00234_01.png,Canon Medical,False
-STU-00234,PT-1234,CLN-05,2025-12-03,23w4d,25,Normal,3307.0,stillbirth,Referred to MFM for further evaluation.,23.571428571428573,{},2025-12-03,60.9,209.9,69.5,33.6,Canon,SG-10,/scans/2025/12/STU-00234_02.png,Canon Medical,False
-STU-00198,PT-1198,CLN-07,2024-09-11,,33,1,,,,,{},2024-09-11,79.1,274.9,84.3,47.0,Samsung Medison,SG-11,/scans/2024/09/STU-00198_03.png,Samsung,False
-STU-00365,PT-1365,CLN-04,2024-05-25,,31,High,3760.0,LiveBirth,Patient reports normal fetal movement.,,{},2024-05-25,50.3,180.6,55.9,32.0,Samsung Medison,SG-03,/scans/2024/05/STU-00365_02.png,Samsung,False
-STU-00226,PT-1226,CLN-06,2025-05-21,26.6,37,High,,,"{""twin"": false, ""presentation"": ""transverse""}",26.6,"{'twin': False, 'presentation': 'transverse'}",2025-05-21,71.5,252.2,66.7,40.5,Philips,SG-01,/scans/2025/05/STU-00226_02.png,Philips,False
-STU-00402,PT-1402,CLN-06,2025-01-01,28.1,41,0,,,Patient reports normal fetal movement.,28.1,{},2025-01-01,69.4,248.8,76.4,40.4,GE,SG-14,/scans/2025/01/STU-00402_03.png,GE Healthcare,False
-STU-00393,PT-1393,CLN-06,03/29/2025,33 weeks,38,y,3761.0,stillbirth,,33.0,{},,81.8,281.7,87.6,51.0,GE,SG-01,/scans/2025/03/STU-00393_02.png,GE Healthcare,False
-STU-00089,PT-1089,CLN-07,2024-12-01T00:00:00Z,23w4d,21,no ,4008.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",23.571428571428573,"{'twin': False, 'presentation': 'transverse'}",,62.1,219.6,67.7,32.1,Samsung,SG-10,/scans/2024/12/STU-00089_01.png,Samsung,False
-STU-00132,PT-1132,CLN-05,24-Feb-2024,32.1,26,Normal,3663.0,stillbirth,Follow-up recommended in 4 weeks.,32.1,{},,79.1,277.7,83.5,44.2,GE,SG-04,/scans/2024/02/STU-00132_02.png,GE Healthcare,False
-STU-00125,PT-1125,CLN-06,06/06/2024,14w6d,21,yes,2841.0,stillbirth,Follow-up recommended in 4 weeks.,14.857142857142858,{},,43.9,157.9,42.5,29.6,GE,SG-03,/scans/2024/06/STU-00125_03.png,GE Healthcare,True
-STU-00362,PT-1362,CLN-07,2024-09-29,20w5d,27,y,,,"Routine anatomy scan, no abnormalities noted.",20.714285714285715,{},2024-09-29,61.1,211.9,60.3,34.7,Philips,SG-04,/scans/2024/09/STU-00362_02.png,Philips,False
-STU-00015,PT-1015,CLN-07,10-Feb-2024,32w6d,21,no ,2967.0,live_birth,,32.857142857142854,{},,79.6,281.0,86.9,48.5,Philips Healthcare,SG-15,/scans/2024/02/STU-00015_01.png,Philips,False
-STU-00355,PT-1355,CLN-07,2024-11-16,29w6d,26,0,3166.0,live_birth,,29.857142857142858,{},2024-11-16,77.2,274.7,77.8,45.4,G.E. Healthcare,SG-02,/scans/2024/11/STU-00355_03.png,G.E. Healthcare,False
-STU-00209,PT-1209,CLN-07,2025-10-25,24.2,19,N,,,,24.2,{},2025-10-25,61.3,212.5,66.6,33.8,Samsung,SG-12,/scans/2025/10/STU-00209_03.png,Samsung,False
-STU-00124,PT-1124,CLN-01,2025-07-31,23w1d,31,Y,3563.0,Live Birth ,,23.142857142857142,{},2025-07-31,60.5,212.5,57.8,36.2,canon medical,SG-05,/scans/2025/07/STU-00124_02.png,Canon Medical,False
-STU-00139,PT-1139,CLN-06,17-Dec-2025,28w1d,22,0,3643.0,stillbirth,,28.142857142857142,{},,69.9,244.5,76.7,39.3,canon medical,SG-04,/scans/2025/12/STU-00139_01.png,Canon Medical,False
-STU-00052,PT-1052,CLN-01,2024-11-07T00:00:00Z,31w5d,26,Normal,4078.0,Stillbirth,,31.714285714285715,{},,76.9,271.3,80.8,46.0,G.E. Healthcare,SG-05,/scans/2024/11/STU-00052_03.png,G.E. Healthcare,False
-STU-00010,PT-1010,CLN-05,11/08/2025,26w6d,27,y,3.79,Live birth,Follow-up recommended in 4 weeks.,26.857142857142858,{},,65.9,229.4,72.8,41.9,GE,SG-11,/scans/2025/11/STU-00010_01.png,GE Healthcare,False
-STU-00364,PT-1364,CLN-05,2025-11-17T00:00:00Z,141,41,High,4773.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""",20.142857142857142,"{'twin': False, 'presentation': 'transverse'}",,51.8,190.3,56.0,31.0,Canon,SG-06,/scans/2025/11/STU-00364_02.png,Canon Medical,False
-STU-00237,PT-1237,CLN-03,09/11/2025,22w4d,21,Low,3489.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""",22.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",,64.2,222.4,62.4,37.2,GE,SG-02,/scans/2025/09/STU-00237_01.png,GE Healthcare,False
-STU-00001,PT-1001,CLN-06,03/14/2024,189,28,Normal,3138.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",27.0,"{'twin': False, 'presentation': 'cephalic'}",,70.0,250.5,68.0,39.9,samsung,SG-15,/scans/2024/03/STU-00001_02.png,Samsung,False
-STU-00313,PT-1313,CLN-01,06/01/2024,19.0,38,,3.0,live_birth,,19.0,{},,55.9,194.5,57.7,29.0,Canon Medical,SG-15,/scans/2024/06/STU-00313_01.png,Canon Medical,False
-STU-00106,PT-1106,CLN-07,2024-01-24T00:00:00Z,148,39,Normal,3628.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",21.142857142857142,"{'twin': False, 'presentation': 'transverse'}",,65.8,232.4,57.2,32.3,canon medical,SG-02,/scans/2024/01/STU-00106_01.png,Canon Medical,False
-STU-00245,PT-1245,CLN-02,10/06/2025,27.7,20,yes,3780.0,stillbirth,Follow-up recommended in 4 weeks.,27.7,{},,68.6,241.1,67.6,42.4,PHILIPS,SG-13,/scans/2025/10/STU-00245_03.png,Philips,False
-STU-00432,PT-1432,CLN-01,2025-12-30,29 weeks,23,N,4185.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse"",}",29.0,"{'twin': False, 'presentation': 'transverse'}",2025-12-30,74.0,255.7,79.0,45.4,Samsung Medison,SG-01,/scans/2025/12/STU-00432_02.png,Samsung,False
-STU-00435,PT-1435,CLN-01,2025-11-11T00:00:00Z,20.2,25,Normal,3405.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",20.2,"{'twin': False, 'presentation': 'cephalic'}",,57.4,194.6,57.8,30.7,philips,SG-10,/scans/2025/11/STU-00435_01.png,Philips,False
-STU-00269,PT-1269,CLN-05,18-Oct-2025,24.7,41,Y,3931.0,stillbirth,,24.7,{},,65.5,225.9,64.9,35.7,GE,SG-15,/scans/2025/10/STU-00269_02.png,GE Healthcare,False
-STU-00381,PT-1381,CLN-02,2025-05-13,23w4d,32,no ,2104.0,Stillbirth,,23.571428571428573,{},2025-05-13,62.9,218.6,65.8,36.7,Canon,SG-13,/scans/2025/05/STU-00381_01.png,Canon Medical,False
-STU-00071,PT-1071,CLN-02,2024-05-20,213,25,no ,3894.0,LiveBirth,Patient reports normal fetal movement.,30.428571428571427,{},2024-05-20,74.7,259.7,83.9,44.3,philips,SG-07,/scans/2024/05/STU-00071_03.png,Philips,False
-STU-00429,PT-1429,CLN-01,2025-11-22,21w6d,27,no ,4039.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}",21.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-11-22,62.7,219.1,56.1,31.5,philips,SG-04,/scans/2025/11/STU-00429_02.png,Philips,False
-STU-00039,PT-1039,CLN-01,2024-11-18,102,39,Y,4100.0,live_birth,,14.571428571428571,{},2024-11-18,43.5,150.4,44.0,25.2,GE,SG-15,/scans/2024/11/STU-00039_02.png,GE Healthcare,True
-STU-00151,PT-1151,CLN-05,02/26/2025,,35,N,3388.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",,62.8,218.9,63.5,36.7,samsung,SG-07,/scans/2025/02/STU-00151_02.png,Samsung,False
-STU-00390,PT-1390,CLN-01,2025-12-12,129,26,Low,3601.0,Live birth,Follow-up recommended in 4 weeks.,18.428571428571427,{},2025-12-12,56.2,189.3,49.9,25.9,samsung,SG-08,/scans/2025/12/STU-00390_02.png,Samsung,False
-STU-00164,PT-1164,CLN-04,2024-12-25,31.3,23,,3534.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",31.3,"{'twin': False, 'presentation': 'breech'}",2024-12-25,77.1,271.7,78.2,46.6,Samsung,SG-02,/scans/2024/12/STU-00164_02.png,Samsung,False
-STU-00168,PT-1168,CLN-02,12/14/2025,34w1d,26,y,,,"Routine anatomy scan, no abnormalities noted.",34.142857142857146,{},,85.7,302.7,88.4,51.3,Philips Healthcare,SG-15,/scans/2025/12/STU-00168_02.png,Philips,False
-STU-00409,PT-1409,CLN-07,2024-07-17T00:00:00Z,30.0,40,yes,3144.0,Live birth,Referred to MFM for further evaluation.,30.0,{},,75.0,262.8,69.1,43.5,Samsung Medison,SG-03,/scans/2024/07/STU-00409_03.png,Samsung,False
-STU-00231,PT-1231,CLN-02,2024-04-19,,37,Y,3000.0,Live Birth ,,,{},2024-04-19,37.4,135.0,37.6,16.8,samsung,SG-15,/scans/2024/04/STU-00231_01.png,Samsung,False
-STU-00252,PT-1252,CLN-02,08/06/2025,149,23,N,3449.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",21.285714285714285,"{'twin': False, 'presentation': 'cephalic'}",,56.9,189.9,61.2,33.4,canon medical,SG-09,/scans/2025/08/STU-00252_02.png,Canon Medical,False
-STU-00424,PT-1424,CLN-04,06/11/2024,24.9,25,,3073.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",24.9,"{'twin': False, 'presentation': 'breech'}",,64.3,222.6,74.3,36.8,Samsung Medison,SG-10,/scans/2024/06/STU-00424_02.png,Samsung,False
-STU-00243,,CLN-01,2024-06-03,18w6d,40,yes,3310.0,LiveBirth,,18.857142857142858,{},2024-06-03,56.1,197.9,59.6,30.8,G.E. Healthcare,SG-14,/scans/2024/06/STU-00243_01.png,G.E. Healthcare,False
-STU-00311,PT-1311,CLN-04,2024-06-10,20w4d,28,N,3106.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}",20.571428571428573,"{'twin': False, 'presentation': 'breech'}",2024-06-10,60.4,206.7,51.7,34.3,Samsung Medison,SG-03,/scans/2024/06/STU-00311_02.png,Samsung,True
-STU-00324,PT-1324,CLN-03,05/12/2025,23 weeks,39,High,3025.0,LiveBirth,,23.0,{},,65.9,235.1,63.6,34.6,GE,SG-03,/scans/2025/05/STU-00324_02.png,GE Healthcare,False
-STU-00161,PT-1161,CLN-01,2024-12-10,29w4d,41,,3288.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",29.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-12-10,75.4,263.5,82.9,42.1,Philips Healthcare,SG-05,/scans/2024/12/STU-00161_02.png,Philips,False
-STU-00363,PT-1363,CLN-02,01/13/2025,24w3d,39,Low,3003.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",24.428571428571427,"{'twin': False, 'presentation': 'transverse'}",,63.7,231.3,65.3,36.0,GE Healthcare,SG-08,/scans/2025/01/STU-00363_02.png,GE Healthcare,False
-STU-00248,PT-1248,CLN-02,2025-08-03,178,21,y,1692.0,live_birth,"Routine anatomy scan, no abnormalities noted.",25.428571428571427,{},2025-08-03,70.4,241.4,65.6,39.4,Philips,SG-13,/scans/2025/08/STU-00248_03.png,Philips,False
-STU-00274,PT-1274,CLN-02,2025-07-14,29 weeks,27,1,,,"{""twin"": false, ""presentation"": ""cephalic"",}",29.0,"{'twin': False, 'presentation': 'cephalic'}",2025-07-14,78.4,267.1,77.6,40.6,samsung,SG-07,/scans/2025/07/STU-00274_01.png,Samsung,False
-STU-00268,PT-1268,CLN-02,2024-07-28,,34,yes,3174.0,Live Birth ,,,{},2024-07-28,54.2,186.5,55.3,29.2,samsung,SG-10,/scans/2024/07/STU-00268_03.png,Samsung,False
-STU-00443,PT-1443,CLN-02,2025-05-29T00:00:00Z,131,39,Y,2606.0,Live Birth ,,18.714285714285715,{},,60.4,210.7,49.2,33.1,ge healthcare,SG-05,/scans/2025/05/STU-00443_01.png,GE Healthcare,True
-STU-00233,PT-1233,CLN-05,2024-04-13,25w6d,25,0,3365.0,live_birth,,25.857142857142858,{},2024-04-13,65.7,234.0,68.7,37.3,samsung,SG-10,/scans/2024/04/STU-00233_02.png,Samsung,False
-STU-00370,PT-1370,CLN-04,10/18/2024,28w2d,20,Normal,2906.0,Stillbirth,Patient reports normal fetal movement.,28.285714285714285,{},,74.6,261.4,79.7,40.6,Canon,SG-10,/scans/2024/10/STU-00370_02.png,Canon Medical,False
-STU-00416,PT-1416,CLN-04,10/01/2024,147,18,0,,,"{""twin"": false, ""presentation"": ""cephalic""}",21.0,"{'twin': False, 'presentation': 'cephalic'}",,63.4,223.5,55.6,33.4,canon medical,SG-06,/scans/2024/10/STU-00416_01.png,Canon Medical,True
-STU-00250,PT-1250,CLN-02,2024-04-11,20w4d,33,y,3283.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",20.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2024-04-11,59.3,203.6,58.2,30.4,Canon Medical,SG-01,/scans/2024/04/STU-00250_02.png,Canon Medical,False
-STU-00382,PT-1382,CLN-07,14-Apr-2024,31w4d,19,0,2517.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",31.571428571428573,"{'twin': False, 'presentation': 'breech'}",,75.6,268.2,83.5,47.0,samsung,SG-04,/scans/2024/04/STU-00382_01.png,Samsung,False
-STU-00148,PT-1148,CLN-04,2024-08-17,202,25,N,2462.0,Live birth,,28.857142857142858,{},2024-08-17,73.4,257.9,76.9,44.4,G.E. Healthcare,SG-05,/scans/2024/08/STU-00148_02.png,G.E. Healthcare,False
-STU-00101,PT-1101,CLN-02,02-Apr-2025,35w0d,27,Y,3667.0,stillbirth,,35.0,{},,81.5,284.2,84.6,49.6,Samsung Medison,SG-05,/scans/2025/04/STU-00101_01.png,Samsung,False
-STU-00035,PT-1035,CLN-04,11/08/2024,,18,0,2931.0,live_birth,"Routine anatomy scan, no abnormalities noted.",,{},,50.2,173.6,56.3,29.0,Samsung,SG-05,/scans/2024/11/STU-00035_01.png,Samsung,False
-STU-00189,PT-1189,CLN-07,2024-02-16,27.0,26,yes,3646.0,LiveBirth,"Routine anatomy scan, no abnormalities noted.",27.0,{},2024-02-16,69.5,240.2,71.4,40.8,samsung,SG-13,/scans/2024/02/STU-00189_03.png,Samsung,False
-STU-00176,PT-1176,CLN-01,2025-11-29,23.2,18,Y,,,,23.2,{},2025-11-29,63.0,217.8,65.0,34.6,samsung,SG-08,/scans/2025/11/STU-00176_02.png,Samsung,False
-STU-00054,PT-1054,CLN-03,2024-09-06T00:00:00Z,26w2d,34,no ,,,"{""twin"": false, ""presentation"": ""cephalic""}",26.285714285714285,"{'twin': False, 'presentation': 'cephalic'}",,65.3,233.2,76.4,38.3,ge healthcare,SG-09,/scans/2024/09/STU-00054_01.png,GE Healthcare,False
-STU-00228,,CLN-02,2025-02-20,23.8,38,N,3122.0,Stillbirth,,23.8,{},2025-02-20,61.2,215.8,59.1,36.3,PHILIPS,SG-15,/scans/2025/02/STU-00228_02.png,Philips,False
-STU-00420,PT-1420,CLN-06,2024-08-02,211,20,yes,3344.0,Live Birth ,Follow-up recommended in 4 weeks.,30.142857142857142,{},2024-08-02,80.4,285.2,74.0,45.9,Samsung,SG-05,/scans/2024/08/STU-00420_03.png,Samsung,False
-STU-00449,PT-1449,CLN-06,09/20/2024,20.9,40,no ,3112.0,LiveBirth,,20.9,{},,62.5,214.7,57.6,33.5,samsung,SG-12,/scans/2024/09/STU-00449_03.png,Samsung,False
-STU-00155,PT-1155,CLN-03,2024-03-17,36 weeks,37,1,,,,36.0,{},2024-03-17,82.8,296.1,90.5,50.8,GE,SG-12,/scans/2024/03/STU-00155_03.png,GE Healthcare,False
-STU-00020,PT-1020,CLN-04,2025-03-28,19.5,41,1,3406.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",19.5,"{'twin': False, 'presentation': 'cephalic'}",2025-03-28,55.4,192.2,53.3,30.4,philips,SG-08,/scans/2025/03/STU-00020_01.png,Philips,True
-STU-00326,PT-1326,CLN-02,2025-06-30,20w2d,30,1,3285.0,stillbirth,,20.285714285714285,{},2025-06-30,58.9,209.2,62.4,32.8,Canon,SG-13,/scans/2025/06/STU-00326_03.png,Canon Medical,False
-STU-00159,PT-1159,CLN-02,2025-08-29,26w1d,20,Low,3233.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",26.142857142857142,"{'twin': False, 'presentation': 'breech'}",2025-08-29,66.3,235.9,68.4,39.9,GE Healthcare,SG-04,/scans/2025/08/STU-00159_01.png,GE Healthcare,False
-STU-00308,PT-1308,CLN-01,11-Dec-2024,25w4d,29,,3673.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",25.571428571428573,"{'twin': False, 'presentation': 'transverse'}",,67.7,238.9,61.5,36.9,Philips Healthcare,SG-15,,Philips,False
-STU-00306,PT-1306,CLN-01,2025-08-03,40w0d,22,Y,2981.0,Stillbirth,Referred to MFM for further evaluation.,40.0,{},2025-08-03,92.5,319.6,104.1,55.3,philips,SG-07,/scans/2025/08/STU-00306_03.png,Philips,False
-STU-00276,PT-1276,CLN-05,2024-03-07,28.6,28,no ,3652.0,Live birth,Follow-up recommended in 4 weeks.,28.6,{},2024-03-07,69.6,245.0,72.9,40.1,canon medical,SG-13,/scans/2024/03/STU-00276_03.png,Canon Medical,False
-STU-00114,PT-1114,CLN-07,2025-10-07,21w6d,35,Low,,,,21.857142857142858,{},2025-10-07,59.0,205.5,64.9,30.1,GE Healthcare,SG-01,/scans/2025/10/STU-00114_03.png,GE Healthcare,False
-STU-00286,PT-1286,CLN-07,17-Nov-2025,16 weeks,20,y,,,"Routine anatomy scan, no abnormalities noted.",16.0,{},,52.9,183.6,47.3,25.9,Canon Medical,SG-15,/scans/2025/11/STU-00286_01.png,Canon Medical,True
-STU-00212,PT-1212,CLN-05,2025-08-03,25w0d,3,0,3442.0,LiveBirth,"Routine anatomy scan, no abnormalities noted.",25.0,{},2025-08-03,62.2,218.4,61.8,37.3,samsung,SG-03,/scans/2025/08/STU-00212_02.png,Samsung,False
-STU-00109,PT-1109,CLN-04,07-Jul-2024,30 weeks,28,1,2886.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",30.0,"{'twin': False, 'presentation': 'cephalic'}",,71.3,251.6,75.2,43.9,Samsung Medison,SG-14,/scans/2024/07/STU-00109_01.png,Samsung,False
-STU-00387,PT-1387,CLN-03,2025-03-08T00:00:00Z,29w5d,41,,2883.0,Live birth,Patient reports normal fetal movement.,29.714285714285715,{},,76.3,274.3,74.7,42.7,PHILIPS,SG-13,/scans/2025/03/STU-00387_02.png,Philips,False
-STU-00170,PT-1170,CLN-04,2024-03-21T00:00:00Z,,39,y,3628.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",,"{'twin': False, 'presentation': 'transverse'}",,70.7,244.7,73.8,37.5,Samsung Medison,SG-01,/scans/2024/03/STU-00170_02.png,Samsung,False
-STU-00425,PT-1425,CLN-01,10/21/2024,31w5d,28,High,3636.0,Live Birth ,Patient reports normal fetal movement.,31.714285714285715,{},,78.0,274.2,87.4,43.4,G.E. Healthcare,SG-04,/scans/2024/10/STU-00425_03.png,G.E. Healthcare,False
-STU-00085,PT-1085,CLN-07,2024-05-07,16w1d,35,0,3235.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",16.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,46.6,169.2,51.2,24.0,Samsung Medison,SG-11,/scans/2024/05/STU-00085_03.png,Samsung,True
-STU-00009,PT-1009,CLN-07,2024-01-16T00:00:00Z,14 weeks,32,yes,3525.0,live_birth,,14.0,{},,41.2,138.7,48.8,22.6,Canon,SG-12,/scans/2024/01/STU-00009_02.png,Canon Medical,True
-STU-00033,PT-1033,CLN-01,2025-12-26,,18,1,3482.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",2025-12-26,61.7,211.7,68.6,36.5,ge healthcare,SG-02,/scans/2025/12/STU-00033_02.png,GE Healthcare,False
-STU-00100,PT-1100,CLN-02,01/15/2024,26.4,18,1,3637.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",26.4,"{'twin': False, 'presentation': 'cephalic'}",,69.7,242.5,68.7,39.2,Philips Healthcare,SG-01,/scans/2024/01/STU-00100_02.png,Philips,False
-STU-00437,PT-1437,CLN-02,2025-04-27,195,39,yes,,,,27.857142857142858,{},2025-04-27,77.6,266.9,69.3,39.0,philips,SG-05,/scans/2025/04/STU-00437_02.png,Philips,False
-STU-00369,PT-1369,CLN-06,2025-08-05,167,25,Y,2952.0,Live birth,,23.857142857142858,{},2025-08-05,59.9,208.2,67.0,36.1,Canon Medical,SG-03,/scans/2025/08/STU-00369_01.png,Canon Medical,False
-STU-00223,PT-1223,CLN-04,2025-01-05,25.8,23,no ,2455.0,stillbirth,,25.8,{},2025-01-05,70.2,250.3,61.1,37.4,Canon Medical,SG-08,/scans/2025/01/STU-00223_02.png,Canon Medical,False
-STU-00029,PT-1029,CLN-04,01/05/2025,175,39,no ,2652.0,Stillbirth,,25.0,{},,65.5,229.2,62.2,37.4,samsung,SG-02,/scans/2025/01/STU-00029_01.png,Samsung,False
-STU-00330,PT-1330,CLN-04,22-May-2024,21w1d,23,no ,3.48,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",21.142857142857142,"{'twin': False, 'presentation': 'breech'}",,53.3,183.5,56.4,30.7,Philips Healthcare,SG-15,/scans/2024/05/STU-00330_03.png,Philips,True
-STU-00056,PT-1056,CLN-05,02/14/2024,26.4,37,,3.14,Live Birth ,,26.4,{},,73.3,260.8,63.3,38.4,GE Healthcare,SG-02,/scans/2024/02/STU-00056_02.png,GE Healthcare,False
-STU-00428,PT-1428,CLN-04,2024-05-23,17w1d,34,y,,,"{""twin"": false, ""presentation"": ""transverse""}",17.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2024-05-23,46.0,163.6,45.0,30.2,ge healthcare,SG-03,/scans/2024/05/STU-00428_01.png,GE Healthcare,True
-STU-00350,PT-1350,CLN-05,04/07/2024,28.4,42,Normal,,,Referred to MFM for further evaluation.,28.4,{},,74.1,253.9,77.3,43.3,canon medical,SG-07,/scans/2024/04/STU-00350_03.png,Canon Medical,False
-STU-00049,PT-1049,CLN-03,2025-03-27,28w1d,20,Low,3232.0,Stillbirth,,28.142857142857142,{},2025-03-27,72.1,256.6,71.3,39.8,PHILIPS,SG-05,/scans/2025/03/STU-00049_02.png,Philips,False
-STU-00371,PT-1371,CLN-01,08-Mar-2025,23w5d,37,Y,2973.0,stillbirth,Follow-up recommended in 4 weeks.,23.714285714285715,{},,62.4,219.8,62.8,34.5,samsung,SG-13,/scans/2025/03/STU-00371_02.png,Samsung,False
-STU-00410,PT-1410,CLN-05,2024-12-17,18.9,36,1,,,Patient reports normal fetal movement.,18.9,{},2024-12-17,52.6,188.2,60.5,29.8,philips,SG-11,/scans/2024/12/STU-00410_01.png,Philips,True
-STU-00034,PT-1034,CLN-01,08/13/2025,28w2d,26,High,,,,28.285714285714285,{},,70.6,248.5,82.9,44.9,Philips Healthcare,SG-05,/scans/2025/08/STU-00034_02.png,Philips,False
-STU-00036,PT-1036,CLN-04,03/13/2024,195,41,,3993.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",27.857142857142858,"{'twin': False, 'presentation': 'breech'}",,71.9,247.3,68.2,39.6,PHILIPS,SG-10,/scans/2024/03/STU-00036_03.png,Philips,False
-STU-00278,PT-1278,CLN-07,04/30/2024,23.6,26,Y,3276.0,Live birth,,23.6,{},,66.4,228.4,69.1,38.3,samsung,SG-13,/scans/2024/04/STU-00278_03.png,Samsung,False
-STU-00235,PT-1235,CLN-02,2024-09-17,21w3d,22,Low,3765.0,LiveBirth,,21.428571428571427,{},2024-09-17,59.1,206.3,57.1,32.9,philips,SG-11,/scans/2024/09/STU-00235_02.png,Philips,False
-STU-00441,PT-1441,CLN-06,2025-08-23T00:00:00Z,33 weeks,28,1,3622.0,Stillbirth,,33.0,{},,79.4,275.8,86.2,49.0,GE Healthcare,SG-13,/scans/2025/08/STU-00441_03.png,GE Healthcare,False
-STU-00046,PT-1046,CLN-06,2024-07-03,23 weeks,33,0,2953.0,stillbirth,,23.0,{},2024-07-03,65.8,238.8,62.6,35.0,Canon,SG-02,/scans/2024/07/STU-00046_03.png,Canon Medical,False
-STU-00022,PT-1022,CLN-02,04/20/2025,19.4,41,yes,3276.0,Stillbirth,Referred to MFM for further evaluation.,19.4,{},,57.3,196.9,61.4,27.4,PHILIPS,SG-04,/scans/2025/04/STU-00022_03.png,Philips,True
-STU-00249,PT-1249,CLN-03,03/05/2024,26w3d,39,yes,2806.0,Live Birth ,,26.428571428571427,{},,62.9,225.2,68.2,44.4,GE,SG-04,/scans/2024/03/STU-00249_01.png,GE Healthcare,False
-STU-00200,PT-1200,CLN-07,08-Mar-2025,25w0d,27,,,,,25.0,{},,62.2,217.1,70.7,38.5,Philips,SG-04,/scans/2025/03/STU-00200_03.png,Philips,False
-STU-00138,PT-1138,CLN-04,2024-01-17,23w1d,130,0,2747.0,LiveBirth,Follow-up recommended in 4 weeks.,23.142857142857142,{},2024-01-17,58.6,197.4,58.9,33.0,Samsung Medison,SG-07,/scans/2024/01/STU-00138_03.png,Samsung,False
-STU-00025,PT-1025,CLN-02,2025-05-14,27w6d,37,,2650.0,live_birth,Follow-up recommended in 4 weeks.,27.857142857142858,{},2025-05-14,69.8,246.8,78.6,41.4,G.E. Healthcare,SG-03,/scans/2025/05/STU-00025_01.png,G.E. Healthcare,False
-STU-00185,PT-1185,CLN-01,2025-08-26,159,19,Normal,2505.0,Live birth,,22.714285714285715,{},2025-08-26,62.4,209.9,63.8,32.4,GE Healthcare,SG-08,/scans/2025/08/STU-00185_03.png,GE Healthcare,False
-STU-00206,PT-1206,CLN-05,2024-03-25T00:00:00Z,,42,Y,2584.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",,58.2,203.7,60.1,30.4,canon medical,SG-03,/scans/2024/03/STU-00206_01.png,Canon Medical,False
-STU-00135,PT-1135,CLN-03,2025-06-29,31w5d,40,High,3850.0,stillbirth,,31.714285714285715,{},2025-06-29,71.3,250.3,87.1,48.7,ge healthcare,SG-14,/scans/2025/06/STU-00135_03.png,GE Healthcare,False
-STU-00117,PT-1117,CLN-05,2024-02-13,27.7,40,High,,,,27.7,{},2024-02-13,64.9,234.2,68.2,39.4,GE,SG-04,,GE Healthcare,False
-STU-00213,PT-1213,CLN-01,14-Oct-2024,18.6,33,,,,,18.6,{},,53.4,188.4,50.4,28.6,canon medical,SG-09,/scans/2024/10/STU-00213_01.png,Canon Medical,False
-STU-00406,PT-1406,CLN-06,2025-10-02,66,41,,2978.0,Live Birth ,,9.428571428571429,{},2025-10-02,41.3,139.5,38.0,16.7,Philips,SG-13,/scans/2025/10/STU-00406_03.png,Philips,True
-STU-00411,PT-1411,CLN-06,04/23/2025,22.1,33,y,3561.0,Live birth,,22.1,{},,58.6,211.5,57.0,34.4,canon medical,SG-12,/scans/2025/04/STU-00411_01.png,Canon Medical,False
-STU-00299,PT-1299,CLN-02,2025-04-20,108,27,no ,,,"{""twin"": false, ""presentation"": ""breech""}",15.428571428571429,"{'twin': False, 'presentation': 'breech'}",2025-04-20,48.9,170.4,44.2,24.6,Canon Medical,SG-08,/scans/2025/04/STU-00299_02.png,Canon Medical,True
-STU-00232,PT-1232,CLN-04,15-Aug-2024,22.8,35,no ,,,Follow-up recommended in 4 weeks.,22.8,{},,59.9,218.3,60.5,36.1,Canon,SG-11,,Canon Medical,False
-STU-00218,PT-1218,CLN-01,05/08/2025,8.9,23,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}",8.9,"{'twin': False, 'presentation': 'transverse'}",,36.1,124.6,38.4,17.7,GE,SG-15,/scans/2025/05/STU-00218_01.png,GE Healthcare,True
-STU-00057,PT-1057,CLN-05,10/10/2025,31w1d,21,High,2662.0,stillbirth,,31.142857142857142,{},,81.6,287.2,80.9,45.7,Philips Healthcare,SG-07,/scans/2025/10/STU-00057_02.png,Philips,False
-STU-00354,PT-1354,CLN-01,11/17/2024,29 weeks,28,Low,3227.0,stillbirth,,29.0,{},,70.5,241.7,75.8,44.2,ge healthcare,SG-04,/scans/2024/11/STU-00354_02.png,GE Healthcare,False
-STU-00329,PT-1329,CLN-03,2024-01-13,,20,N,,,,,{},2024-01-13,60.6,219.6,55.6,32.6,Samsung,SG-07,/scans/2024/01/STU-00329_03.png,Samsung,False
-STU-00182,PT-1182,CLN-04,2024-05-26,219,22,,3518.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",31.285714285714285,"{'twin': False, 'presentation': 'cephalic'}",2024-05-26,79.3,281.9,80.1,48.9,GE,SG-07,/scans/2024/05/STU-00182_03.png,GE Healthcare,False
-STU-00098,PT-1098,CLN-04,05/03/2025,30w0d,32,Y,3573.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",30.0,"{'twin': False, 'presentation': 'cephalic'}",,67.4,236.8,81.1,41.0,Philips,SG-03,/scans/2025/05/STU-00098_02.png,Philips,False
-STU-00279,,CLN-06,2024-12-07,23.3,29,1,,,Follow-up recommended in 4 weeks.,23.3,{},2024-12-07,58.6,201.7,64.5,35.5,Philips Healthcare,SG-15,/scans/2024/12/STU-00279_01.png,Philips,False
-STU-00119,PT-1119,CLN-03,11-Sep-2025,21w6d,39,Y,3413.0,live_birth,,21.857142857142858,{},,58.2,204.7,61.9,33.4,Canon Medical,SG-04,/scans/2025/09/STU-00119_03.png,Canon Medical,False
-STU-00392,PT-1392,CLN-07,2025-01-21,19.1,40,no ,3396.0,live_birth,,19.1,{},2025-01-21,54.1,190.1,55.9,28.2,Canon,SG-06,/scans/2025/01/STU-00392_01.png,Canon Medical,True
-STU-00171,PT-1171,CLN-05,2025-08-24,20w1d,30,y,2982.0,Live birth,,20.142857142857142,{},2025-08-24,55.6,198.8,59.2,27.1,samsung,SG-01,/scans/2025/08/STU-00171_03.png,Samsung,False
-STU-00171,PT-1171,CLN-05,2025-08-24,20w1d,30,y,2982.0,Live birth,,20.142857142857142,{},2025-08-24,51.5,184.5,63.9,30.7,samsung,SG-08,/scans/2025/08/STU-00171_02.png,Samsung,False
-STU-00401,PT-1401,CLN-05,01-Feb-2024,31w4d,40,Normal,3384.0,stillbirth,,31.571428571428573,{},,78.2,268.1,82.2,48.9,Canon Medical,SG-13,/scans/2024/02/STU-00401_01.png,Canon Medical,False
-STU-00055,PT-1055,CLN-02,04/22/2024,21w4d,34,0,3.32,live_birth,"{""twin"": false, ""presentation"": ""transverse""",21.571428571428573,"{'twin': False, 'presentation': 'transverse'}",,57.9,215.7,54.2,31.4,Samsung Medison,SG-09,/scans/2024/04/STU-00055_03.png,Samsung,False
-STU-00199,PT-1199,CLN-02,10/01/2025,24 weeks,24,,3791.0,stillbirth,,24.0,{},,61.2,216.4,73.8,37.3,canon medical,SG-09,/scans/2025/10/STU-00199_03.png,Canon Medical,False
-STU-00183,PT-1183,CLN-04,2025-01-27,265,37,Low,3168.0,Stillbirth,,37.857142857142854,{},2025-01-27,87.9,310.6,94.6,55.6,samsung,SG-09,/scans/2025/01/STU-00183_01.png,Samsung,False
-STU-00104,PT-1104,CLN-01,2025-07-26,200,25,Y,3296.0,LiveBirth,,28.571428571428573,{},2025-07-26,78.8,276.3,75.5,43.6,G.E. Healthcare,SG-03,/scans/2025/07/STU-00104_01.png,G.E. Healthcare,False
-STU-00221,PT-1221,CLN-06,2024-05-13T00:00:00Z,28w6d,31,,3329.0,Live birth,,28.857142857142858,{},,71.7,253.0,79.7,42.4,Canon,SG-15,/scans/2024/05/STU-00221_03.png,Canon Medical,False
-STU-00131,PT-1131,CLN-02,2024-11-08,24w5d,25,y,,,Patient reports normal fetal movement.,24.714285714285715,{},2024-11-08,68.3,241.8,70.2,39.8,Philips Healthcare,SG-06,/scans/2024/11/STU-00131_02.png,Philips,False
-STU-00325,PT-1325,CLN-02,2025-12-29,30w6d,41,,2961.0,LiveBirth,"{""twin"": false, ""presentation"": ""breech""}",30.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-12-29,76.3,274.0,79.4,44.5,ge healthcare,SG-08,/scans/2025/12/STU-00325_02.png,GE Healthcare,False
-STU-00061,PT-1061,CLN-04,2024-03-12,23w2d,34,0,3381.0,LiveBirth,,23.285714285714285,{},2024-03-12,62.1,214.0,69.4,34.7,philips,SG-02,/scans/2024/03/STU-00061_03.png,Philips,False
-STU-00095,PT-1095,CLN-05,2024-12-16,25 weeks,25,High,3439.0,Stillbirth,,25.0,{},2024-12-16,68.0,240.1,70.5,37.0,Canon,SG-15,/scans/2024/12/STU-00095_02.png,Canon Medical,False
-STU-00149,PT-1149,CLN-05,2025-04-12,26.5,33,y,,,,26.5,{},2025-04-12,70.2,247.7,74.9,41.8,philips,SG-01,/scans/2025/04/STU-00149_01.png,Philips,False
-STU-00203,PT-1203,CLN-02,06/13/2024,26w2d,21,1,,,,26.285714285714285,{},,69.7,241.7,77.5,37.5,samsung,SG-02,/scans/2024/06/STU-00203_03.png,Samsung,False
-STU-00153,PT-1153,CLN-02,2025-12-03,31.1,32,Low,,,"{""twin"": false, ""presentation"": ""breech""}",31.1,"{'twin': False, 'presentation': 'breech'}",2025-12-03,75.3,264.3,81.9,45.1,samsung,SG-07,/scans/2025/12/STU-00153_01.png,Samsung,False
-STU-00011,PT-1011,CLN-04,2024-05-02T00:00:00Z,21.1,40,N,3116.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",21.1,"{'twin': False, 'presentation': 'transverse'}",,61.6,220.5,53.0,33.7,PHILIPS,SG-13,/scans/2024/05/STU-00011_02.png,Philips,True
-STU-00097,PT-1097,CLN-05,2025-12-13,223,31,Y,3313.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",31.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-12-13,79.7,269.6,87.8,42.6,Philips,SG-03,/scans/2025/12/STU-00097_03.png,Philips,False
-STU-00211,PT-1211,CLN-01,07/21/2024,28w1d,19,,,,"{""twin"": false, ""presentation"": ""cephalic""}",28.142857142857142,"{'twin': False, 'presentation': 'cephalic'}",,76.6,260.3,71.7,40.0,Canon,SG-12,/scans/2024/07/STU-00211_03.png,Canon Medical,False
-STU-00241,PT-1241,CLN-04,2025-07-28,206,30,Normal,,,,29.428571428571427,{},2025-07-28,72.8,254.5,80.2,44.5,samsung,SG-13,/scans/2025/07/STU-00241_03.png,Samsung,False
-STU-00343,PT-1343,CLN-04,2025-05-26,22.7,31,,3071.0,Live Birth ,,22.7,{},2025-05-26,61.8,207.6,68.0,32.8,GE Healthcare,SG-04,/scans/2025/05/STU-00343_02.png,GE Healthcare,False
-STU-00037,PT-1037,CLN-04,2024-05-07,17w6d,25,no ,2668.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",17.857142857142858,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,55.3,197.8,46.9,26.3,ge healthcare,SG-13,/scans/2024/05/STU-00037_03.png,GE Healthcare,True
-STU-00431,PT-1431,CLN-04,2025-03-14,27w6d,28,Normal,2.79,live_birth,Follow-up recommended in 4 weeks.,27.857142857142858,{},2025-03-14,74.8,263.8,77.7,40.0,Philips Healthcare,SG-08,/scans/2025/03/STU-00431_02.png,Philips,False
-STU-00021,PT-1021,CLN-07,2024-03-15,26.9,36,Normal,3083.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",26.9,"{'twin': False, 'presentation': 'cephalic'}",2024-03-15,69.4,250.8,79.4,36.1,Canon Medical,SG-14,/scans/2024/03/STU-00021_03.png,Canon Medical,False
-STU-00430,PT-1430,CLN-04,2024-01-29T00:00:00Z,29w4d,25,0,2635.0,stillbirth,Referred to MFM for further evaluation.,29.571428571428573,{},,74.3,264.2,78.3,44.3,Samsung Medison,SG-04,/scans/2024/01/STU-00430_03.png,Samsung,False
-STU-00076,PT-1076,CLN-06,2024-05-27,-4,19,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}",-4.0,"{'twin': False, 'presentation': 'transverse'}",2024-05-27,63.2,225.7,61.3,37.0,G.E. Healthcare,SG-07,/scans/2024/05/STU-00076_02.png,G.E. Healthcare,True
-STU-00201,PT-1201,CLN-01,02-Jan-2025,10 weeks,32,0,3255.0,stillbirth,"Routine anatomy scan, no abnormalities noted.",10.0,{},,40.2,140.9,36.8,17.0,Samsung Medison,SG-05,,Samsung,True
-STU-00078,PT-1078,CLN-06,2025-04-13,130,42,Low,3172.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",18.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-04-13,56.2,192.8,55.9,28.0,Samsung,SG-02,/scans/2025/04/STU-00078_03.png,Samsung,False
-STU-00264,PT-1264,CLN-02,03/30/2024,20.7,27,,,,"{""twin"": false, ""presentation"": ""cephalic""}",20.7,"{'twin': False, 'presentation': 'cephalic'}",,58.1,201.0,60.0,32.0,samsung,SG-11,/scans/2024/03/STU-00264_03.png,Samsung,False
-STU-00444,PT-1444,CLN-01,2025-08-22,148,130,Y,2759.0,live_birth,Referred to MFM for further evaluation.,21.142857142857142,{},2025-08-22,67.3,231.1,58.3,29.3,Canon,SG-06,/scans/2025/08/STU-00444_02.png,Canon Medical,False
-STU-00150,PT-1150,CLN-03,13-Oct-2025,,130,High,,,,,{},,80.1,284.5,82.5,47.4,PHILIPS,SG-04,/scans/2025/10/STU-00150_01.png,Philips,False
-STU-00395,PT-1395,CLN-07,2025-06-24,22w5d,39,1,3325.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",22.714285714285715,"{'twin': False, 'presentation': 'breech'}",2025-06-24,56.5,203.5,63.2,33.5,Samsung,SG-05,/scans/2025/06/STU-00395_01.png,Samsung,False
-STU-00003,PT-1003,CLN-06,12-Jun-2024,8w2d,34,yes,3628.0,Live birth,Referred to MFM for further evaluation.,8.285714285714286,{},,27.6,99.0,31.4,15.5,Samsung,SG-08,/scans/2024/06/STU-00003_02.png,Samsung,True
-STU-00263,PT-1263,CLN-03,2024-12-07,17w4d,36,Low,3236.0,Stillbirth,,17.571428571428573,{},2024-12-07,52.7,181.2,50.7,27.0,ge healthcare,SG-15,/scans/2024/12/STU-00263_01.png,GE Healthcare,True
-STU-00254,,CLN-01,10/18/2024,,21,High,2603.0,stillbirth,,,{},,83.1,294.3,92.2,51.3,Philips,SG-03,/scans/2024/10/STU-00254_01.png,Philips,False
-STU-00260,PT-1260,CLN-02,2025-09-27T00:00:00Z,20 weeks,37,N,3194.0,stillbirth,,20.0,{},,60.6,220.2,53.4,29.8,canon medical,SG-12,/scans/2025/09/STU-00260_03.png,Canon Medical,False
-STU-00334,PT-1334,CLN-01,05-Sep-2025,18 weeks,37,,2712.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",18.0,"{'twin': False, 'presentation': 'transverse'}",,49.7,169.9,53.9,29.1,PHILIPS,SG-07,/scans/2025/09/STU-00334_02.png,Philips,False
-STU-00322,PT-1322,CLN-04,2025-09-27,28.0,34,N,,,,28.0,{},2025-09-27,74.0,257.7,75.5,44.4,Samsung,SG-02,/scans/2025/09/STU-00322_01.png,Samsung,False
-STU-00152,PT-1152,CLN-06,2024-11-30,15w1d,34,y,,,Referred to MFM for further evaluation.,15.142857142857142,{},2024-11-30,44.2,155.3,45.8,25.0,Philips Healthcare,SG-14,/scans/2024/11/STU-00152_02.png,Philips,True
-STU-00407,PT-1407,CLN-04,2025-08-15,22 weeks,22,N,3.59,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2025-08-15,63.0,219.7,66.9,33.8,GE Healthcare,SG-07,/scans/2025/08/STU-00407_02.png,GE Healthcare,False
-STU-00191,PT-1191,CLN-07,2024-05-13,28 weeks,21,N,3671.0,stillbirth,,28.0,{},2024-05-13,72.5,256.6,76.8,44.2,Samsung Medison,SG-10,/scans/2024/05/STU-00191_03.png,Samsung,False
-STU-00075,PT-1075,CLN-03,08-Aug-2024,237,36,N,2579.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}",33.857142857142854,"{'twin': False, 'presentation': 'transverse'}",,83.7,295.5,90.8,48.7,canon medical,SG-09,,Canon Medical,False
-STU-00349,PT-1349,CLN-07,2025-11-14,27w4d,19,yes,3083.0,Stillbirth,,27.571428571428573,{},2025-11-14,65.8,225.5,67.8,39.2,Canon Medical,SG-02,/scans/2025/11/STU-00349_03.png,Canon Medical,False
-STU-00244,PT-1244,CLN-04,2024-01-13,23w1d,33,yes,,,,23.142857142857142,{},2024-01-13,58.1,205.7,66.8,34.4,Philips Healthcare,SG-05,/scans/2024/01/STU-00244_02.png,Philips,False
-STU-00436,PT-1436,CLN-07,2024-07-28,197,41,0,,,,28.142857142857142,{},2024-07-28,69.7,246.6,72.8,40.6,PHILIPS,SG-06,/scans/2024/07/STU-00436_02.png,Philips,False
-STU-00088,PT-1088,CLN-07,2024-12-19T00:00:00Z,21w5d,41,Low,,,"{""twin"": false, ""presentation"": ""breech""}",21.714285714285715,"{'twin': False, 'presentation': 'breech'}",,57.8,192.3,63.3,34.0,samsung,SG-14,/scans/2024/12/STU-00088_03.png,Samsung,False
-STU-00240,PT-1240,CLN-03,2025-02-26,28w1d,38,1,2618.0,Stillbirth,,28.142857142857142,{},2025-02-26,71.3,249.0,72.6,39.9,Samsung Medison,SG-09,/scans/2025/02/STU-00240_01.png,Samsung,False
-STU-00144,PT-1144,CLN-06,2025-02-15,14.9,26,High,,,Follow-up recommended in 4 weeks.,14.9,{},2025-02-15,40.1,136.8,45.6,20.8,Samsung Medison,SG-14,/scans/2025/02/STU-00144_02.png,Samsung,True
-STU-00375,PT-1375,CLN-03,25-Sep-2025,19.1,32,,2931.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",19.1,"{'twin': False, 'presentation': 'cephalic'}",,58.6,212.1,59.0,30.0,GE,SG-11,/scans/2025/09/STU-00375_02.png,GE Healthcare,False
-STU-00267,PT-1267,CLN-06,2024-01-27,23.3,24,y,3704.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",23.3,"{'twin': False, 'presentation': 'cephalic'}",2024-01-27,59.8,209.6,69.5,35.4,Canon Medical,SG-04,/scans/2024/01/STU-00267_02.png,Canon Medical,False
-STU-00289,PT-1289,CLN-01,12/29/2025,37.2,37,no ,,,"{""twin"": false, ""presentation"": ""breech""}",37.2,"{'twin': False, 'presentation': 'breech'}",,88.6,311.5,90.5,51.5,G.E. Healthcare,SG-11,/scans/2025/12/STU-00289_02.png,G.E. Healthcare,False
-STU-00137,PT-1137,CLN-06,04/05/2024,32.5,38,N,4369.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",32.5,"{'twin': False, 'presentation': 'breech'}",,76.5,274.7,83.9,47.2,Philips Healthcare,SG-11,/scans/2024/04/STU-00137_01.png,Philips,False
-STU-00137,PT-1137,CLN-06,04/05/2024,32.5,38,N,4369.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",32.5,"{'twin': False, 'presentation': 'breech'}",,76.5,265.0,77.2,46.7,Philips Healthcare,SG-13,/scans/2024/04/STU-00137_02.png,Philips,False
-STU-00167,PT-1167,CLN-01,29-Apr-2025,18w0d,24,,3074.0,LiveBirth,"{""twin"": false, ""presentation"": ""breech""}",18.0,"{'twin': False, 'presentation': 'breech'}",,54.3,186.1,54.2,28.7,Canon,SG-05,/scans/2025/04/STU-00167_02.png,Canon Medical,False
-STU-00084,PT-1084,CLN-03,2025-02-11T00:00:00Z,19.4,34,y,,,Referred to MFM for further evaluation.,19.4,{},,53.9,187.3,47.3,32.9,philips,SG-15,/scans/2025/02/STU-00084_01.png,Philips,False
-STU-00426,PT-1426,CLN-02,07-Oct-2024,24.6,26,0,2939.0,Live birth,Referred to MFM for further evaluation.,24.6,{},,68.5,241.4,69.7,38.2,Canon,SG-09,/scans/2024/10/STU-00426_01.png,Canon Medical,False
-STU-00156,PT-1156,CLN-01,01/26/2025,35w2d,31,High,3505.0,Stillbirth,,35.285714285714285,{},,83.4,297.1,89.6,52.6,Canon Medical,SG-03,/scans/2025/01/STU-00156_01.png,Canon Medical,False
-STU-00357,PT-1357,CLN-06,2025-01-06T00:00:00Z,29.0,35,yes,2922.0,LiveBirth,,29.0,{},,68.3,239.8,85.1,39.6,Philips Healthcare,SG-13,/scans/2025/01/STU-00357_03.png,Philips,False
-STU-00127,PT-1127,CLN-02,2024-12-19T00:00:00Z,24w6d,37,N,,,"{""twin"": false, ""presentation"": ""cephalic""}",24.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",,64.8,224.2,60.5,39.3,Philips Healthcare,SG-08,/scans/2024/12/STU-00127_02.png,Philips,False
-STU-00196,PT-1196,CLN-07,2025-02-06,22w4d,28,Normal,,,,22.571428571428573,{},2025-02-06,61.7,211.1,60.3,31.5,Canon,SG-09,/scans/2025/02/STU-00196_03.png,Canon Medical,False
-STU-00266,PT-1266,CLN-07,22-Nov-2024,17w4d,38,,1885.0,Live birth,,17.571428571428573,{},,52.9,181.6,51.2,27.6,Samsung Medison,SG-10,/scans/2024/11/STU-00266_03.png,Samsung,True
-STU-00427,PT-1427,CLN-01,03/15/2024,17.1,22,Normal,3226.0,Stillbirth,,17.1,{},,52.8,181.1,57.2,25.0,Canon,SG-11,/scans/2024/03/STU-00427_01.png,Canon Medical,True
-STU-00105,PT-1105,CLN-07,2025-10-18T00:00:00Z,26w6d,25,Normal,3301.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",26.857142857142858,"{'twin': False, 'presentation': 'transverse'}",,72.0,254.7,69.0,39.6,Samsung,SG-07,/scans/2025/10/STU-00105_01.png,Samsung,False
-STU-00105,PT-1105,CLN-07,2025-10-18T00:00:00Z,26w6d,25,Normal,3301.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",26.857142857142858,"{'twin': False, 'presentation': 'transverse'}",,67.4,234.0,69.9,39.1,Samsung,SG-04,/scans/2025/10/STU-00105_03.png,Samsung,False
-STU-00154,PT-1154,CLN-05,2025-07-17,151,34,Y,,,,21.571428571428573,{},2025-07-17,61.1,217.8,57.6,33.0,Samsung Medison,SG-02,/scans/2025/07/STU-00154_03.png,Samsung,False
-STU-00283,PT-1283,CLN-01,2025-04-15,18w0d,18,Y,2971.0,Live Birth ,,18.0,{},2025-04-15,54.7,197.0,56.9,24.5,Samsung,SG-11,/scans/2025/04/STU-00283_03.png,Samsung,False
-STU-00227,PT-1227,CLN-01,09-Oct-2024,28w3d,22,no ,,,,28.428571428571427,{},,74.7,260.2,78.2,43.4,samsung,SG-10,/scans/2024/10/STU-00227_02.png,Samsung,False
-STU-00227,PT-1227,CLN-01,09-Oct-2024,28w3d,22,no ,,,,28.428571428571427,{},,70.7,251.4,72.6,39.6,samsung,SG-04,/scans/2024/10/STU-00227_02.png,Samsung,False
-STU-00368,PT-1368,CLN-03,2024-01-27,29w5d,24,N,3115.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-01-27,76.2,266.2,83.4,40.7,ge healthcare,SG-08,/scans/2024/01/STU-00368_01.png,GE Healthcare,False
-STU-00026,PT-1026,CLN-04,2024-12-01,217,35,Normal,3593.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",31.0,"{'twin': False, 'presentation': 'breech'}",2024-12-01,78.2,268.8,81.0,47.9,GE Healthcare,SG-01,/scans/2024/12/STU-00026_01.png,GE Healthcare,False
-STU-00197,PT-1197,CLN-04,2024-01-05,23 weeks,31,yes,2438.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",23.0,"{'twin': False, 'presentation': 'transverse'}",2024-01-05,61.8,212.3,59.7,35.8,Samsung Medison,SG-10,/scans/2024/01/STU-00197_02.png,Samsung,False
-STU-00298,PT-1298,CLN-01,2024-12-17T00:00:00Z,20.0,30,yes,3722.0,stillbirth,,20.0,{},,56.4,195.5,60.1,26.2,Samsung,SG-14,/scans/2024/12/STU-00298_03.png,Samsung,False
-STU-00110,PT-1110,CLN-05,2024-07-14,24.0,18,N,,,"{""twin"": false, ""presentation"": ""transverse""}",24.0,"{'twin': False, 'presentation': 'transverse'}",2024-07-14,63.7,219.5,59.0,38.9,PHILIPS,SG-01,/scans/2024/07/STU-00110_02.png,Philips,False
-STU-00337,PT-1337,CLN-04,08-Dec-2025,22w1d,18,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}",22.142857142857142,"{'twin': False, 'presentation': 'transverse'}",,60.5,207.5,62.5,36.0,ge healthcare,SG-11,/scans/2025/12/STU-00337_01.png,GE Healthcare,False
-STU-00027,PT-1027,CLN-02,2024-05-09,14 weeks,33,High,3283.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",14.0,"{'twin': False, 'presentation': 'cephalic'}",2024-05-09,46.1,163.4,44.7,24.1,ge healthcare,SG-07,/scans/2024/05/STU-00027_03.png,GE Healthcare,True
-STU-00077,PT-1077,CLN-03,2024-01-17,23w4d,42,N,4254.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",23.571428571428573,"{'twin': False, 'presentation': 'breech'}",2024-01-17,59.0,212.9,61.1,36.7,canon medical,SG-13,/scans/2024/01/STU-00077_02.png,Canon Medical,False
-STU-00044,PT-1044,CLN-03,12/12/2024,29w5d,38,,3770.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",,74.3,269.0,74.2,47.5,GE,SG-05,/scans/2024/12/STU-00044_03.png,GE Healthcare,False
-STU-00281,PT-1281,CLN-06,01-Jul-2025,19w2d,28,High,3474.0,Live Birth ,,19.285714285714285,{},,58.4,210.5,59.5,29.2,Samsung,SG-02,/scans/2025/07/STU-00281_03.png,Samsung,False
-STU-00388,PT-1388,CLN-05,2025-11-19,161,32,no ,3274.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",23.0,"{'twin': False, 'presentation': 'breech'}",2025-11-19,61.3,217.4,66.7,35.4,G.E. Healthcare,SG-08,/scans/2025/11/STU-00388_01.png,G.E. Healthcare,False
-STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",13.571428571428571,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,44.7,156.5,41.9,25.7,Canon,SG-08,/scans/2024/05/STU-00439_03.png,Canon Medical,True
-STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",13.571428571428571,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,41.8,152.4,45.3,19.8,Canon,SG-06,/scans/2024/05/STU-00439_01.png,Canon Medical,True
-STU-00031,PT-1031,CLN-06,2025-02-20,28.9,29,yes,4.05,Live Birth ,Referred to MFM for further evaluation.,28.9,{},2025-02-20,78.8,276.4,77.8,39.6,canon medical,SG-12,/scans/2025/02/STU-00031_03.png,Canon Medical,False
-STU-00122,PT-1122,CLN-02,2024-03-05,29w5d,38,Low,3443.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech"",}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-03-05,73.4,262.3,76.8,42.3,Samsung Medison,SG-06,/scans/2024/03/STU-00122_02.png,Samsung,False
-STU-00116,PT-1116,CLN-06,2024-08-19,22w4d,41,,3520.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""",22.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-08-19,62.0,215.6,67.1,32.2,canon medical,SG-14,/scans/2024/08/STU-00116_02.png,Canon Medical,False
-STU-00265,PT-1265,CLN-05,01-Dec-2025,21w0d,28,no ,2572.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}",21.0,"{'twin': False, 'presentation': 'transverse'}",,58.3,202.6,55.8,32.5,GE,SG-03,/scans/2025/12/STU-00265_02.png,GE Healthcare,False
-STU-00210,PT-1210,CLN-04,23-Oct-2025,28w6d,25,High,,,,28.857142857142858,{},,73.4,265.4,71.0,40.1,canon medical,SG-11,/scans/2025/10/STU-00210_03.png,Canon Medical,False
-STU-00317,PT-1317,CLN-02,2024-09-10,20 weeks,34,1,3454.0,Live birth,"Routine anatomy scan, no abnormalities noted.",20.0,{},2024-09-10,54.9,196.4,63.2,30.9,Canon,SG-08,/scans/2024/09/STU-00317_03.png,Canon Medical,False
-STU-00385,PT-1385,CLN-05,2024-10-29,148,40,Low,3.75,Stillbirth,Patient reports normal fetal movement.,21.142857142857142,{},2024-10-29,58.9,204.7,60.1,29.0,canon medical,SG-13,/scans/2024/10/STU-00385_02.png,Canon Medical,False
-STU-00002,PT-1002,CLN-06,2024-11-18,11 weeks,25,1,2978.0,LiveBirth,Patient reports normal fetal movement.,11.0,{},2024-11-18,39.7,136.8,37.7,18.6,Philips Healthcare,SG-14,/scans/2024/11/STU-00002_01.png,Philips,True
-STU-00314,PT-1314,CLN-02,2024-01-30,31 weeks,34,y,3366.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",31.0,"{'twin': False, 'presentation': 'cephalic'}",2024-01-30,76.4,264.3,80.0,46.1,Canon Medical,SG-02,/scans/2024/01/STU-00314_02.png,Canon Medical,False
-STU-00318,PT-1318,CLN-01,25-Jul-2025,34w2d,25,Low,3071.0,Live Birth ,,34.285714285714285,{},,81.6,283.3,80.9,50.1,G.E. Healthcare,SG-14,/scans/2025/07/STU-00318_02.png,G.E. Healthcare,False
-STU-00320,PT-1320,CLN-06,07-Jan-2025,24w1d,29,Low,3494.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic"",}",24.142857142857142,"{'twin': False, 'presentation': 'cephalic'}",,66.8,233.6,58.5,38.9,canon medical,SG-12,/scans/2025/01/STU-00320_03.png,Canon Medical,False
-STU-00008,PT-1008,CLN-06,2025-10-31T00:00:00Z,13w0d,42,N,,,"{""twin"": false, ""presentation"": ""breech""",13.0,"{'twin': False, 'presentation': 'breech'}",,44.2,161.3,44.1,22.1,G.E. Healthcare,SG-11,/scans/2025/10/STU-00008_03.png,G.E. Healthcare,True
-STU-00445,PT-1445,CLN-03,18-Nov-2024,27.2,21,Y,3277.0,Live birth,,27.2,{},,68.1,239.1,68.8,39.6,Philips,SG-09,/scans/2024/11/STU-00445_03.png,Philips,False
-STU-00087,PT-1087,CLN-01,24-May-2025,11.5,42,0,3190.0,Live birth,Patient reports normal fetal movement.,11.5,{},,39.6,137.6,37.3,18.7,Samsung Medison,SG-12,/scans/2025/05/STU-00087_01.png,Samsung,True
-STU-00353,PT-1353,CLN-07,2024-11-13,20w2d,29,Y,,,,20.285714285714285,{},2024-11-13,59.0,207.5,55.8,33.1,Philips,SG-01,/scans/2024/11/STU-00353_03.png,Philips,False
-STU-00242,PT-1242,CLN-02,2024-03-11,24.2,41,High,2529.0,live_birth,,24.2,{},2024-03-11,60.6,205.0,69.0,38.2,samsung,SG-12,/scans/2024/03/STU-00242_01.png,Samsung,False
-STU-00216,PT-1216,CLN-03,04/15/2024,17 weeks,26,High,2374.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",17.0,"{'twin': False, 'presentation': 'transverse'}",,52.1,177.9,42.1,27.9,samsung,SG-06,/scans/2024/04/STU-00216_01.png,Samsung,True
-STU-00069,PT-1069,CLN-01,10/08/2025,14w3d,33,High,2930.0,Stillbirth,,14.428571428571429,{},,46.6,161.2,51.8,24.2,samsung,SG-07,/scans/2025/10/STU-00069_03.png,Samsung,True
-STU-00399,PT-1399,CLN-01,06/14/2024,21w0d,36,N,3987.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",21.0,"{'twin': False, 'presentation': 'transverse'}",,61.9,211.5,61.9,31.3,Samsung Medison,SG-12,/scans/2024/06/STU-00399_02.png,Samsung,False
-STU-00157,PT-1157,CLN-06,2025-06-22,21.0,32,Normal,3705.0,Live Birth ,Patient reports normal fetal movement.,21.0,{},2025-06-22,61.7,215.1,54.5,32.1,ge healthcare,SG-15,/scans/2025/06/STU-00157_03.png,GE Healthcare,False
-STU-00253,PT-1253,CLN-04,2024-12-26T00:00:00Z,,18,Normal,3163.0,Stillbirth,,,{},,56.5,203.8,60.6,29.6,samsung,SG-07,/scans/2024/12/STU-00253_02.png,Samsung,False
-STU-00396,PT-1396,CLN-03,2024-05-25,27w5d,26,N,,,"Routine anatomy scan, no abnormalities noted.",27.714285714285715,{},2024-05-25,69.4,245.2,72.9,43.3,ge healthcare,SG-09,/scans/2024/05/STU-00396_01.png,GE Healthcare,False
-STU-00403,PT-1403,CLN-05,2025-05-20,204,18,y,3.03,Live birth,,29.142857142857142,{},2025-05-20,73.3,259.4,75.2,45.7,Samsung,SG-12,,Samsung,False
-STU-00255,PT-1255,CLN-03,2025-08-19,24w2d,20,y,2963.0,Live Birth ,,24.285714285714285,{},2025-08-19,66.1,223.8,66.7,38.7,ge healthcare,SG-10,/scans/2025/08/STU-00255_01.png,GE Healthcare,False
-STU-00277,PT-1277,CLN-03,03/13/2025,23.8,30,Low,3375.0,stillbirth,,23.8,{},,60.5,209.7,67.2,36.5,PHILIPS,SG-01,,Philips,False
-STU-00179,PT-1179,CLN-04,2025-02-18,240,21,0,3892.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",34.285714285714285,"{'twin': False, 'presentation': 'transverse'}",2025-02-18,81.6,287.5,87.3,47.0,philips,SG-03,/scans/2025/02/STU-00179_02.png,Philips,False
-STU-00282,PT-1282,CLN-01,2024-07-25T00:00:00Z,26w3d,20,no ,,,Referred to MFM for further evaluation.,26.428571428571427,{},,67.4,234.6,67.7,40.3,Philips,SG-03,/scans/2024/07/STU-00282_03.png,Philips,False
-STU-00238,PT-1238,CLN-04,2025-07-15,34.8,33,N,3442.0,Live Birth ,Patient reports normal fetal movement.,34.8,{},2025-07-15,76.7,276.7,83.7,49.8,philips,SG-08,/scans/2025/07/STU-00238_02.png,Philips,False
-STU-00238,PT-1238,CLN-04,2025-07-15,34.8,33,N,3442.0,Live Birth ,Patient reports normal fetal movement.,34.8,{},2025-07-15,85.9,299.2,84.7,48.2,philips,SG-06,/scans/2025/07/STU-00238_01.png,Philips,False
-STU-00130,PT-1130,CLN-07,2025-05-16,19.6,34,y,,,,19.6,{},2025-05-16,54.5,185.5,55.3,32.6,Samsung Medison,SG-03,/scans/2025/05/STU-00130_03.png,Samsung,True
-STU-00145,PT-1145,CLN-02,2024-03-29T00:00:00Z,23.6,42,,3116.0,stillbirth,,23.6,{},,59.9,210.1,57.6,33.2,Samsung,SG-13,/scans/2024/03/STU-00145_02.png,Samsung,False
-STU-00336,,CLN-03,11/15/2024,24w1d,39,no ,3052.0,Live birth,,24.142857142857142,{},,63.8,226.6,62.1,35.0,philips,SG-03,/scans/2024/11/STU-00336_02.png,Philips,False
-STU-00134,PT-1134,CLN-06,2024-09-10,28w5d,37,N,2991.0,live_birth,"Routine anatomy scan, no abnormalities noted.",28.714285714285715,{},2024-09-10,74.3,254.4,77.3,40.2,philips,SG-13,/scans/2024/09/STU-00134_01.png,Philips,False
-STU-00204,PT-1204,CLN-03,2025-06-22,25w3d,18,Normal,2848.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",25.428571428571427,"{'twin': False, 'presentation': 'breech'}",2025-06-22,62.3,217.0,70.4,37.3,canon medical,SG-11,,Canon Medical,False
-STU-00256,PT-1256,CLN-07,2024-02-27T00:00:00Z,22 weeks,22,N,1979.0,Stillbirth,Referred to MFM for further evaluation.,22.0,{},,58.6,205.7,64.2,33.7,ge healthcare,SG-06,/scans/2024/02/STU-00256_03.png,GE Healthcare,False
-STU-00073,PT-1073,CLN-07,23-Jul-2024,32w6d,36,Low,3595.0,Live birth,,32.857142857142854,{},,79.9,282.9,84.3,48.3,Philips Healthcare,SG-04,/scans/2024/07/STU-00073_01.png,Philips,False
-STU-00397,PT-1397,CLN-04,2024-01-30,22 weeks,27,y,2826.0,live_birth,,22.0,{},2024-01-30,61.7,215.8,69.6,31.9,philips,SG-03,/scans/2024/01/STU-00397_02.png,Philips,False
-STU-00038,PT-1038,CLN-05,2025-10-29,,42,yes,3431.0,LiveBirth,,,{},2025-10-29,66.6,233.9,69.7,40.0,Samsung Medison,SG-09,/scans/2025/10/STU-00038_02.png,Samsung,False
-STU-00001,PT-1001,CLN-06,03/14/2024,189,28,Normal,3138.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",27.0,"{'twin': False, 'presentation': 'cephalic'}",,70.0,250.5,68.0,39.9,samsung,SG-15,/scans/2024/03/STU-00001_02.png,Samsung,False
-STU-00206,PT-1206,CLN-05,2024-03-25T00:00:00Z,,42,Y,2584.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",,58.2,203.7,60.1,30.4,canon medical,SG-03,/scans/2024/03/STU-00206_01.png,Canon Medical,False
-STU-00010,PT-1010,CLN-05,11/08/2025,26w6d,27,y,3.79,Live birth,Follow-up recommended in 4 weeks.,26.857142857142858,{},,65.9,229.4,72.8,41.9,GE,SG-11,/scans/2025/11/STU-00010_01.png,GE Healthcare,False
-STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",13.571428571428571,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,44.7,156.5,41.9,25.7,Canon,SG-08,/scans/2024/05/STU-00439_03.png,Canon Medical,True
-STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",13.571428571428571,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,41.8,152.4,45.3,19.8,Canon,SG-06,/scans/2024/05/STU-00439_01.png,Canon Medical,True
-STU-00314,PT-1314,CLN-02,2024-01-30,31 weeks,34,y,3366.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",31.0,"{'twin': False, 'presentation': 'cephalic'}",2024-01-30,76.4,264.3,80.0,46.1,Canon Medical,SG-02,/scans/2024/01/STU-00314_02.png,Canon Medical,False
+study_id,patient_id,clinic_id,scan_date,gestational_age_at_scan,maternal_age,risk_flag,birth_weight_g,outcome,notes,gestational_age_weeks,delivery_context,scan_date_parsed,bpd_mm,hc_mm,ac_mm,fl_mm,device_manufacturer_clean,n_measurement_sets,min_ga_weeks,early_review_flag
+STU-00446,PT-1446,CLN-06,2024-09-11,25.1,34,Normal,3620.0,LiveBirth,,25.1,{},2024-09-11,66.0,232.3,70.9,38.5,Samsung,1,18,False
+STU-00361,PT-1361,CLN-04,2025-09-24,26w6d,41,y,,,,26.857142857142858,{},2025-09-24,69.9,246.3,75.8,40.5,Canon Medical,1,22,False
+STU-00160,,CLN-04,2024-01-01,167,31,1,3129.0,Live birth,,23.857142857142858,{},2024-01-01,59.3,206.1,65.1,34.6,Samsung,1,22,False
+STU-00091,PT-1091,CLN-05,11/27/2025,24w2d,32,Low,3644.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse"",}",24.285714285714285,"{'twin': False, 'presentation': 'transverse'}",2025-11-27,66.0,231.1,62.5,36.2,Canon Medical,1,20,False
+STU-00048,PT-1048,CLN-03,01/09/2024,160,37,y,3227.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",22.857142857142858,"{'twin': False, 'presentation': 'breech'}",2024-01-09,55.3,198.7,60.4,38.9,Samsung,1,18,False
+STU-00297,PT-1297,CLN-02,2025-06-01,25w1d,36,High,3100.0,live_birth,Patient reports normal fetal movement.,25.142857142857142,{},2025-06-01,59.2,209.0,63.0,36.0,Samsung,1,20,False
+STU-00068,PT-1068,CLN-05,2024-06-03T00:00:00Z,182,28,N,3194.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",26.0,"{'twin': False, 'presentation': 'transverse'}",2024-06-03,61.7,221.4,69.1,41.3,Samsung,1,20,False
+STU-00386,PT-1386,CLN-07,21-Jul-2024,26.5,28,1,3035.0,Stillbirth,,26.5,{},2024-07-21,63.9,223.2,73.5,40.0,GE Healthcare,1,20,False
+STU-00063,PT-1063,CLN-07,2024-09-18,37.7,31,1,3383.0,stillbirth,,37.7,{},2024-09-18,85.2,304.3,95.6,54.4,Canon Medical,1,20,False
+STU-00188,PT-1188,CLN-06,2025-05-20,29.8,25,N,3338.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""",29.8,"{'twin': False, 'presentation': 'cephalic'}",2025-05-20,72.4,254.5,80.1,44.0,Samsung,1,18,False
+STU-00005,PT-1005,CLN-07,2024-11-10,20.4,37,yes,3069.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",20.4,"{'twin': False, 'presentation': 'breech'}",2024-11-10,59.1,202.4,62.4,32.3,Canon Medical,1,20,False
+STU-00408,PT-1408,CLN-07,2025-02-24,28.7,27,Normal,2235.0,Live birth,Referred to MFM for further evaluation.,28.7,{},2025-02-24,73.3,260.7,73.4,41.0,Philips,1,20,False
+STU-00378,PT-1378,CLN-05,2024-01-20,28w6d,23,Normal,3521.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",28.857142857142858,"{'twin': False, 'presentation': 'transverse'}",2024-01-20,74.7,256.6,74.8,41.9,Philips,1,20,False
+STU-00066,PT-1066,CLN-03,2024-07-21,134,21,,2598.0,Live Birth ,,19.142857142857142,{},2024-07-21,48.8,172.2,57.6,31.9,Samsung,1,18,False
+STU-00398,PT-1398,CLN-05,2025-03-09T00:00:00Z,31w0d,37,y,3342.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",31.0,"{'twin': False, 'presentation': 'breech'}",2025-03-09,76.4,261.0,78.3,48.7,Canon Medical,1,20,False
+STU-00380,PT-1380,CLN-02,2024-06-26,26w5d,34,yes,3676.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",26.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-06-26,70.9,250.7,71.4,34.9,GE Healthcare,1,20,False
+STU-00275,PT-1275,CLN-02,2025-11-19,28.7,28,no ,,,"{""twin"": false, ""presentation"": ""transverse""}",28.7,"{'twin': False, 'presentation': 'transverse'}",2025-11-19,70.8,245.6,73.2,42.9,Samsung,1,20,False
+STU-00287,PT-1287,CLN-03,2025-02-05,21w4d,23,Low,3170.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",21.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-02-05,61.0,211.8,62.4,32.6,Philips,1,18,False
+STU-00319,PT-1319,CLN-02,01/14/2025,25w4d,29,Normal,3996.0,Live Birth ,Patient reports normal fetal movement.,25.571428571428573,{},2025-01-14,64.0,224.3,67.3,42.2,GE Healthcare,1,20,False
+STU-00225,PT-1225,CLN-02,2025-02-02T00:00:00Z,170,24,yes,3585.0,live_birth,"Routine anatomy scan, no abnormalities noted.",24.285714285714285,{},2025-02-02,54.3,190.7,57.0,30.6,Samsung,1,20,False
+STU-00383,PT-1383,CLN-04,2024-01-07,24w2d,36,N,2400.0,stillbirth,Patient reports normal fetal movement.,24.285714285714285,{},2024-01-07,61.8,212.2,65.8,37.0,Philips,1,22,False
+STU-00246,PT-1246,CLN-01,18-Aug-2025,32.7,19,N,,,,32.7,{},2025-08-18,82.4,286.0,83.1,47.5,GE Healthcare,1,18,False
+STU-00230,PT-1230,CLN-06,2024-12-16,28.9,38,y,2611.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",28.9,"{'twin': False, 'presentation': 'cephalic'}",2024-12-16,68.4,239.2,80.4,40.8,Samsung,1,18,False
+STU-00293,PT-1293,CLN-04,2025-11-04,25w3d,26,Normal,3319.0,Live Birth ,,25.428571428571427,{},2025-11-04,67.6,239.2,79.1,34.4,Canon Medical,1,22,False
+STU-00032,PT-1032,CLN-03,2024-09-14,23w6d,25,1,,,,23.857142857142858,{},2024-09-14,64.3,229.9,67.3,41.5,Samsung,1,18,False
+STU-00006,PT-1006,CLN-03,2025-02-12T00:00:00Z,21w5d,35,N,,,"{""twin"": false, ""presentation"": ""cephalic""}",21.714285714285715,"{'twin': False, 'presentation': 'cephalic'}",2025-02-12,55.6,189.5,64.9,38.8,Philips,1,18,False
+STU-00448,PT-1448,CLN-07,2025-04-23,22w1d,22,0,,,"{""twin"": false, ""presentation"": ""transverse""}",22.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2025-04-23,60.5,215.0,61.3,34.6,GE Healthcare,1,20,False
+STU-00120,PT-1120,CLN-01,2024-10-01,16.0,35,Low,3145.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""",16.0,"{'twin': False, 'presentation': 'breech'}",2024-10-01,55.3,196.2,46.1,25.0,Canon Medical,1,18,True
+STU-00300,PT-1300,CLN-03,06/26/2025,18 weeks,36,Normal,3321.0,LiveBirth,,18.0,{},2025-06-26,54.2,193.7,54.0,28.1,Canon Medical,1,18,False
+STU-00434,PT-1434,CLN-02,2025-01-19,30 weeks,21,yes,3442.0,stillbirth,,30.0,{},2025-01-19,75.6,264.5,81.3,45.8,Samsung,1,20,False
+STU-00356,PT-1356,CLN-04,05/01/2025,13 weeks,19,Low,2876.0,stillbirth,,13.0,{},2025-05-01,45.0,151.0,42.1,23.5,GE Healthcare,1,22,True
+STU-00018,PT-1018,CLN-05,2024-07-13,16w1d,18,no ,4525.0,live_birth,,16.142857142857142,{},2024-07-13,48.0,164.8,48.2,26.7,Samsung,1,20,True
+STU-00215,PT-1215,CLN-06,05/29/2024,20w6d,33,yes,,,"{""twin"": false, ""presentation"": ""cephalic"",}",20.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",2024-05-29,58.5,199.8,58.8,30.7,Samsung,1,18,False
+STU-00271,PT-1271,CLN-04,2024-01-26,205,18,yes,,,,29.285714285714285,{},2024-01-26,72.5,258.8,74.7,41.5,GE Healthcare,1,22,False
+STU-00173,PT-1173,CLN-07,2024-08-21,29w4d,37,High,3593.0,Live Birth ,,29.571428571428573,{},2024-08-21,77.4,273.9,77.3,46.6,Samsung,1,20,False
+STU-00129,PT-1129,CLN-06,2025-11-04,19.2,35,y,3170.0,LiveBirth,,19.2,{},2025-11-04,56.5,201.6,57.8,26.8,Philips,1,18,False
+STU-00165,PT-1165,CLN-01,12/12/2024,25.0,32,,,,"{""twin"": false, ""presentation"": ""cephalic"",}",25.0,"{'twin': False, 'presentation': 'cephalic'}",2024-12-12,62.3,227.7,67.4,38.5,Canon Medical,1,18,False
+STU-00258,PT-1258,CLN-06,13-May-2024,17w3d,42,y,,,"{""twin"": false, ""presentation"": ""transverse""}",17.428571428571427,"{'twin': False, 'presentation': 'transverse'}",2024-05-13,53.6,192.5,51.1,27.2,Samsung,1,18,True
+STU-00285,PT-1285,CLN-01,11/14/2024,30w5d,35,yes,3590.0,Live birth,,30.714285714285715,{},2024-11-14,76.3,260.8,73.8,43.8,Canon Medical,1,18,False
+STU-00423,PT-1423,CLN-05,2024-03-12,20w3d,19,Normal,3295.0,Live Birth ,,20.428571428571427,{},2024-03-12,57.6,201.6,57.6,30.4,Philips,1,20,False
+STU-00181,PT-1181,CLN-04,2024-04-30,21.0,22,N,3492.0,stillbirth,,21.0,{},2024-04-30,53.6,184.2,61.2,34.0,Philips,1,22,True
+STU-00172,PT-1172,CLN-04,05/27/2024,18w6d,36,Low,3190.0,LiveBirth,,18.857142857142858,{},2024-05-27,52.5,184.6,59.1,29.3,Samsung,1,22,True
+STU-00133,PT-1133,CLN-02,04/13/2025,17.5,33,y,,,,17.5,{},2025-04-13,54.7,190.7,47.9,29.1,Canon Medical,1,20,True
+STU-00345,PT-1345,CLN-05,17-Dec-2024,28w6d,41,Normal,3262.0,Live Birth ,,28.857142857142858,{},2024-12-17,71.0,258.4,71.7,44.6,Samsung,1,20,False
+STU-00219,PT-1219,CLN-04,2025-09-05T00:00:00Z,27 weeks,37,High,2954.0,Live Birth ,Patient reports normal fetal movement.,27.0,{},2025-09-05,72.6,256.9,73.4,39.4,Philips,1,22,False
+STU-00417,PT-1417,CLN-01,17-May-2024,8.2,39,Y,3202.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",8.2,"{'twin': False, 'presentation': 'breech'}",2024-05-17,33.7,118.2,32.8,16.3,Canon Medical,1,18,True
+STU-00384,PT-1384,CLN-07,12-Jun-2025,25w3d,21,Y,2530.0,LiveBirth,Follow-up recommended in 4 weeks.,25.428571428571427,{},2025-06-12,68.8,240.8,73.8,37.6,Philips,1,20,False
+STU-00389,PT-1389,CLN-06,2025-06-22,153,39,y,3391.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",21.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-06-22,58.7,207.1,60.6,33.6,Philips,1,18,False
+STU-00433,PT-1433,CLN-05,2025-04-04,24w5d,38,Y,,,,24.714285714285715,{},2025-04-04,61.4,217.7,60.8,38.3,Philips,1,20,False
+STU-00376,PT-1376,CLN-07,03-Oct-2025,19w1d,27,1,2410.0,live_birth,"Routine anatomy scan, no abnormalities noted.",19.142857142857142,{},2025-10-03,55.0,191.2,64.5,30.9,Philips,1,20,True
+STU-00438,PT-1438,CLN-04,07/29/2025,22w1d,33,1,3690.0,stillbirth,"Routine anatomy scan, no abnormalities noted.",22.142857142857142,{},2025-07-29,56.9,203.6,61.8,31.6,Samsung,1,22,False
+STU-00262,PT-1262,CLN-06,03-Jan-2025,20 weeks,42,0,3384.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",20.0,"{'twin': False, 'presentation': 'transverse'}",2025-01-03,57.4,202.7,55.9,30.9,Canon Medical,1,18,False
+STU-00102,PT-1102,CLN-02,2024-08-12T00:00:00Z,26.3,32,Low,3836.0,Stillbirth,,26.3,{},2024-08-12,65.9,230.8,69.7,42.6,GE Healthcare,1,20,False
+STU-00292,PT-1292,CLN-06,2025-01-26,28w3d,29,1,,,"{""twin"": false, ""presentation"": ""breech""}",28.428571428571427,"{'twin': False, 'presentation': 'breech'}",2025-01-26,69.2,242.5,79.3,40.1,Philips,1,18,False
+STU-00190,PT-1190,CLN-07,2024-06-19,25w6d,30,1,,,,25.857142857142858,{},2024-06-19,67.9,235.2,68.1,41.1,Philips,1,20,False
+STU-00290,PT-1290,CLN-02,22-May-2024,24.6,3,,,,Patient reports normal fetal movement.,24.6,{},2024-05-22,64.2,223.5,69.9,33.7,Samsung,1,20,False
+STU-00163,PT-1163,CLN-03,06/20/2024,15 weeks,30,Low,4084.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",15.0,"{'twin': False, 'presentation': 'cephalic'}",2024-06-20,47.2,160.5,43.4,28.1,Canon Medical,1,18,True
+STU-00272,PT-1272,CLN-05,2025-12-25,11.2,35,Normal,3140.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",11.2,"{'twin': False, 'presentation': 'transverse'}",2025-12-25,37.5,129.1,36.5,19.0,Philips,1,20,True
+STU-00422,PT-1422,CLN-05,10-Aug-2025,30w2d,36,no ,4605.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}",30.285714285714285,"{'twin': False, 'presentation': 'breech'}",2025-08-10,73.25,256.35,82.8,41.7,GE Healthcare,2,20,False
+STU-00224,PT-1224,CLN-03,2025-08-14,143,28,,,,"{""twin"": false, ""presentation"": ""transverse""}",20.428571428571427,"{'twin': False, 'presentation': 'transverse'}",2025-08-14,58.7,210.9,55.4,28.0,Canon Medical,1,18,False
+STU-00359,PT-1359,CLN-06,07/07/2024,36w1d,40,,2587.0,live_birth,,36.142857142857146,{},2024-07-07,82.5,294.0,87.5,55.1,Canon Medical,1,18,False
+STU-00351,PT-1351,CLN-05,2025-06-11,10w3d,21,no ,2779.0,stillbirth,"Routine anatomy scan, no abnormalities noted.",10.428571428571429,{},2025-06-11,39.6,140.9,37.4,19.8,GE Healthcare,1,20,True
+STU-00400,PT-1400,CLN-02,2025-11-09T00:00:00Z,25.6,34,Y,2762.0,Stillbirth,"Routine anatomy scan, no abnormalities noted.",25.6,{},2025-11-09,60.4,213.2,63.4,34.8,Canon Medical,1,20,False
+STU-00247,PT-1247,CLN-01,2024-05-08,19.3,19,Low,3492.0,stillbirth,,19.3,{},2024-05-08,57.1,204.3,58.1,31.0,Canon Medical,1,18,False
+STU-00405,PT-1405,CLN-02,2024-02-18,21w1d,3,Low,,,"{""twin"": false, ""presentation"": ""cephalic""}",21.142857142857142,"{'twin': False, 'presentation': 'cephalic'}",2024-02-18,52.7,186.0,54.1,30.8,Canon Medical,1,20,False
+STU-00192,PT-1192,CLN-06,2024-09-11,22.4,41,no ,3641.0,Stillbirth,,22.4,{},2024-09-11,56.3,201.5,56.2,36.5,Philips,1,18,False
+STU-00307,PT-1307,CLN-03,2025-12-13,29.8,39,,3392.0,Live birth,Referred to MFM for further evaluation.,29.8,{},2025-12-13,72.8,259.1,77.9,42.1,Canon Medical,1,18,False
+STU-00007,PT-1007,CLN-01,2024-12-04,31.2,39,1,2220.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",31.2,"{'twin': False, 'presentation': 'breech'}",2024-12-04,73.0,256.2,81.8,47.1,Canon Medical,1,18,False
+STU-00331,PT-1331,CLN-02,2025-01-25,29 weeks,24,y,3113.0,Live birth,,29.0,{},2025-01-25,67.6,236.1,76.2,42.7,Canon Medical,1,20,False
+STU-00295,PT-1295,CLN-07,2024-10-13,22 weeks,36,yes,3234.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2024-10-13,55.5,193.3,58.7,38.5,Samsung,1,20,False
+STU-00344,PT-1344,CLN-02,2024-01-31,32w4d,23,1,3668.0,Stillbirth,"Routine anatomy scan, no abnormalities noted.",32.57142857142857,{},2024-01-31,78.3,276.7,79.0,44.1,Canon Medical,1,20,False
+STU-00108,PT-1108,CLN-03,2024-05-26T00:00:00Z,23w4d,19,no ,3563.0,stillbirth,,23.571428571428573,{},2024-05-26,63.0,223.6,66.4,32.6,Canon Medical,1,18,False
+STU-00301,PT-1301,CLN-02,2025-06-16,32w6d,25,,,,"{""twin"": false, ""presentation"": ""breech""",32.857142857142854,"{'twin': False, 'presentation': 'breech'}",2025-06-16,77.1,270.9,86.1,44.6,Philips,1,20,False
+STU-00304,PT-1304,CLN-04,07/01/2024,27.1,26,y,3124.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",27.1,"{'twin': False, 'presentation': 'cephalic'}",2024-07-01,71.2,250.4,72.1,45.3,Canon Medical,1,22,False
+STU-00418,PT-1418,CLN-03,2024-03-25,28.5,24,High,3197.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",28.5,"{'twin': False, 'presentation': 'breech'}",2024-03-25,72.6,250.9,73.0,39.5,Samsung,1,18,False
+STU-00214,PT-1214,CLN-05,04/28/2025,29w1d,18,y,3544.0,Stillbirth,,29.142857142857142,{},2025-04-28,72.8,259.7,73.3,43.4,Philips,1,20,False
+STU-00059,PT-1059,CLN-01,2025-02-24,138,29,Y,3104.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",19.714285714285715,"{'twin': False, 'presentation': 'cephalic'}",2025-02-24,49.3,178.8,55.2,30.6,GE Healthcare,1,18,False
+STU-00340,PT-1340,CLN-01,04-Jul-2024,19w0d,28,Normal,,,"Routine anatomy scan, no abnormalities noted.",19.0,{},2024-07-04,54.5,191.5,52.4,29.1,Samsung,1,18,False
+STU-00079,PT-1079,CLN-04,02/13/2025,19w1d,39,yes,2555.0,LiveBirth,Patient reports normal fetal movement.,19.142857142857142,{},2025-02-13,54.0,189.2,46.2,29.8,Samsung,1,22,True
+STU-00316,PT-1316,CLN-02,2024-12-17,16w3d,29,y,2811.0,live_birth,,16.428571428571427,{},2024-12-17,50.0,180.0,50.6,24.0,Canon Medical,1,20,True
+STU-00415,PT-1415,CLN-03,09-May-2024,20 weeks,36,N,3739.0,live_birth,"Routine anatomy scan, no abnormalities noted.",20.0,{},2024-05-09,53.6,188.6,57.2,34.0,Philips,1,18,False
+STU-00294,PT-1294,CLN-05,25-May-2025,19.9,29,no ,2700.0,Live Birth ,,19.9,{},2025-05-25,55.5,190.3,54.9,33.7,GE Healthcare,1,20,True
+STU-00296,PT-1296,CLN-05,2024-12-05,160,19,Y,3107.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",22.857142857142858,"{'twin': False, 'presentation': 'transverse'}",2024-12-05,56.0,199.6,62.2,36.4,GE Healthcare,1,20,False
+STU-00019,PT-1019,CLN-06,2025-02-22,35.3,34,,3279.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",35.3,"{'twin': False, 'presentation': 'breech'}",2025-02-22,83.5,292.1,92.4,48.8,Samsung,1,18,False
+STU-00041,PT-1041,CLN-07,2025-05-09T00:00:00Z,24.3,32,y,2907.0,LiveBirth,,24.3,{},2025-05-09,61.4,216.6,60.8,32.6,Samsung,1,20,False
+STU-00339,PT-1339,CLN-02,06/01/2025,16.0,41,0,2821.0,Stillbirth,"{""twin"": true, ""presentation"": ""transverse"",}",16.0,"{'twin': True, 'presentation': 'transverse'}",2025-06-01,50.0,177.2,47.2,24.6,Canon Medical,1,20,True
+STU-00103,PT-1103,CLN-05,2025-06-01,27w1d,22,yes,,,,27.142857142857142,{},2025-06-01,65.2,225.5,65.2,39.0,Canon Medical,1,20,False
+STU-00440,PT-1440,CLN-06,01/29/2024,26w1d,22,,,,,26.142857142857142,{},2024-01-29,60.9,217.6,72.2,40.4,GE Healthcare,1,18,False
+STU-00352,PT-1352,CLN-06,03-Nov-2024,19 weeks,29,,,,"{""twin"": false, ""presentation"": ""breech""}",19.0,"{'twin': False, 'presentation': 'breech'}",2024-11-03,55.5,194.3,57.5,28.2,Philips,1,18,False
+STU-00447,PT-1447,CLN-07,2024-03-24,22 weeks,32,,2744.0,LiveBirth,Follow-up recommended in 4 weeks.,22.0,{},2024-03-24,64.1,225.3,62.0,33.1,Philips,1,20,False
+STU-00147,PT-1147,CLN-07,15-Apr-2024,20w6d,34,Y,,,Patient reports normal fetal movement.,20.857142857142858,{},2024-04-15,58.3,207.7,59.0,35.9,Philips,1,20,False
+STU-00081,PT-1081,CLN-03,2025-01-05,24.2,32,Low,3076.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",24.2,"{'twin': False, 'presentation': 'breech'}",2025-01-05,56.7,192.4,71.3,39.7,GE Healthcare,1,18,False
+STU-00047,PT-1047,CLN-03,2025-08-24,27.1,27,High,,,Referred to MFM for further evaluation.,27.1,{},2025-08-24,69.0,250.9,73.5,42.0,Samsung,1,18,False
+STU-00251,PT-1251,CLN-06,01-Mar-2025,33w4d,36,no ,,,"{""twin"": false, ""presentation"": ""breech"",}",33.57142857142857,"{'twin': False, 'presentation': 'breech'}",2025-03-01,85.2,294.9,85.5,48.3,GE Healthcare,1,18,False
+STU-00166,PT-1166,CLN-06,2024-10-15,34w5d,35,yes,,,,34.714285714285715,{},2024-10-15,83.1,282.7,86.9,48.7,Canon Medical,1,18,False
+STU-00086,PT-1086,CLN-05,2024-06-06,22 weeks,26,y,,,,22.0,{},2024-06-06,63.4,220.7,57.4,36.0,Samsung,1,20,False
+STU-00347,PT-1347,CLN-07,2025-01-10,8w1d,32,Low,3497.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",8.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2025-01-10,33.9,122.3,28.4,18.5,Samsung,1,20,True
+STU-00082,PT-1082,CLN-05,2024-04-30,22w4d,31,High,3590.0,live_birth,,22.571428571428573,{},2024-04-30,61.9,215.2,65.9,32.5,GE Healthcare,1,20,False
+STU-00305,,CLN-01,2025-11-11,22w1d,23,Y,3057.0,Live Birth ,,22.142857142857142,{},2025-11-11,60.1,207.4,54.8,32.6,Philips,1,18,False
+STU-00273,PT-1273,CLN-07,2025-04-01,19 weeks,26,Y,4043.0,Live Birth ,Patient reports normal fetal movement.,19.0,{},2025-04-01,58.5,203.0,61.3,30.6,Canon Medical,1,20,True
+STU-00118,PT-1118,CLN-07,30-Dec-2025,31w6d,29,y,2411.0,LiveBirth,,31.857142857142858,{},2025-12-30,76.0,270.1,79.5,49.0,GE Healthcare,1,20,False
+STU-00421,PT-1421,CLN-01,26-May-2025,31w4d,42,,3259.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",31.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-05-26,75.9,267.0,79.6,44.6,Philips,1,18,False
+STU-00140,PT-1140,CLN-06,2024-04-14,26w2d,37,1,3133.0,Stillbirth,Patient reports normal fetal movement.,26.285714285714285,{},2024-04-14,65.4,227.0,72.6,38.9,Philips,1,18,False
+STU-00207,PT-1207,CLN-06,2024-12-05,15w3d,24,N,2339.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",15.428571428571429,"{'twin': False, 'presentation': 'breech'}",2024-12-05,50.8,175.7,40.7,27.1,GE Healthcare,1,18,True
+STU-00335,PT-1335,CLN-02,2024-04-14,26 weeks,29,no ,2375.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",26.0,"{'twin': False, 'presentation': 'transverse'}",2024-04-14,67.8,238.6,67.1,38.3,Canon Medical,1,20,False
+STU-00193,PT-1193,CLN-01,2025-06-03,36w1d,36,yes,2754.0,Live Birth ,,36.142857142857146,{},2025-06-03,78.7,272.9,85.7,55.3,GE Healthcare,1,18,False
+STU-00012,PT-1012,CLN-01,04/14/2025,11w5d,32,no ,3681.0,live_birth,Referred to MFM for further evaluation.,11.714285714285714,{},2025-04-14,44.0,157.2,45.6,20.9,GE Healthcare,1,18,True
+STU-00291,PT-1291,CLN-04,2024-12-18T00:00:00Z,17.7,26,1,2720.0,Live birth,Referred to MFM for further evaluation.,17.7,{},2024-12-18,53.1,189.4,55.8,28.4,GE Healthcare,1,22,True
+STU-00284,PT-1284,CLN-03,2024-07-24,24w6d,38,N,3431.0,Stillbirth,Referred to MFM for further evaluation.,24.857142857142858,{},2024-07-24,65.2,229.6,69.0,38.5,Samsung,1,18,False
+STU-00162,PT-1162,CLN-06,2024-01-02T00:00:00Z,34w6d,23,y,,,,34.857142857142854,{},2024-01-02,80.9,281.3,82.8,52.5,Canon Medical,1,18,False
+STU-00094,PT-1094,CLN-01,2025-03-27,27.9,35,y,3367.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",27.9,"{'twin': False, 'presentation': 'transverse'}",2025-03-27,68.4,239.7,73.0,43.6,Canon Medical,1,18,False
+STU-00261,PT-1261,CLN-01,01/20/2025,23w0d,32,High,,,,23.0,{},2025-01-20,61.7,216.2,65.4,31.8,GE Healthcare,1,18,False
+STU-00174,PT-1174,CLN-07,20-Jun-2025,29w5d,26,Y,,,"{""twin"": false, ""presentation"": ""breech""}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",2025-06-20,82.3,294.8,75.5,45.8,Canon Medical,1,20,False
+STU-00332,PT-1332,CLN-04,12/05/2025,99,42,N,3741.0,Live Birth ,,14.142857142857142,{},2025-12-05,43.3,153.9,47.3,24.1,GE Healthcare,1,22,True
+STU-00042,PT-1042,CLN-06,16-May-2025,18.9,38,no ,3578.0,stillbirth,,18.9,{},2025-05-16,53.6,184.4,53.2,29.9,GE Healthcare,1,18,False
+STU-00187,PT-1187,CLN-02,26-Sep-2024,20w3d,32,1,,,Patient reports normal fetal movement.,20.428571428571427,{},2024-09-26,58.4,200.7,57.7,35.5,GE Healthcare,1,20,False
+STU-00205,PT-1205,CLN-02,10/19/2025,,39,Low,2349.0,LiveBirth,Referred to MFM for further evaluation.,,{},2025-10-19,90.0,314.4,100.3,59.9,Canon Medical,1,20,False
+STU-00096,PT-1096,CLN-06,2024-10-07,19.9,31,Normal,2206.0,LiveBirth,,19.9,{},2024-10-07,56.9,198.1,60.6,30.4,Samsung,1,18,False
+STU-00107,PT-1107,CLN-01,04/02/2025,30w3d,38,Normal,2938.0,Live birth,,30.428571428571427,{},2025-04-02,72.0,253.0,83.0,44.0,Samsung,1,18,False
+STU-00404,PT-1404,CLN-05,09/15/2024,16w0d,23,,3510.0,Live Birth ,,16.0,{},2024-09-15,44.0,145.9,50.8,26.2,Canon Medical,1,20,True
+STU-00093,PT-1093,CLN-06,01/28/2024,28.6,28,y,4275.0,live_birth,,28.6,{},2024-01-28,69.7,243.1,75.7,43.1,Philips,1,18,False
+STU-00123,PT-1123,CLN-04,2025-10-28T00:00:00Z,34w6d,38,0,3191.0,LiveBirth,,34.857142857142854,{},2025-10-28,87.7,313.2,84.3,51.4,Philips,1,22,False
+STU-00067,PT-1067,CLN-06,06-Nov-2024,28w4d,19,yes,3860.0,Live birth,"Routine anatomy scan, no abnormalities noted.",28.571428571428573,{},2024-11-06,67.6,237.4,80.4,41.2,GE Healthcare,1,18,False
+STU-00379,PT-1379,CLN-06,2024-12-13T00:00:00Z,177,24,High,3012.0,stillbirth,,25.285714285714285,{},2024-12-13,68.4,237.9,66.3,36.0,Philips,1,18,False
+STU-00024,PT-1024,CLN-07,2025-08-21T00:00:00Z,24 weeks,20,yes,,,,24.0,{},2025-08-21,69.2,245.7,66.5,36.1,Canon Medical,1,20,False
+STU-00014,PT-1014,CLN-06,2024-09-25,163,34,N,,,,23.285714285714285,{},2024-09-25,62.2,209.7,63.1,36.0,Philips,1,18,False
+STU-00062,PT-1062,CLN-06,2025-03-10,24w2d,32,N,3375.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",24.285714285714285,"{'twin': False, 'presentation': 'transverse'}",2025-03-10,63.9,227.6,67.9,36.7,GE Healthcare,1,18,False
+STU-00328,PT-1328,CLN-02,2025-08-20,213,40,N,2831.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",30.428571428571427,"{'twin': False, 'presentation': 'breech'}",2025-08-20,74.6,254.5,72.3,44.1,GE Healthcare,1,20,False
+STU-00040,PT-1040,CLN-06,2025-05-11,12.1,25,1,3390.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",12.1,"{'twin': False, 'presentation': 'cephalic'}",2025-05-11,39.6,141.3,37.5,21.2,Philips,1,18,True
+STU-00312,PT-1312,CLN-01,2025-09-02,,30,High,2990.0,Live birth,,,{},2025-09-02,83.6,294.3,82.1,48.0,Philips,1,18,False
+STU-00310,PT-1310,CLN-06,2025-02-15,26.7,22,0,2737.0,Live birth,Patient reports normal fetal movement.,26.7,{},2025-02-15,67.1,238.0,76.3,42.5,Canon Medical,1,18,False
+STU-00323,PT-1323,CLN-04,03-Jun-2024,31.0,25,,3108.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",31.0,"{'twin': False, 'presentation': 'cephalic'}",2024-06-03,77.6,259.8,82.7,45.7,Philips,1,22,False
+STU-00099,PT-1099,CLN-07,23-Oct-2024,62,37,Low,3429.0,Live Birth ,Patient reports normal fetal movement.,8.857142857142858,{},2024-10-23,79.4,281.8,80.2,44.2,GE Healthcare,1,20,True
+STU-00208,PT-1208,CLN-05,02/16/2024,25 weeks,21,,3313.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""",25.0,"{'twin': False, 'presentation': 'transverse'}",2024-02-16,63.3,217.5,64.9,35.1,Canon Medical,1,20,False
+STU-00315,PT-1315,CLN-04,25-Feb-2024,16 weeks,38,Normal,3255.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",16.0,"{'twin': False, 'presentation': 'cephalic'}",2024-02-25,48.9,176.1,45.2,24.6,GE Healthcare,1,22,True
+STU-00442,PT-1442,CLN-02,10/02/2024,24w2d,39,1,2870.0,stillbirth,,24.285714285714285,{},2024-10-02,62.3,223.0,72.8,37.7,Philips,1,20,False
+STU-00257,PT-1257,CLN-02,2024-06-05,24w6d,24,y,1908.0,Live Birth ,,24.857142857142858,{},2024-06-05,64.3,228.7,70.4,38.1,GE Healthcare,1,20,False
+STU-00360,PT-1360,CLN-02,12/04/2025,30w2d,21,Low,,,,30.285714285714285,{},2025-12-04,73.6,260.5,73.5,42.5,Philips,1,20,False
+STU-00128,PT-1128,CLN-04,2024-11-22,153,26,Low,3309.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",21.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",2024-11-22,56.3,189.9,64.1,36.7,Canon Medical,1,22,True
+STU-00083,PT-1083,CLN-03,06/10/2024,22.6,40,no ,,,Referred to MFM for further evaluation.,22.6,{},2024-06-10,60.1,210.2,58.2,33.1,Samsung,1,18,False
+STU-00412,PT-1412,CLN-07,05-Dec-2024,18w1d,31,Y,3440.0,Live birth,,18.142857142857142,{},2024-12-05,51.9,172.0,59.4,27.6,Samsung,1,20,True
+STU-00373,PT-1373,CLN-05,2024-09-16,144,38,,2935.0,Live birth,,20.571428571428573,{},2024-09-16,53.8,185.3,62.9,33.3,Canon Medical,1,20,False
+STU-00028,PT-1028,CLN-06,2024-07-22,29.8,33,High,2721.0,Stillbirth,,29.8,{},2024-07-22,75.5,269.1,78.5,45.4,GE Healthcare,1,18,False
+STU-00090,PT-1090,CLN-06,2025-11-19,39 weeks,30,High,2902.0,Live Birth ,,39.0,{},2025-11-19,93.2,323.1,91.2,53.4,GE Healthcare,1,18,False
+STU-00348,PT-1348,CLN-02,2024-01-21,20.7,40,no ,3522.0,Stillbirth,Follow-up recommended in 4 weeks.,20.7,{},2024-01-21,59.4,209.7,58.5,33.3,Canon Medical,1,20,False
+STU-00074,PT-1074,CLN-03,2024-01-28,28w6d,36,N,4120.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic"",}",28.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",2024-01-28,71.2,252.1,81.7,42.7,Philips,1,18,False
+STU-00070,PT-1070,CLN-06,2024-03-27,175,38,,3563.0,Stillbirth,Referred to MFM for further evaluation.,25.0,{},2024-03-27,64.1,218.0,62.0,38.6,Samsung,1,18,False
+STU-00186,PT-1186,CLN-05,2024-09-15,24.6,30,High,2870.0,Stillbirth,,24.6,{},2024-09-15,65.8,232.7,63.4,36.1,GE Healthcare,1,20,False
+STU-00092,PT-1092,CLN-03,2025-09-19,26.9,20,y,3133.0,stillbirth,Follow-up recommended in 4 weeks.,26.9,{},2025-09-19,67.2,232.8,74.5,42.2,Canon Medical,1,18,False
+STU-00341,PT-1341,CLN-04,2024-04-28,194,27,yes,,,"{""twin"": false, ""presentation"": ""breech""}",27.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-04-28,73.5,257.2,69.3,43.0,Canon Medical,1,22,False
+STU-00222,PT-1222,CLN-06,2025-08-12,17.7,21,N,3428.0,live_birth,,17.7,{},2025-08-12,52.0,174.8,49.6,22.2,GE Healthcare,1,18,True
+STU-00338,,CLN-01,2024-05-06T00:00:00Z,12 weeks,41,Low,,,,12.0,{},2024-05-06,39.3,137.3,49.6,24.6,Samsung,1,18,True
+STU-00126,PT-1126,CLN-01,2025-07-30T00:00:00Z,27w0d,22,Normal,,,Patient reports normal fetal movement.,27.0,{},2025-07-30,69.2,235.2,71.2,37.6,Canon Medical,1,18,False
+STU-00239,PT-1239,CLN-05,2024-10-05,22 weeks,31,y,2654.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2024-10-05,63.5,220.9,64.0,38.2,Samsung,1,20,False
+STU-00060,PT-1060,CLN-02,15-Mar-2025,139,25,,3178.0,stillbirth,,19.857142857142858,{},2025-03-15,56.8,195.5,58.9,33.9,Samsung,1,20,True
+STU-00013,PT-1013,CLN-01,04/19/2024,40w0d,32,Low,,,"{""twin"": false, ""presentation"": ""breech""}",40.0,"{'twin': False, 'presentation': 'breech'}",2024-04-19,89.2,311.6,95.1,57.3,GE Healthcare,1,18,False
+STU-00346,PT-1346,CLN-04,14-May-2025,27.1,39,no ,2415.0,Stillbirth,,27.1,{},2025-05-14,69.1,235.7,67.4,39.8,Samsung,1,22,False
+STU-00202,PT-1202,CLN-07,29-Mar-2025,140,27,y,2992.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",20.0,"{'twin': False, 'presentation': 'cephalic'}",2025-03-29,52.8,185.5,58.1,27.8,Philips,1,20,False
+STU-00450,PT-1450,CLN-06,2025-07-29T00:00:00Z,32w4d,24,High,,,"{""twin"": false, ""presentation"": ""transverse""}",32.57142857142857,"{'twin': False, 'presentation': 'transverse'}",2025-07-29,79.5,275.6,80.6,43.9,GE Healthcare,1,18,False
+STU-00321,PT-1321,CLN-06,2024-08-18,18.6,41,Y,,,,18.6,{},2024-08-18,51.5,188.6,49.4,28.7,Canon Medical,1,18,False
+STU-00158,PT-1158,CLN-03,29-Feb-2024,27w6d,37,0,2514.0,LiveBirth,,27.857142857142858,{},2024-02-29,68.0,237.8,74.4,40.7,Philips,1,18,False
+STU-00374,PT-1374,CLN-07,2024-07-10,,35,,,,"{""twin"": false, ""presentation"": ""cephalic""}",,"{'twin': False, 'presentation': 'cephalic'}",2024-07-10,63.9,220.2,58.6,33.5,Canon Medical,1,20,False
+STU-00234,PT-1234,CLN-05,2025-12-03,23w4d,25,Normal,3307.0,stillbirth,Referred to MFM for further evaluation.,23.571428571428573,{},2025-12-03,59.599999999999994,208.35000000000002,69.25,34.1,Canon Medical,2,20,False
+STU-00198,PT-1198,CLN-07,2024-09-11,,33,1,,,,,{},2024-09-11,79.1,274.9,84.3,47.0,Samsung,1,20,False
+STU-00365,PT-1365,CLN-04,2024-05-25,,31,High,3760.0,LiveBirth,Patient reports normal fetal movement.,,{},2024-05-25,50.3,180.6,55.9,32.0,Samsung,1,22,False
+STU-00226,PT-1226,CLN-06,2025-05-21,26.6,37,High,,,"{""twin"": false, ""presentation"": ""transverse""}",26.6,"{'twin': False, 'presentation': 'transverse'}",2025-05-21,71.5,252.2,66.7,40.5,Philips,1,18,False
+STU-00402,PT-1402,CLN-06,2025-01-01,28.1,41,0,,,Patient reports normal fetal movement.,28.1,{},2025-01-01,69.4,248.8,76.4,40.4,GE Healthcare,1,18,False
+STU-00393,PT-1393,CLN-06,03/29/2025,33 weeks,38,y,3761.0,stillbirth,,33.0,{},2025-03-29,81.8,281.7,87.6,51.0,GE Healthcare,1,18,False
+STU-00089,PT-1089,CLN-07,2024-12-01T00:00:00Z,23w4d,21,no ,4008.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",23.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-12-01,62.1,219.6,67.7,32.1,Samsung,1,20,False
+STU-00132,PT-1132,CLN-05,24-Feb-2024,32.1,26,Normal,3663.0,stillbirth,Follow-up recommended in 4 weeks.,32.1,{},2024-02-24,79.1,277.7,83.5,44.2,GE Healthcare,1,20,False
+STU-00125,PT-1125,CLN-06,06/06/2024,14w6d,21,yes,2841.0,stillbirth,Follow-up recommended in 4 weeks.,14.857142857142858,{},2024-06-06,43.9,157.9,42.5,29.6,GE Healthcare,1,18,True
+STU-00175,PT-1175,CLN-02,2025-01-16,,19,no ,3470.0,stillbirth,Patient reports normal fetal movement.,,{},2025-01-16,66.2,226.6,58.8,38.4,Philips,1,20,False
+STU-00362,PT-1362,CLN-07,2024-09-29,20w5d,27,y,,,"Routine anatomy scan, no abnormalities noted.",20.714285714285715,{},2024-09-29,61.1,211.9,60.3,34.7,Philips,1,20,False
+STU-00015,PT-1015,CLN-07,10-Feb-2024,32w6d,21,no ,2967.0,live_birth,,32.857142857142854,{},2024-02-10,79.6,281.0,86.9,48.5,Philips,1,20,False
+STU-00355,PT-1355,CLN-07,2024-11-16,29w6d,26,0,3166.0,live_birth,,29.857142857142858,{},2024-11-16,77.2,274.7,77.8,45.4,GE Healthcare,1,20,False
+STU-00209,PT-1209,CLN-07,2025-10-25,24.2,19,N,,,,24.2,{},2025-10-25,61.3,212.5,66.6,33.8,Samsung,1,20,False
+STU-00124,PT-1124,CLN-01,2025-07-31,23w1d,31,Y,3563.0,Live Birth ,,23.142857142857142,{},2025-07-31,60.5,212.5,57.8,36.2,Canon Medical,1,18,False
+STU-00139,PT-1139,CLN-06,17-Dec-2025,28w1d,22,0,3643.0,stillbirth,,28.142857142857142,{},2025-12-17,69.9,244.5,76.7,39.3,Canon Medical,1,18,False
+STU-00112,PT-1112,CLN-07,2024-11-23T00:00:00Z,33w0d,19,0,2510.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",33.0,"{'twin': False, 'presentation': 'breech'}",2024-11-23,87.8,313.7,84.2,47.3,Philips,1,20,False
+STU-00052,PT-1052,CLN-01,2024-11-07T00:00:00Z,31w5d,26,Normal,4078.0,Stillbirth,,31.714285714285715,{},2024-11-07,76.9,271.3,80.8,46.0,GE Healthcare,1,18,False
+STU-00113,PT-1113,CLN-07,2025-05-15T00:00:00Z,19.7,40,Low,,,,19.7,{},2025-05-15,55.0,194.6,59.7,28.0,GE Healthcare,1,20,True
+STU-00010,PT-1010,CLN-05,11/08/2025,26w6d,27,y,3790.0,Live birth,Follow-up recommended in 4 weeks.,26.857142857142858,{},2025-11-08,65.9,229.4,72.8,41.9,GE Healthcare,1,20,False
+STU-00364,PT-1364,CLN-05,2025-11-17T00:00:00Z,141,41,High,4773.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""",20.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2025-11-17,51.8,190.3,56.0,31.0,Canon Medical,1,20,False
+STU-00017,PT-1017,CLN-01,2024-10-12,22.1,18,Low,3503.0,live_birth,,22.1,{},2024-10-12,62.3,212.8,57.9,32.7,Samsung,1,18,False
+STU-00237,PT-1237,CLN-03,09/11/2025,22w4d,21,Low,3489.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""",22.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-09-11,64.2,222.4,62.4,37.2,GE Healthcare,1,18,False
+STU-00001,PT-1001,CLN-06,03/14/2024,189,28,Normal,3138.0,live_birth,"{""twin"": false, ""presentation"": ""cephalic""}",27.0,"{'twin': False, 'presentation': 'cephalic'}",2024-03-14,70.0,250.5,68.0,39.9,Samsung,1,18,False
+STU-00313,PT-1313,CLN-01,06/01/2024,19.0,38,,3000.0,live_birth,,19.0,{},2024-06-01,55.9,194.5,57.7,29.0,Canon Medical,1,18,False
+STU-00106,PT-1106,CLN-07,2024-01-24T00:00:00Z,148,39,Normal,3628.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",21.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2024-01-24,65.8,232.4,57.2,32.3,Canon Medical,1,20,False
+STU-00245,PT-1245,CLN-02,10/06/2025,27.7,20,yes,3780.0,stillbirth,Follow-up recommended in 4 weeks.,27.7,{},2025-10-06,68.6,241.1,67.6,42.4,Philips,1,20,False
+STU-00432,PT-1432,CLN-01,2025-12-30,29 weeks,23,N,4185.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse"",}",29.0,"{'twin': False, 'presentation': 'transverse'}",2025-12-30,74.0,255.7,79.0,45.4,Samsung,1,18,False
+STU-00435,PT-1435,CLN-01,2025-11-11T00:00:00Z,20.2,25,Normal,3405.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",20.2,"{'twin': False, 'presentation': 'cephalic'}",2025-11-11,57.4,194.6,57.8,30.7,Philips,1,18,False
+STU-00269,PT-1269,CLN-05,18-Oct-2025,24.7,41,Y,3931.0,stillbirth,,24.7,{},2025-10-18,65.5,225.9,64.9,35.7,GE Healthcare,1,20,False
+STU-00381,PT-1381,CLN-02,2025-05-13,23w4d,32,no ,2104.0,Stillbirth,,23.571428571428573,{},2025-05-13,62.9,218.6,65.8,36.7,Canon Medical,1,20,False
+STU-00071,PT-1071,CLN-02,2024-05-20,213,25,no ,3894.0,LiveBirth,Patient reports normal fetal movement.,30.428571428571427,{},2024-05-20,74.7,259.7,83.9,44.3,Philips,1,20,False
+STU-00429,PT-1429,CLN-01,2025-11-22,21w6d,27,no ,4039.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech"",}",21.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-11-22,62.7,219.1,56.1,31.5,Philips,1,18,False
+STU-00039,PT-1039,CLN-01,2024-11-18,102,39,Y,4100.0,live_birth,,14.571428571428571,{},2024-11-18,43.5,150.4,44.0,25.2,GE Healthcare,1,18,True
+STU-00151,PT-1151,CLN-05,02/26/2025,,35,N,3388.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",2025-02-26,62.8,218.9,63.5,36.7,Samsung,1,20,False
+STU-00390,PT-1390,CLN-01,2025-12-12,129,26,Low,3601.0,Live birth,Follow-up recommended in 4 weeks.,18.428571428571427,{},2025-12-12,56.2,189.3,49.9,25.9,Samsung,1,18,False
+STU-00164,PT-1164,CLN-04,2024-12-25,31.3,23,,3534.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",31.3,"{'twin': False, 'presentation': 'breech'}",2024-12-25,77.1,271.7,78.2,46.6,Samsung,1,22,False
+STU-00168,PT-1168,CLN-02,12/14/2025,34w1d,26,y,,,"Routine anatomy scan, no abnormalities noted.",34.142857142857146,{},2025-12-14,85.7,302.7,88.4,51.3,Philips,1,20,False
+STU-00409,PT-1409,CLN-07,2024-07-17T00:00:00Z,30.0,40,yes,3144.0,Live birth,Referred to MFM for further evaluation.,30.0,{},2024-07-17,75.0,262.8,69.1,43.5,Samsung,1,20,False
+STU-00231,PT-1231,CLN-02,2024-04-19,,37,Y,3000.0,Live Birth ,,,{},2024-04-19,37.4,135.0,37.6,16.8,Samsung,1,20,False
+STU-00252,PT-1252,CLN-02,08/06/2025,149,23,N,3449.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",21.285714285714285,"{'twin': False, 'presentation': 'cephalic'}",2025-08-06,56.9,189.9,61.2,33.4,Canon Medical,1,20,False
+STU-00424,PT-1424,CLN-04,06/11/2024,24.9,25,,3073.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",24.9,"{'twin': False, 'presentation': 'breech'}",2024-06-11,64.3,222.6,74.3,36.8,Samsung,1,22,False
+STU-00243,,CLN-01,2024-06-03,18w6d,40,yes,3310.0,LiveBirth,,18.857142857142858,{},2024-06-03,56.1,197.9,59.6,30.8,GE Healthcare,1,18,False
+STU-00311,PT-1311,CLN-04,2024-06-10,20w4d,28,N,3106.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}",20.571428571428573,"{'twin': False, 'presentation': 'breech'}",2024-06-10,60.4,206.7,51.7,34.3,Samsung,1,22,True
+STU-00324,PT-1324,CLN-03,05/12/2025,23 weeks,39,High,3025.0,LiveBirth,,23.0,{},2025-05-12,65.9,235.1,63.6,34.6,GE Healthcare,1,18,False
+STU-00161,PT-1161,CLN-01,2024-12-10,29w4d,41,,3288.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",29.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-12-10,75.4,263.5,82.9,42.1,Philips,1,18,False
+STU-00363,PT-1363,CLN-02,01/13/2025,24w3d,39,Low,3003.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",24.428571428571427,"{'twin': False, 'presentation': 'transverse'}",2025-01-13,63.7,231.3,65.3,36.0,GE Healthcare,1,20,False
+STU-00248,PT-1248,CLN-02,2025-08-03,178,21,y,1692.0,live_birth,"Routine anatomy scan, no abnormalities noted.",25.428571428571427,{},2025-08-03,70.4,241.4,65.6,39.4,Philips,1,20,False
+STU-00274,PT-1274,CLN-02,2025-07-14,29 weeks,27,1,,,"{""twin"": false, ""presentation"": ""cephalic"",}",29.0,"{'twin': False, 'presentation': 'cephalic'}",2025-07-14,78.4,267.1,77.6,40.6,Samsung,1,20,False
+STU-00268,PT-1268,CLN-02,2024-07-28,,34,yes,3174.0,Live Birth ,,,{},2024-07-28,54.2,186.5,55.3,29.2,Samsung,1,20,False
+STU-00443,PT-1443,CLN-02,2025-05-29T00:00:00Z,131,39,Y,2606.0,Live Birth ,,18.714285714285715,{},2025-05-29,60.4,210.7,49.2,33.1,GE Healthcare,1,20,True
+STU-00233,PT-1233,CLN-05,2024-04-13,25w6d,25,0,3365.0,live_birth,,25.857142857142858,{},2024-04-13,65.7,234.0,68.7,37.3,Samsung,1,20,False
+STU-00370,PT-1370,CLN-04,10/18/2024,28w2d,20,Normal,2906.0,Stillbirth,Patient reports normal fetal movement.,28.285714285714285,{},2024-10-18,74.6,261.4,79.7,40.6,Canon Medical,1,22,False
+STU-00416,PT-1416,CLN-04,10/01/2024,147,18,0,,,"{""twin"": false, ""presentation"": ""cephalic""}",21.0,"{'twin': False, 'presentation': 'cephalic'}",2024-10-01,63.4,223.5,55.6,33.4,Canon Medical,1,22,True
+STU-00250,PT-1250,CLN-02,2024-04-11,20w4d,33,y,3283.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",20.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2024-04-11,59.3,203.6,58.2,30.4,Canon Medical,1,20,False
+STU-00382,PT-1382,CLN-07,14-Apr-2024,31w4d,19,0,2517.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",31.571428571428573,"{'twin': False, 'presentation': 'breech'}",2024-04-14,75.6,268.2,83.5,47.0,Samsung,1,20,False
+STU-00148,PT-1148,CLN-04,2024-08-17,202,25,N,2462.0,Live birth,,28.857142857142858,{},2024-08-17,73.4,257.9,76.9,44.4,GE Healthcare,1,22,False
+STU-00259,PT-1259,CLN-06,2025-02-27,18w5d,31,Y,2828.0,Live Birth ,,18.714285714285715,{},2025-02-27,51.1,175.2,53.1,32.4,Philips,1,18,False
+STU-00101,PT-1101,CLN-02,02-Apr-2025,35w0d,27,Y,3667.0,stillbirth,,35.0,{},2025-04-02,81.5,284.2,84.6,49.6,Samsung,1,20,False
+STU-00035,PT-1035,CLN-04,11/08/2024,,18,0,2931.0,live_birth,"Routine anatomy scan, no abnormalities noted.",,{},2024-11-08,50.2,173.6,56.3,29.0,Samsung,1,22,False
+STU-00189,PT-1189,CLN-07,2024-02-16,27.0,26,yes,3646.0,LiveBirth,"Routine anatomy scan, no abnormalities noted.",27.0,{},2024-02-16,69.5,240.2,71.4,40.8,Samsung,1,20,False
+STU-00111,PT-1111,CLN-02,04/30/2024,22 weeks,34,0,3185.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2024-04-30,58.0,200.1,61.6,33.1,Samsung,1,20,False
+STU-00176,PT-1176,CLN-01,2025-11-29,23.2,18,Y,,,,23.2,{},2025-11-29,63.0,217.8,65.0,34.6,Samsung,1,18,False
+STU-00054,PT-1054,CLN-03,2024-09-06T00:00:00Z,26w2d,34,no ,,,"{""twin"": false, ""presentation"": ""cephalic""}",26.285714285714285,"{'twin': False, 'presentation': 'cephalic'}",2024-09-06,65.3,233.2,76.4,38.3,GE Healthcare,1,18,False
+STU-00228,,CLN-02,2025-02-20,23.8,38,N,3122.0,Stillbirth,,23.8,{},2025-02-20,61.2,215.8,59.1,36.3,Philips,1,20,False
+STU-00136,PT-1136,CLN-02,2025-12-29,29 weeks,18,1,3320.0,Live Birth ,,29.0,{},2025-12-29,74.9,262.5,80.2,41.7,Samsung,1,20,False
+STU-00420,PT-1420,CLN-06,2024-08-02,211,20,yes,3344.0,Live Birth ,Follow-up recommended in 4 weeks.,30.142857142857142,{},2024-08-02,80.4,285.2,74.0,45.9,Samsung,1,18,False
+STU-00449,PT-1449,CLN-06,09/20/2024,20.9,40,no ,3112.0,LiveBirth,,20.9,{},2024-09-20,62.5,214.7,57.6,33.5,Samsung,1,18,False
+STU-00155,PT-1155,CLN-03,2024-03-17,36 weeks,37,1,,,,36.0,{},2024-03-17,82.8,296.1,90.5,50.8,GE Healthcare,1,18,False
+STU-00020,PT-1020,CLN-04,2025-03-28,19.5,41,1,3406.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",19.5,"{'twin': False, 'presentation': 'cephalic'}",2025-03-28,55.4,192.2,53.3,30.4,Philips,1,22,True
+STU-00143,PT-1143,CLN-07,2025-08-05,25w0d,20,N,,,,25.0,{},2025-08-05,65.0,225.3,70.0,37.9,Canon Medical,1,20,False
+STU-00326,PT-1326,CLN-02,2025-06-30,20w2d,30,1,3285.0,stillbirth,,20.285714285714285,{},2025-06-30,58.9,209.2,62.4,32.8,Canon Medical,1,20,False
+STU-00159,PT-1159,CLN-02,2025-08-29,26w1d,20,Low,3233.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",26.142857142857142,"{'twin': False, 'presentation': 'breech'}",2025-08-29,66.3,235.9,68.4,39.9,GE Healthcare,1,20,False
+STU-00308,PT-1308,CLN-01,11-Dec-2024,25w4d,29,,3673.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",25.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-12-11,67.7,238.9,61.5,36.9,Philips,1,18,False
+STU-00045,PT-1045,CLN-06,2024-04-02,16.9,39,yes,,,,16.9,{},2024-04-02,51.1,180.6,53.6,25.1,Samsung,1,18,True
+STU-00306,PT-1306,CLN-01,2025-08-03,40w0d,22,Y,2981.0,Stillbirth,Referred to MFM for further evaluation.,40.0,{},2025-08-03,92.5,319.6,104.1,55.3,Philips,1,18,False
+STU-00276,PT-1276,CLN-05,2024-03-07,28.6,28,no ,3652.0,Live birth,Follow-up recommended in 4 weeks.,28.6,{},2024-03-07,69.6,245.0,72.9,40.1,Canon Medical,1,20,False
+STU-00114,PT-1114,CLN-07,2025-10-07,21w6d,35,Low,,,,21.857142857142858,{},2025-10-07,59.0,205.5,64.9,30.1,GE Healthcare,1,20,False
+STU-00286,PT-1286,CLN-07,17-Nov-2025,16 weeks,20,y,,,"Routine anatomy scan, no abnormalities noted.",16.0,{},2025-11-17,52.9,183.6,47.3,25.9,Canon Medical,1,20,True
+STU-00212,PT-1212,CLN-05,2025-08-03,25w0d,3,0,3442.0,LiveBirth,"Routine anatomy scan, no abnormalities noted.",25.0,{},2025-08-03,62.2,218.4,61.8,37.3,Samsung,1,20,False
+STU-00109,PT-1109,CLN-04,07-Jul-2024,30 weeks,28,1,2886.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",30.0,"{'twin': False, 'presentation': 'cephalic'}",2024-07-07,71.3,251.6,75.2,43.9,Samsung,1,22,False
+STU-00387,PT-1387,CLN-03,2025-03-08T00:00:00Z,29w5d,41,,2883.0,Live birth,Patient reports normal fetal movement.,29.714285714285715,{},2025-03-08,76.3,274.3,74.7,42.7,Philips,1,18,False
+STU-00170,PT-1170,CLN-04,2024-03-21T00:00:00Z,,39,y,3628.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",,"{'twin': False, 'presentation': 'transverse'}",2024-03-21,70.7,244.7,73.8,37.5,Samsung,1,22,False
+STU-00080,PT-1080,CLN-04,09/09/2025,24w2d,42,Low,4084.0,Live birth,Patient reports normal fetal movement.,24.285714285714285,{},2025-09-09,63.1,215.9,66.2,36.9,GE Healthcare,1,22,False
+STU-00425,PT-1425,CLN-01,10/21/2024,31w5d,28,High,3636.0,Live Birth ,Patient reports normal fetal movement.,31.714285714285715,{},2024-10-21,78.0,274.2,87.4,43.4,GE Healthcare,1,18,False
+STU-00288,PT-1288,CLN-05,2025-10-27,28.4,37,0,3477.0,Live Birth ,,28.4,{},2025-10-27,71.2,249.8,82.8,43.8,Canon Medical,1,20,False
+STU-00085,PT-1085,CLN-07,2024-05-07,16w1d,35,0,3235.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",16.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,46.6,169.2,51.2,24.0,Samsung,1,20,True
+STU-00009,PT-1009,CLN-07,2024-01-16T00:00:00Z,14 weeks,32,yes,3525.0,live_birth,,14.0,{},2024-01-16,41.2,138.7,48.8,22.6,Canon Medical,1,20,True
+STU-00033,PT-1033,CLN-01,2025-12-26,,18,1,3482.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",2025-12-26,61.7,211.7,68.6,36.5,GE Healthcare,1,18,False
+STU-00100,PT-1100,CLN-02,01/15/2024,26.4,18,1,3637.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",26.4,"{'twin': False, 'presentation': 'cephalic'}",2024-01-15,69.7,242.5,68.7,39.2,Philips,1,20,False
+STU-00437,PT-1437,CLN-02,2025-04-27,195,39,yes,,,,27.857142857142858,{},2025-04-27,77.6,266.9,69.3,39.0,Philips,1,20,False
+STU-00369,PT-1369,CLN-06,2025-08-05,167,25,Y,2952.0,Live birth,,23.857142857142858,{},2025-08-05,59.9,208.2,67.0,36.1,Canon Medical,1,18,False
+STU-00223,PT-1223,CLN-04,2025-01-05,25.8,23,no ,2455.0,stillbirth,,25.8,{},2025-01-05,70.2,250.3,61.1,37.4,Canon Medical,1,22,False
+STU-00029,PT-1029,CLN-04,01/05/2025,175,39,no ,2652.0,Stillbirth,,25.0,{},2025-01-05,65.5,229.2,62.2,37.4,Samsung,1,22,False
+STU-00330,PT-1330,CLN-04,22-May-2024,21w1d,23,no ,3480.0,Live Birth ,"{""twin"": false, ""presentation"": ""breech""}",21.142857142857142,"{'twin': False, 'presentation': 'breech'}",2024-05-22,53.3,183.5,56.4,30.7,Philips,1,22,True
+STU-00056,PT-1056,CLN-05,02/14/2024,26.4,37,,3140.0,Live Birth ,,26.4,{},2024-02-14,73.3,260.8,63.3,38.4,GE Healthcare,1,20,False
+STU-00428,PT-1428,CLN-04,2024-05-23,17w1d,34,y,,,"{""twin"": false, ""presentation"": ""transverse""}",17.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2024-05-23,46.0,163.6,45.0,30.2,GE Healthcare,1,22,True
+STU-00350,PT-1350,CLN-05,04/07/2024,28.4,42,Normal,,,Referred to MFM for further evaluation.,28.4,{},2024-04-07,74.1,253.9,77.3,43.3,Canon Medical,1,20,False
+STU-00049,PT-1049,CLN-03,2025-03-27,28w1d,20,Low,3232.0,Stillbirth,,28.142857142857142,{},2025-03-27,72.1,256.6,71.3,39.8,Philips,1,18,False
+STU-00371,PT-1371,CLN-01,08-Mar-2025,23w5d,37,Y,2973.0,stillbirth,Follow-up recommended in 4 weeks.,23.714285714285715,{},2025-03-08,62.4,219.8,62.8,34.5,Samsung,1,18,False
+STU-00410,PT-1410,CLN-05,2024-12-17,18.9,36,1,,,Patient reports normal fetal movement.,18.9,{},2024-12-17,52.6,188.2,60.5,29.8,Philips,1,20,True
+STU-00034,PT-1034,CLN-01,08/13/2025,28w2d,26,High,,,,28.285714285714285,{},2025-08-13,70.6,248.5,82.9,44.9,Philips,1,18,False
+STU-00036,PT-1036,CLN-04,03/13/2024,195,41,,3993.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",27.857142857142858,"{'twin': False, 'presentation': 'breech'}",2024-03-13,71.9,247.3,68.2,39.6,Philips,1,22,False
+STU-00064,PT-1064,CLN-04,2025-08-10,18w5d,38,Low,,,,18.714285714285715,{},2025-08-10,53.0,182.1,51.9,25.1,GE Healthcare,1,22,True
+STU-00278,PT-1278,CLN-07,04/30/2024,23.6,26,Y,3276.0,Live birth,,23.6,{},2024-04-30,66.4,228.4,69.1,38.3,Samsung,1,20,False
+STU-00235,PT-1235,CLN-02,2024-09-17,21w3d,22,Low,3765.0,LiveBirth,,21.428571428571427,{},2024-09-17,59.1,206.3,57.1,32.9,Philips,1,20,False
+STU-00441,PT-1441,CLN-06,2025-08-23T00:00:00Z,33 weeks,28,1,3622.0,Stillbirth,,33.0,{},2025-08-23,79.4,275.8,86.2,49.0,GE Healthcare,1,18,False
+STU-00046,PT-1046,CLN-06,2024-07-03,23 weeks,33,0,2953.0,stillbirth,,23.0,{},2024-07-03,65.8,238.8,62.6,35.0,Canon Medical,1,18,False
+STU-00022,PT-1022,CLN-02,04/20/2025,19.4,41,yes,3276.0,Stillbirth,Referred to MFM for further evaluation.,19.4,{},2025-04-20,57.3,196.9,61.4,27.4,Philips,1,20,True
+STU-00249,PT-1249,CLN-03,03/05/2024,26w3d,39,yes,2806.0,Live Birth ,,26.428571428571427,{},2024-03-05,62.9,225.2,68.2,44.4,GE Healthcare,1,18,False
+STU-00200,PT-1200,CLN-07,08-Mar-2025,25w0d,27,,,,,25.0,{},2025-03-08,62.2,217.1,70.7,38.5,Philips,1,20,False
+STU-00138,PT-1138,CLN-04,2024-01-17,23w1d,130,0,2747.0,LiveBirth,Follow-up recommended in 4 weeks.,23.142857142857142,{},2024-01-17,58.6,197.4,58.9,33.0,Samsung,1,22,False
+STU-00025,PT-1025,CLN-02,2025-05-14,27w6d,37,,2650.0,live_birth,Follow-up recommended in 4 weeks.,27.857142857142858,{},2025-05-14,69.8,246.8,78.6,41.4,GE Healthcare,1,20,False
+STU-00185,PT-1185,CLN-01,2025-08-26,159,19,Normal,2505.0,Live birth,,22.714285714285715,{},2025-08-26,62.4,209.9,63.8,32.4,GE Healthcare,1,18,False
+STU-00206,PT-1206,CLN-05,2024-03-25T00:00:00Z,,42,Y,2584.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",,"{'twin': False, 'presentation': 'breech'}",2024-03-25,58.2,203.7,60.1,30.4,Canon Medical,1,20,False
+STU-00135,PT-1135,CLN-03,2025-06-29,31w5d,40,High,3850.0,stillbirth,,31.714285714285715,{},2025-06-29,71.3,250.3,87.1,48.7,GE Healthcare,1,18,False
+STU-00117,PT-1117,CLN-05,2024-02-13,27.7,40,High,,,,27.7,{},2024-02-13,64.9,234.2,68.2,39.4,GE Healthcare,1,20,False
+STU-00213,PT-1213,CLN-01,14-Oct-2024,18.6,33,,,,,18.6,{},2024-10-14,53.4,188.4,50.4,28.6,Canon Medical,1,18,False
+STU-00406,PT-1406,CLN-06,2025-10-02,66,41,,2978.0,Live Birth ,,9.428571428571429,{},2025-10-02,41.3,139.5,38.0,16.7,Philips,1,18,True
+STU-00411,PT-1411,CLN-06,04/23/2025,22.1,33,y,3561.0,Live birth,,22.1,{},2025-04-23,58.6,211.5,57.0,34.4,Canon Medical,1,18,False
+STU-00299,PT-1299,CLN-02,2025-04-20,108,27,no ,,,"{""twin"": false, ""presentation"": ""breech""}",15.428571428571429,"{'twin': False, 'presentation': 'breech'}",2025-04-20,48.9,170.4,44.2,24.6,Canon Medical,1,20,True
+STU-00232,PT-1232,CLN-04,15-Aug-2024,22.8,35,no ,,,Follow-up recommended in 4 weeks.,22.8,{},2024-08-15,59.9,218.3,60.5,36.1,Canon Medical,1,22,False
+STU-00218,PT-1218,CLN-01,05/08/2025,8.9,23,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}",8.9,"{'twin': False, 'presentation': 'transverse'}",2025-05-08,36.1,124.6,38.4,17.7,GE Healthcare,1,18,True
+STU-00057,PT-1057,CLN-05,10/10/2025,31w1d,21,High,2662.0,stillbirth,,31.142857142857142,{},2025-10-10,81.6,287.2,80.9,45.7,Philips,1,20,False
+STU-00354,PT-1354,CLN-01,11/17/2024,29 weeks,28,Low,3227.0,stillbirth,,29.0,{},2024-11-17,70.5,241.7,75.8,44.2,GE Healthcare,1,18,False
+STU-00329,PT-1329,CLN-03,2024-01-13,,20,N,,,,,{},2024-01-13,60.6,219.6,55.6,32.6,Samsung,1,18,False
+STU-00182,PT-1182,CLN-04,2024-05-26,219,22,,3518.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",31.285714285714285,"{'twin': False, 'presentation': 'cephalic'}",2024-05-26,79.3,281.9,80.1,48.9,GE Healthcare,1,22,False
+STU-00098,PT-1098,CLN-04,05/03/2025,30w0d,32,Y,3573.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",30.0,"{'twin': False, 'presentation': 'cephalic'}",2025-05-03,67.4,236.8,81.1,41.0,Philips,1,22,False
+STU-00115,,CLN-06,2024-10-08,26.0,40,Normal,3244.0,Live birth,Referred to MFM for further evaluation.,26.0,{},2024-10-08,66.4,234.4,65.4,38.1,Samsung,1,18,False
+STU-00279,,CLN-06,2024-12-07,23.3,29,1,,,Follow-up recommended in 4 weeks.,23.3,{},2024-12-07,58.6,201.7,64.5,35.5,Philips,1,18,False
+STU-00119,PT-1119,CLN-03,11-Sep-2025,21w6d,39,Y,3413.0,live_birth,,21.857142857142858,{},2025-09-11,58.2,204.7,61.9,33.4,Canon Medical,1,18,False
+STU-00392,PT-1392,CLN-07,2025-01-21,19.1,40,no ,3396.0,live_birth,,19.1,{},2025-01-21,54.1,190.1,55.9,28.2,Canon Medical,1,20,True
+STU-00171,PT-1171,CLN-05,2025-08-24,20w1d,30,y,2982.0,Live birth,,20.142857142857142,{},2025-08-24,53.55,191.65,61.55,28.9,Samsung,2,20,False
+STU-00401,PT-1401,CLN-05,01-Feb-2024,31w4d,40,Normal,3384.0,stillbirth,,31.571428571428573,{},2024-02-01,78.2,268.1,82.2,48.9,Canon Medical,1,20,False
+STU-00055,PT-1055,CLN-02,04/22/2024,21w4d,34,0,3320.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""",21.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-04-22,57.9,215.7,54.2,31.4,Samsung,1,20,False
+STU-00177,PT-1177,CLN-04,11/05/2024,14w1d,32,no ,3177.0,Stillbirth,,14.142857142857142,{},2024-11-05,50.0,182.2,41.9,23.9,Canon Medical,1,22,True
+STU-00195,PT-1195,CLN-06,01/07/2025,172,32,Low,2668.0,Stillbirth,,24.571428571428573,{},2025-01-07,71.1,251.8,69.2,38.0,Canon Medical,1,18,False
+STU-00199,PT-1199,CLN-02,10/01/2025,24 weeks,24,,3791.0,stillbirth,,24.0,{},2025-10-01,61.2,216.4,73.8,37.3,Canon Medical,1,20,False
+STU-00183,PT-1183,CLN-04,2025-01-27,265,37,Low,3168.0,Stillbirth,,37.857142857142854,{},2025-01-27,87.9,310.6,94.6,55.6,Samsung,1,22,False
+STU-00367,PT-1367,CLN-06,2024-05-31,28 weeks,21,1,2507.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",28.0,"{'twin': False, 'presentation': 'transverse'}",2024-05-31,76.5,269.9,84.5,39.9,Philips,1,18,False
+STU-00104,PT-1104,CLN-01,2025-07-26,200,25,Y,3296.0,LiveBirth,,28.571428571428573,{},2025-07-26,78.8,276.3,75.5,43.6,GE Healthcare,1,18,False
+STU-00221,PT-1221,CLN-06,2024-05-13T00:00:00Z,28w6d,31,,3329.0,Live birth,,28.857142857142858,{},2024-05-13,71.7,253.0,79.7,42.4,Canon Medical,1,18,False
+STU-00131,PT-1131,CLN-02,2024-11-08,24w5d,25,y,,,Patient reports normal fetal movement.,24.714285714285715,{},2024-11-08,68.3,241.8,70.2,39.8,Philips,1,20,False
+STU-00325,PT-1325,CLN-02,2025-12-29,30w6d,41,,2961.0,LiveBirth,"{""twin"": false, ""presentation"": ""breech""}",30.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-12-29,76.3,274.0,79.4,44.5,GE Healthcare,1,20,False
+STU-00061,PT-1061,CLN-04,2024-03-12,23w2d,34,0,3381.0,LiveBirth,,23.285714285714285,{},2024-03-12,62.1,214.0,69.4,34.7,Philips,1,22,False
+STU-00095,PT-1095,CLN-05,2024-12-16,25 weeks,25,High,3439.0,Stillbirth,,25.0,{},2024-12-16,68.0,240.1,70.5,37.0,Canon Medical,1,20,False
+STU-00194,PT-1194,CLN-07,03-Apr-2024,30.1,27,no ,,,"{""twin"": false, ""presentation"": ""breech""}",30.1,"{'twin': False, 'presentation': 'breech'}",2024-04-03,74.2,266.2,80.7,44.2,Philips,1,20,False
+STU-00141,PT-1141,CLN-01,23-May-2024,21w0d,26,Low,3450.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}",21.0,"{'twin': False, 'presentation': 'transverse'}",2024-05-23,55.9,193.7,58.4,31.6,GE Healthcare,1,18,False
+STU-00149,PT-1149,CLN-05,2025-04-12,26.5,33,y,,,,26.5,{},2025-04-12,70.2,247.7,74.9,41.8,Philips,1,20,False
+STU-00203,PT-1203,CLN-02,06/13/2024,26w2d,21,1,,,,26.285714285714285,{},2024-06-13,69.7,241.7,77.5,37.5,Samsung,1,20,False
+STU-00153,PT-1153,CLN-02,2025-12-03,31.1,32,Low,,,"{""twin"": false, ""presentation"": ""breech""}",31.1,"{'twin': False, 'presentation': 'breech'}",2025-12-03,75.3,264.3,81.9,45.1,Samsung,1,20,False
+STU-00011,PT-1011,CLN-04,2024-05-02T00:00:00Z,21.1,40,N,3116.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",21.1,"{'twin': False, 'presentation': 'transverse'}",2024-05-02,61.6,220.5,53.0,33.7,Philips,1,22,True
+STU-00097,PT-1097,CLN-05,2025-12-13,223,31,Y,3313.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",31.857142857142858,"{'twin': False, 'presentation': 'breech'}",2025-12-13,79.7,269.6,87.8,42.6,Philips,1,20,False
+STU-00211,PT-1211,CLN-01,07/21/2024,28w1d,19,,,,"{""twin"": false, ""presentation"": ""cephalic""}",28.142857142857142,"{'twin': False, 'presentation': 'cephalic'}",2024-07-21,76.6,260.3,71.7,40.0,Canon Medical,1,18,False
+STU-00241,PT-1241,CLN-04,2025-07-28,206,30,Normal,,,,29.428571428571427,{},2025-07-28,72.8,254.5,80.2,44.5,Samsung,1,22,False
+STU-00058,PT-1058,CLN-04,2025-02-12,22w3d,25,Low,3733.0,Live birth,,22.428571428571427,{},2025-02-12,58.9,207.1,56.2,31.3,Samsung,1,22,False
+STU-00302,PT-1302,CLN-01,08/31/2025,,30,N,,,,,{},2025-08-31,75.0,264.2,75.2,44.4,Philips,1,18,False
+STU-00343,PT-1343,CLN-04,2025-05-26,22.7,31,,3071.0,Live Birth ,,22.7,{},2025-05-26,61.8,207.6,68.0,32.8,GE Healthcare,1,22,False
+STU-00037,PT-1037,CLN-04,2024-05-07,17w6d,25,no ,2668.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",17.857142857142858,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,55.3,197.8,46.9,26.3,GE Healthcare,1,22,True
+STU-00431,PT-1431,CLN-04,2025-03-14,27w6d,28,Normal,2790.0,live_birth,Follow-up recommended in 4 weeks.,27.857142857142858,{},2025-03-14,74.8,263.8,77.7,40.0,Philips,1,22,False
+STU-00021,PT-1021,CLN-07,2024-03-15,26.9,36,Normal,3083.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",26.9,"{'twin': False, 'presentation': 'cephalic'}",2024-03-15,69.4,250.8,79.4,36.1,Canon Medical,1,20,False
+STU-00430,PT-1430,CLN-04,2024-01-29T00:00:00Z,29w4d,25,0,2635.0,stillbirth,Referred to MFM for further evaluation.,29.571428571428573,{},2024-01-29,74.3,264.2,78.3,44.3,Samsung,1,22,False
+STU-00333,PT-1333,CLN-02,2025-08-18,31 weeks,39,1,,,Referred to MFM for further evaluation.,31.0,{},2025-08-18,76.7,269.3,79.8,48.0,Samsung,1,20,False
+STU-00076,PT-1076,CLN-06,2024-05-27,-4,19,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}",,"{'twin': False, 'presentation': 'transverse'}",2024-05-27,63.2,225.7,61.3,37.0,GE Healthcare,1,18,False
+STU-00201,PT-1201,CLN-01,02-Jan-2025,10 weeks,32,0,3255.0,stillbirth,"Routine anatomy scan, no abnormalities noted.",10.0,{},2025-01-02,40.2,140.9,36.8,17.0,Samsung,1,18,True
+STU-00078,PT-1078,CLN-06,2025-04-13,130,42,Low,3172.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",18.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-04-13,56.2,192.8,55.9,28.0,Samsung,1,18,False
+STU-00264,PT-1264,CLN-02,03/30/2024,20.7,27,,,,"{""twin"": false, ""presentation"": ""cephalic""}",20.7,"{'twin': False, 'presentation': 'cephalic'}",2024-03-30,58.1,201.0,60.0,32.0,Samsung,1,20,False
+STU-00444,PT-1444,CLN-01,2025-08-22,148,130,Y,2759.0,live_birth,Referred to MFM for further evaluation.,21.142857142857142,{},2025-08-22,67.3,231.1,58.3,29.3,Canon Medical,1,18,False
+STU-00150,PT-1150,CLN-03,13-Oct-2025,,130,High,,,,,{},2025-10-13,80.1,284.5,82.5,47.4,Philips,1,18,False
+STU-00395,PT-1395,CLN-07,2025-06-24,22w5d,39,1,3325.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",22.714285714285715,"{'twin': False, 'presentation': 'breech'}",2025-06-24,56.5,203.5,63.2,33.5,Samsung,1,20,False
+STU-00003,PT-1003,CLN-06,12-Jun-2024,8w2d,34,yes,3628.0,Live birth,Referred to MFM for further evaluation.,8.285714285714286,{},2024-06-12,27.6,99.0,31.4,15.5,Samsung,1,18,True
+STU-00053,PT-1053,CLN-03,2024-08-10,21 weeks,42,,2202.0,Live birth,,21.0,{},2024-08-10,62.0,224.5,65.9,31.1,Canon Medical,1,18,False
+STU-00263,PT-1263,CLN-03,2024-12-07,17w4d,36,Low,3236.0,Stillbirth,,17.571428571428573,{},2024-12-07,52.7,181.2,50.7,27.0,GE Healthcare,1,18,True
+STU-00254,,CLN-01,10/18/2024,,21,High,2603.0,stillbirth,,,{},2024-10-18,83.1,294.3,92.2,51.3,Philips,1,18,False
+STU-00260,PT-1260,CLN-02,2025-09-27T00:00:00Z,20 weeks,37,N,3194.0,stillbirth,,20.0,{},2025-09-27,60.6,220.2,53.4,29.8,Canon Medical,1,20,False
+STU-00334,PT-1334,CLN-01,05-Sep-2025,18 weeks,37,,2712.0,LiveBirth,"{""twin"": false, ""presentation"": ""transverse""}",18.0,"{'twin': False, 'presentation': 'transverse'}",2025-09-05,49.7,169.9,53.9,29.1,Philips,1,18,False
+STU-00322,PT-1322,CLN-04,2025-09-27,28.0,34,N,,,,28.0,{},2025-09-27,74.0,257.7,75.5,44.4,Samsung,1,22,False
+STU-00184,PT-1184,CLN-02,07-Mar-2024,23w4d,22,y,3286.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",23.571428571428573,"{'twin': False, 'presentation': 'breech'}",2024-03-07,59.6,205.1,70.8,39.5,Canon Medical,1,20,False
+STU-00152,PT-1152,CLN-06,2024-11-30,15w1d,34,y,,,Referred to MFM for further evaluation.,15.142857142857142,{},2024-11-30,44.2,155.3,45.8,25.0,Philips,1,18,True
+STU-00407,PT-1407,CLN-04,2025-08-15,22 weeks,22,N,3590.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",22.0,"{'twin': False, 'presentation': 'transverse'}",2025-08-15,63.0,219.7,66.9,33.8,GE Healthcare,1,22,False
+STU-00303,PT-1303,CLN-06,2025-04-09T00:00:00Z,30w4d,21,Low,3467.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",30.571428571428573,"{'twin': False, 'presentation': 'breech'}",2025-04-09,72.2,251.5,85.1,43.7,Samsung,1,18,False
+STU-00191,PT-1191,CLN-07,2024-05-13,28 weeks,21,N,3671.0,stillbirth,,28.0,{},2024-05-13,72.5,256.6,76.8,44.2,Samsung,1,20,False
+STU-00075,PT-1075,CLN-03,08-Aug-2024,237,36,N,2579.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}",33.857142857142854,"{'twin': False, 'presentation': 'transverse'}",2024-08-08,83.7,295.5,90.8,48.7,Canon Medical,1,18,False
+STU-00349,PT-1349,CLN-07,2025-11-14,27w4d,19,yes,3083.0,Stillbirth,,27.571428571428573,{},2025-11-14,65.8,225.5,67.8,39.2,Canon Medical,1,20,False
+STU-00244,PT-1244,CLN-04,2024-01-13,23w1d,33,yes,,,,23.142857142857142,{},2024-01-13,58.1,205.7,66.8,34.4,Philips,1,22,False
+STU-00436,PT-1436,CLN-07,2024-07-28,197,41,0,,,,28.142857142857142,{},2024-07-28,69.7,246.6,72.8,40.6,Philips,1,20,False
+STU-00088,PT-1088,CLN-07,2024-12-19T00:00:00Z,21w5d,41,Low,,,"{""twin"": false, ""presentation"": ""breech""}",21.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-12-19,57.8,192.3,63.3,34.0,Samsung,1,20,False
+STU-00240,PT-1240,CLN-03,2025-02-26,28w1d,38,1,2618.0,Stillbirth,,28.142857142857142,{},2025-02-26,71.3,249.0,72.6,39.9,Samsung,1,18,False
+STU-00144,PT-1144,CLN-06,2025-02-15,14.9,26,High,,,Follow-up recommended in 4 weeks.,14.9,{},2025-02-15,40.1,136.8,45.6,20.8,Samsung,1,18,True
+STU-00375,PT-1375,CLN-03,25-Sep-2025,19.1,32,,2931.0,Live birth,"{""twin"": false, ""presentation"": ""cephalic""}",19.1,"{'twin': False, 'presentation': 'cephalic'}",2025-09-25,58.6,212.1,59.0,30.0,GE Healthcare,1,18,False
+STU-00267,PT-1267,CLN-06,2024-01-27,23.3,24,y,3704.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",23.3,"{'twin': False, 'presentation': 'cephalic'}",2024-01-27,59.8,209.6,69.5,35.4,Canon Medical,1,18,False
+STU-00289,PT-1289,CLN-01,12/29/2025,37.2,37,no ,,,"{""twin"": false, ""presentation"": ""breech""}",37.2,"{'twin': False, 'presentation': 'breech'}",2025-12-29,88.6,311.5,90.5,51.5,GE Healthcare,1,18,False
+STU-00137,PT-1137,CLN-06,04/05/2024,32.5,38,N,4369.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",32.5,"{'twin': False, 'presentation': 'breech'}",2024-04-05,76.5,269.85,80.55000000000001,46.95,Philips,2,18,False
+STU-00167,PT-1167,CLN-01,29-Apr-2025,18w0d,24,,3074.0,LiveBirth,"{""twin"": false, ""presentation"": ""breech""}",18.0,"{'twin': False, 'presentation': 'breech'}",2025-04-29,54.3,186.1,54.2,28.7,Canon Medical,1,18,False
+STU-00084,PT-1084,CLN-03,2025-02-11T00:00:00Z,19.4,34,y,,,Referred to MFM for further evaluation.,19.4,{},2025-02-11,53.9,187.3,47.3,32.9,Philips,1,18,False
+STU-00426,PT-1426,CLN-02,07-Oct-2024,24.6,26,0,2939.0,Live birth,Referred to MFM for further evaluation.,24.6,{},2024-10-07,68.5,241.4,69.7,38.2,Canon Medical,1,20,False
+STU-00156,PT-1156,CLN-01,01/26/2025,35w2d,31,High,3505.0,Stillbirth,,35.285714285714285,{},2025-01-26,83.4,297.1,89.6,52.6,Canon Medical,1,18,False
+STU-00357,PT-1357,CLN-06,2025-01-06T00:00:00Z,29.0,35,yes,2922.0,LiveBirth,,29.0,{},2025-01-06,68.3,239.8,85.1,39.6,Philips,1,18,False
+STU-00280,PT-1280,CLN-03,18-Apr-2025,100,41,High,3273.0,Live birth,,14.285714285714286,{},2025-04-18,46.5,160.9,48.5,23.3,Samsung,1,18,True
+STU-00127,PT-1127,CLN-02,2024-12-19T00:00:00Z,24w6d,37,N,,,"{""twin"": false, ""presentation"": ""cephalic""}",24.857142857142858,"{'twin': False, 'presentation': 'cephalic'}",2024-12-19,64.8,224.2,60.5,39.3,Philips,1,20,False
+STU-00196,PT-1196,CLN-07,2025-02-06,22w4d,28,Normal,,,,22.571428571428573,{},2025-02-06,61.7,211.1,60.3,31.5,Canon Medical,1,20,False
+STU-00266,PT-1266,CLN-07,22-Nov-2024,17w4d,38,,1885.0,Live birth,,17.571428571428573,{},2024-11-22,52.9,181.6,51.2,27.6,Samsung,1,20,True
+STU-00427,PT-1427,CLN-01,03/15/2024,17.1,22,Normal,3226.0,Stillbirth,,17.1,{},2024-03-15,52.8,181.1,57.2,25.0,Canon Medical,1,18,True
+STU-00105,PT-1105,CLN-07,2025-10-18T00:00:00Z,26w6d,25,Normal,3301.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",26.857142857142858,"{'twin': False, 'presentation': 'transverse'}",2025-10-18,69.7,244.35,69.45,39.35,Samsung,2,20,False
+STU-00154,PT-1154,CLN-05,2025-07-17,151,34,Y,,,,21.571428571428573,{},2025-07-17,61.1,217.8,57.6,33.0,Samsung,1,20,False
+STU-00283,PT-1283,CLN-01,2025-04-15,18w0d,18,Y,2971.0,Live Birth ,,18.0,{},2025-04-15,54.7,197.0,56.9,24.5,Samsung,1,18,False
+STU-00227,PT-1227,CLN-01,09-Oct-2024,28w3d,22,no ,,,,28.428571428571427,{},2024-10-09,72.7,255.8,75.4,41.5,Samsung,2,18,False
+STU-00368,PT-1368,CLN-03,2024-01-27,29w5d,24,N,3115.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-01-27,76.2,266.2,83.4,40.7,GE Healthcare,1,18,False
+STU-00026,PT-1026,CLN-04,2024-12-01,217,35,Normal,3593.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech""}",31.0,"{'twin': False, 'presentation': 'breech'}",2024-12-01,78.2,268.8,81.0,47.9,GE Healthcare,1,22,False
+STU-00197,PT-1197,CLN-04,2024-01-05,23 weeks,31,yes,2438.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",23.0,"{'twin': False, 'presentation': 'transverse'}",2024-01-05,61.8,212.3,59.7,35.8,Samsung,1,22,False
+STU-00016,PT-1016,CLN-04,16-Nov-2025,15w1d,38,N,3600.0,live_birth,,15.142857142857142,{},2025-11-16,48.1,169.6,52.4,25.1,Philips,1,22,True
+STU-00298,PT-1298,CLN-01,2024-12-17T00:00:00Z,20.0,30,yes,3722.0,stillbirth,,20.0,{},2024-12-17,56.4,195.5,60.1,26.2,Samsung,1,18,False
+STU-00110,PT-1110,CLN-05,2024-07-14,24.0,18,N,,,"{""twin"": false, ""presentation"": ""transverse""}",24.0,"{'twin': False, 'presentation': 'transverse'}",2024-07-14,63.7,219.5,59.0,38.9,Philips,1,20,False
+STU-00337,PT-1337,CLN-04,08-Dec-2025,22w1d,18,Normal,,,"{""twin"": false, ""presentation"": ""transverse""}",22.142857142857142,"{'twin': False, 'presentation': 'transverse'}",2025-12-08,60.5,207.5,62.5,36.0,GE Healthcare,1,22,False
+STU-00309,PT-1309,CLN-01,09/05/2024,13w0d,42,High,3727.0,Stillbirth,,13.0,{},2024-09-05,43.2,149.8,47.9,28.1,Philips,1,18,True
+STU-00027,PT-1027,CLN-02,2024-05-09,14 weeks,33,High,3283.0,stillbirth,"{""twin"": false, ""presentation"": ""cephalic""}",14.0,"{'twin': False, 'presentation': 'cephalic'}",2024-05-09,46.1,163.4,44.7,24.1,GE Healthcare,1,20,True
+STU-00077,PT-1077,CLN-03,2024-01-17,23w4d,42,N,4254.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",23.571428571428573,"{'twin': False, 'presentation': 'breech'}",2024-01-17,59.0,212.9,61.1,36.7,Canon Medical,1,18,False
+STU-00044,PT-1044,CLN-03,12/12/2024,29w5d,38,,3770.0,stillbirth,"{""twin"": false, ""presentation"": ""breech""}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-12-12,74.3,269.0,74.2,47.5,GE Healthcare,1,18,False
+STU-00281,PT-1281,CLN-06,01-Jul-2025,19w2d,28,High,3474.0,Live Birth ,,19.285714285714285,{},2025-07-01,58.4,210.5,59.5,29.2,Samsung,1,18,False
+STU-00004,,CLN-06,2024-09-26T00:00:00Z,15.1,37,,3869.0,live_birth,,15.1,{},2024-09-26,45.5,159.7,42.1,25.4,GE Healthcare,1,18,True
+STU-00413,PT-1413,CLN-03,2024-06-27,24w4d,29,High,3700.0,Live Birth ,"{""twin"": false, ""presentation"": ""cephalic""}",24.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2024-06-27,60.5,212.0,63.8,34.5,Canon Medical,1,18,False
+STU-00050,PT-1050,CLN-03,2024-04-27,145,36,,2630.0,Stillbirth,"Routine anatomy scan, no abnormalities noted.",20.714285714285715,{},2024-04-27,52.6,188.6,53.8,35.1,Samsung,1,18,False
+STU-00388,PT-1388,CLN-05,2025-11-19,161,32,no ,3274.0,Live birth,"{""twin"": false, ""presentation"": ""breech""}",23.0,"{'twin': False, 'presentation': 'breech'}",2025-11-19,61.3,217.4,66.7,35.4,GE Healthcare,1,20,False
+STU-00439,PT-1439,CLN-01,2024-05-07,13w4d,36,High,2513.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",13.571428571428571,"{'twin': False, 'presentation': 'transverse'}",2024-05-07,43.25,154.45,43.599999999999994,22.75,Canon Medical,2,18,True
+STU-00031,PT-1031,CLN-06,2025-02-20,28.9,29,yes,4050.0,Live Birth ,Referred to MFM for further evaluation.,28.9,{},2025-02-20,78.8,276.4,77.8,39.6,Canon Medical,1,18,False
+STU-00122,PT-1122,CLN-02,2024-03-05,29w5d,38,Low,3443.0,Stillbirth,"{""twin"": false, ""presentation"": ""breech"",}",29.714285714285715,"{'twin': False, 'presentation': 'breech'}",2024-03-05,73.4,262.3,76.8,42.3,Samsung,1,20,False
+STU-00116,PT-1116,CLN-06,2024-08-19,22w4d,41,,3520.0,Stillbirth,"{""twin"": false, ""presentation"": ""transverse""",22.571428571428573,"{'twin': False, 'presentation': 'transverse'}",2024-08-19,62.0,215.6,67.1,32.2,Canon Medical,1,18,False
+STU-00217,PT-1217,CLN-03,13-May-2025,39w0d,20,yes,,,"{""twin"": false, ""presentation"": ""transverse""}",39.0,"{'twin': False, 'presentation': 'transverse'}",2025-05-13,91.3,325.2,88.9,58.1,Philips,1,18,False
+STU-00265,PT-1265,CLN-05,01-Dec-2025,21w0d,28,no ,2572.0,live_birth,"{""twin"": false, ""presentation"": ""transverse""}",21.0,"{'twin': False, 'presentation': 'transverse'}",2025-12-01,58.3,202.6,55.8,32.5,GE Healthcare,1,20,False
+STU-00210,PT-1210,CLN-04,23-Oct-2025,28w6d,25,High,,,,28.857142857142858,{},2025-10-23,73.4,265.4,71.0,40.1,Canon Medical,1,22,False
+STU-00317,PT-1317,CLN-02,2024-09-10,20 weeks,34,1,3454.0,Live birth,"Routine anatomy scan, no abnormalities noted.",20.0,{},2024-09-10,54.9,196.4,63.2,30.9,Canon Medical,1,20,False
+STU-00385,PT-1385,CLN-05,2024-10-29,148,40,Low,3750.0,Stillbirth,Patient reports normal fetal movement.,21.142857142857142,{},2024-10-29,58.9,204.7,60.1,29.0,Canon Medical,1,20,False
+STU-00002,PT-1002,CLN-06,2024-11-18,11 weeks,25,1,2978.0,LiveBirth,Patient reports normal fetal movement.,11.0,{},2024-11-18,39.7,136.8,37.7,18.6,Philips,1,18,True
+STU-00314,PT-1314,CLN-02,2024-01-30,31 weeks,34,y,3366.0,LiveBirth,"{""twin"": false, ""presentation"": ""cephalic""}",31.0,"{'twin': False, 'presentation': 'cephalic'}",2024-01-30,76.4,264.3,80.0,46.1,Canon Medical,1,20,False
+STU-00023,PT-1023,CLN-01,2025-12-31,27w4d,33,1,,,"{""twin"": false, ""presentation"": ""cephalic""}",27.571428571428573,"{'twin': False, 'presentation': 'cephalic'}",2025-12-31,76.1,264.6,74.3,44.6,Canon Medical,1,18,False
+STU-00318,PT-1318,CLN-01,25-Jul-2025,34w2d,25,Low,3071.0,Live Birth ,,34.285714285714285,{},2025-07-25,81.6,283.3,80.9,50.1,GE Healthcare,1,18,False
+STU-00320,PT-1320,CLN-06,07-Jan-2025,24w1d,29,Low,3494.0,Stillbirth,"{""twin"": false, ""presentation"": ""cephalic"",}",24.142857142857142,"{'twin': False, 'presentation': 'cephalic'}",2025-01-07,66.8,233.6,58.5,38.9,Canon Medical,1,18,False
+STU-00008,PT-1008,CLN-06,2025-10-31T00:00:00Z,13w0d,42,N,,,"{""twin"": false, ""presentation"": ""breech""",13.0,"{'twin': False, 'presentation': 'breech'}",2025-10-31,44.2,161.3,44.1,22.1,GE Healthcare,1,18,True
+STU-00445,PT-1445,CLN-03,18-Nov-2024,27.2,21,Y,3277.0,Live birth,,27.2,{},2024-11-18,68.1,239.1,68.8,39.6,Philips,1,18,False
+STU-00087,PT-1087,CLN-01,24-May-2025,11.5,42,0,3190.0,Live birth,Patient reports normal fetal movement.,11.5,{},2025-05-24,39.6,137.6,37.3,18.7,Samsung,1,18,True
+STU-00353,PT-1353,CLN-07,2024-11-13,20w2d,29,Y,,,,20.285714285714285,{},2024-11-13,59.0,207.5,55.8,33.1,Philips,1,20,False
+STU-00242,PT-1242,CLN-02,2024-03-11,24.2,41,High,2529.0,live_birth,,24.2,{},2024-03-11,60.6,205.0,69.0,38.2,Samsung,1,20,False
+STU-00216,PT-1216,CLN-03,04/15/2024,17 weeks,26,High,2374.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",17.0,"{'twin': False, 'presentation': 'transverse'}",2024-04-15,52.1,177.9,42.1,27.9,Samsung,1,18,True
+STU-00069,PT-1069,CLN-01,10/08/2025,14w3d,33,High,2930.0,Stillbirth,,14.428571428571429,{},2025-10-08,46.6,161.2,51.8,24.2,Samsung,1,18,True
+STU-00399,PT-1399,CLN-01,06/14/2024,21w0d,36,N,3987.0,Live Birth ,"{""twin"": false, ""presentation"": ""transverse""}",21.0,"{'twin': False, 'presentation': 'transverse'}",2024-06-14,61.9,211.5,61.9,31.3,Samsung,1,18,False
+STU-00414,PT-1414,CLN-05,20-Mar-2025,22w5d,26,0,,,Patient reports normal fetal movement.,22.714285714285715,{},2025-03-20,59.9,207.0,58.6,33.5,GE Healthcare,1,20,False
+STU-00157,PT-1157,CLN-06,2025-06-22,21.0,32,Normal,3705.0,Live Birth ,Patient reports normal fetal movement.,21.0,{},2025-06-22,61.7,215.1,54.5,32.1,GE Healthcare,1,18,False
+STU-00253,PT-1253,CLN-04,2024-12-26T00:00:00Z,,18,Normal,3163.0,Stillbirth,,,{},2024-12-26,56.5,203.8,60.6,29.6,Samsung,1,22,False
+STU-00396,PT-1396,CLN-03,2024-05-25,27w5d,26,N,,,"Routine anatomy scan, no abnormalities noted.",27.714285714285715,{},2024-05-25,69.4,245.2,72.9,43.3,GE Healthcare,1,18,False
+STU-00403,PT-1403,CLN-05,2025-05-20,204,18,y,3030.0,Live birth,,29.142857142857142,{},2025-05-20,73.3,259.4,75.2,45.7,Samsung,1,20,False
+STU-00358,PT-1358,CLN-04,2024-02-04,166,30,Normal,3705.0,Live birth,"{""twin"": false, ""presentation"": ""transverse""}",23.714285714285715,"{'twin': False, 'presentation': 'transverse'}",2024-02-04,61.4,217.3,58.4,36.7,Canon Medical,1,22,False
+STU-00255,PT-1255,CLN-03,2025-08-19,24w2d,20,y,2963.0,Live Birth ,,24.285714285714285,{},2025-08-19,66.1,223.8,66.7,38.7,GE Healthcare,1,18,False
+STU-00277,PT-1277,CLN-03,03/13/2025,23.8,30,Low,3375.0,stillbirth,,23.8,{},2025-03-13,60.5,209.7,67.2,36.5,Philips,1,18,False
+STU-00179,PT-1179,CLN-04,2025-02-18,240,21,0,3892.0,stillbirth,"{""twin"": false, ""presentation"": ""transverse""}",34.285714285714285,"{'twin': False, 'presentation': 'transverse'}",2025-02-18,81.6,287.5,87.3,47.0,Philips,1,22,False
+STU-00282,PT-1282,CLN-01,2024-07-25T00:00:00Z,26w3d,20,no ,,,Referred to MFM for further evaluation.,26.428571428571427,{},2024-07-25,67.4,234.6,67.7,40.3,Philips,1,18,False
+STU-00391,PT-1391,CLN-02,25-May-2024,20 weeks,27,High,,,Follow-up recommended in 4 weeks.,20.0,{},2024-05-25,61.3,215.0,60.4,35.4,GE Healthcare,1,20,False
+STU-00238,PT-1238,CLN-04,2025-07-15,34.8,33,N,3442.0,Live Birth ,Patient reports normal fetal movement.,34.8,{},2025-07-15,81.30000000000001,287.95,84.2,49.0,Philips,2,22,False
+STU-00072,PT-1072,CLN-06,2024-08-31T00:00:00Z,207,29,0,2944.0,Live Birth ,,29.571428571428573,{},2024-08-31,76.4,268.1,73.1,42.9,Canon Medical,1,18,False
+STU-00130,PT-1130,CLN-07,2025-05-16,19.6,34,y,,,,19.6,{},2025-05-16,54.5,185.5,55.3,32.6,Samsung,1,20,True
+STU-00145,PT-1145,CLN-02,2024-03-29T00:00:00Z,23.6,42,,3116.0,stillbirth,,23.6,{},2024-03-29,59.9,210.1,57.6,33.2,Samsung,1,20,False
+STU-00336,,CLN-03,11/15/2024,24w1d,39,no ,3052.0,Live birth,,24.142857142857142,{},2024-11-15,63.8,226.6,62.1,35.0,Philips,1,18,False
+STU-00134,PT-1134,CLN-06,2024-09-10,28w5d,37,N,2991.0,live_birth,"Routine anatomy scan, no abnormalities noted.",28.714285714285715,{},2024-09-10,74.3,254.4,77.3,40.2,Philips,1,18,False
+STU-00204,PT-1204,CLN-03,2025-06-22,25w3d,18,Normal,2848.0,live_birth,"{""twin"": false, ""presentation"": ""breech""}",25.428571428571427,"{'twin': False, 'presentation': 'breech'}",2025-06-22,62.3,217.0,70.4,37.3,Canon Medical,1,18,False
+STU-00256,PT-1256,CLN-07,2024-02-27T00:00:00Z,22 weeks,22,N,1979.0,Stillbirth,Referred to MFM for further evaluation.,22.0,{},2024-02-27,58.6,205.7,64.2,33.7,GE Healthcare,1,20,False
+STU-00073,PT-1073,CLN-07,23-Jul-2024,32w6d,36,Low,3595.0,Live birth,,32.857142857142854,{},2024-07-23,79.9,282.9,84.3,48.3,Philips,1,20,False
+STU-00397,PT-1397,CLN-04,2024-01-30,22 weeks,27,y,2826.0,live_birth,,22.0,{},2024-01-30,61.7,215.8,69.6,31.9,Philips,1,22,False
+STU-00236,PT-1236,CLN-07,02-Apr-2025,18w6d,34,1,3648.0,Live Birth ,,18.857142857142858,{},2025-04-02,51.7,175.3,60.7,28.9,GE Healthcare,1,20,True
+STU-00038,PT-1038,CLN-05,2025-10-29,,42,yes,3431.0,LiveBirth,,,{},2025-10-29,66.6,233.9,69.7,40.0,Samsung,1,20,False
