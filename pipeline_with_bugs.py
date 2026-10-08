@@ -127,7 +127,9 @@ def clean_studies(studies):
         normalize_gestational_age
     )
     studies["delivery_context"] = studies["notes"].apply(parse_notes)
-    studies["scan_date_parsed"] = pd.to_datetime(studies["scan_date"], errors="coerce")
+    studies["scan_date_parsed"] = pd.to_datetime(
+    studies["scan_date"], errors="coerce", format="mixed", utc=True
+    ).dt.tz_localize(None)
     return studies
 
 
