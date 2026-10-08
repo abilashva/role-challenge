@@ -188,6 +188,7 @@ def summarize_by_clinic(merged):
             avg_gestational_age=("gestational_age_weeks", "mean"),
             avg_bpd_mm=("bpd_mm", "mean"),
             pct_flagged=("early_review_flag", "mean"),
+            pct_missing_ga=("gestational_age_weeks", lambda x: x.isna().mean()),
         )
         .reset_index()
     )
