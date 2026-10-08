@@ -104,8 +104,8 @@ def normalize_device_manufacturer(name_raw):
     """Collapse manufacturer name variants down to a canonical label."""
     if pd.isna(name_raw):
         return "Unknown"
-    name = str(name_raw).strip().lower()
-    if "ge" in name:
+    name = re.sub(r"[^a-z]", "", str(name_raw).lower())
+    if name == "ge" or name.startswith("gehealthcare"):
         return "GE Healthcare"
     if "philips" in name:
         return "Philips"
@@ -113,7 +113,7 @@ def normalize_device_manufacturer(name_raw):
         return "Samsung"
     if "canon" in name:
         return "Canon Medical"
-    return name.title()
+    return str(name_raw).strip().title()
 
 
 def clean_studies(studies):
