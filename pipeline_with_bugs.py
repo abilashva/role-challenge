@@ -84,7 +84,7 @@ def normalize_gestational_age(ga_raw):
     match = re.match(r"(\d+)w(\d+)d", ga_str)
     if match:
         weeks, days = int(match.group(1)), int(match.group(2))
-        return weeks + days / 7  # convert extra days into a fraction of a week
+        return weeks + days / 7  
 
     match = re.match(r"(\d+)\s*weeks?", ga_str)
     if match:
@@ -96,7 +96,10 @@ def normalize_gestational_age(ga_raw):
         return np.nan
 
     if value > 45:
-        return value / 7
+        value = value / 7
+
+    if value <= 0 or value > 45:
+        return np.nan
     return value
 
 
