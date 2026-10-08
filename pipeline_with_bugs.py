@@ -130,6 +130,8 @@ def clean_studies(studies):
     studies["scan_date_parsed"] = pd.to_datetime(
     studies["scan_date"], errors="coerce", format="mixed", utc=True
     ).dt.tz_localize(None)
+    weight = pd.to_numeric(studies["birth_weight_g"], errors="coerce")
+    studies["birth_weight_g"] = weight.where(weight >= 10, weight * 1000)
     return studies
 
 
