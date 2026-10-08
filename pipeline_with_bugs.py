@@ -130,10 +130,22 @@ def clean_studies(studies):
 
 def clean_biometry(biometry):
     biometry = biometry.copy()
+    biometry["study_id"] = biometry["study_id"].astype(str).str.strip().str.upper()
     biometry["device_manufacturer_clean"] = biometry["device_manufacturer"].apply(
         normalize_device_manufacturer
     )
-    biometry["study_id"] = biometry["study_id"].astype(str).str.strip().str.upper()
+    biometry = (
+        biometry.sort_values("image_path")
+        .groupby("study_id", as_index=False)
+        .agg(
+            bpd_mm=("bpd_mm", "mean"),
+            hc_mm=("hc_mm", "mean"),
+            ac_mm=("ac_mm", "mean"),
+            fl_mm=("fl_mm", "mean"),
+            device_manufacturer_clean=("device_manufacturer_clean", "first"),
+            n_measurement_sets=("study_id", "size"),
+        )
+    )
     return biometry
 
 
