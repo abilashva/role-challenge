@@ -123,6 +123,7 @@ def clean_studies(studies):
     )
     studies["delivery_context"] = studies["notes"].apply(parse_notes)
     studies["scan_date_parsed"] = pd.to_datetime(studies["scan_date"], errors="coerce")
+    studies["study_id"] = studies["study_id"].astype(str).str.strip().str.upper()
     return studies
 
 
@@ -131,6 +132,7 @@ def clean_biometry(biometry):
     biometry["device_manufacturer_clean"] = biometry["device_manufacturer"].apply(
         normalize_device_manufacturer
     )
+    biometry["study_id"] = biometry["study_id"].astype(str).str.strip().str.upper()
     return biometry
 
 
