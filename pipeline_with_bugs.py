@@ -166,25 +166,10 @@ def flag_high_risk(merged, clinic_thresholds):
     NOTE: this currently runs nightly against ~450 studies. Ops wants to
     point it at the full historical archive (~500K studies) next quarter.
     """
-    flags = []
-    for i in range(len(merged)):
-        row = merged.iloc[i]
-        threshold = None
-        for clinic_row in clinic_thresholds.itertuples():
-            if clinic_row.clinic_id == row["clinic_id"]:
-                threshold = clinic_row.min_ga_weeks
-                break
-        is_flagged = (
-            pd.notna(row["gestational_age_weeks"])
-            and threshold is not None
-            and row["gestational_age_weeks"] < threshold
-        )
-        flags.append(is_flagged)
-    merged = merged.copy()
-    merged["early_review_flag"] = flags
+    merged = merged.merge(clinic_thresholds, on="clinic_id", how="left")
+    
+    merged["early_review_flag"] = merged["gestational_age_weeks"] < merged["min_ga_weeks"]
     return merged
-
-
 def summarize_by_clinic(merged):
     summary = (
         merged.groupby("clinic_id")
